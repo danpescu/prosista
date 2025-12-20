@@ -1,0 +1,335 @@
+---
+const heroSlides = [
+  {
+    image: '/images/hero/hero-1.jpg',
+    title: 'Sisteme de Tavane Suspendate',
+    description: 'Soluții profesionale de înaltă calitate pentru tavane suspendate în proiecte comerciale, rezidențiale și industriale.'
+  },
+  {
+    image: '/images/hero/hero-2.jpg',
+    title: 'Tavane Suspendate de Calitate',
+    description: 'Peste 15 ani de experiență în producția de sisteme de tavane suspendate.'
+  },
+  {
+    image: '/images/hero/hero-3.jpg',
+    title: 'Gama Completă de Tavane',
+    description: 'De la tavane metalice la panouri acustice - soluții complete de tavane suspendate pentru orice proiect.'
+  },
+  {
+    image: '/images/hero/hero-4.jpg',
+    title: 'Tavane Suspendate Inovatoare',
+    description: 'Tehnologii moderne pentru sisteme de tavane suspendate de cea mai bună calitate.'
+  },
+  {
+    image: '/images/hero/hero-5.jpg',
+    title: 'Proiecte Tavane Suspendate',
+    description: 'Mii de proiecte de tavane suspendate finalizate cu succes în România și peste hotare.'
+  },
+  {
+    image: '/images/hero/hero-6.jpg',
+    title: 'Partener pentru Tavane Suspendate',
+    description: 'Colaborăm cu arhitecți, designeri și constructorii pentru soluții personalizate de tavane suspendate.'
+  },
+];
+---
+
+<section class="relative h-[600px] md:h-[700px] lg:h-[800px] flex items-center overflow-hidden">
+  <!-- Hero Carousel -->
+  <div id="hero-carousel" class="absolute inset-0 z-0 overflow-hidden">
+    {heroSlides.map((slide, index) => (
+      <div 
+        class={`hero-slide absolute inset-0 transition-transform duration-1000 ease-in-out ${index === 0 ? 'translate-x-0' : 'translate-x-full'}`}
+        data-slide-index={index}
+      >
+        <img 
+          src={slide.image} 
+          alt={slide.title}
+          class="w-full h-full object-cover"
+        />
+      </div>
+    ))}
+  </div>
+  
+  <!-- Content - Left Aligned -->
+  <div class="relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+    <div class="max-w-4xl text-left ml-[100px]">
+      <!-- Blue transparent background wrapper - More transparent -->
+      <div class="bg-primary-600/20 backdrop-blur-sm rounded-lg p-6 md:p-8 lg:p-10">
+        <!-- Badge -->
+        <div class="inline-flex items-center px-4 py-2 bg-transparent rounded-full text-white text-sm font-medium mb-6">
+          <span class="w-2 h-2 bg-primary-400 rounded-full mr-2 animate-pulse"></span>
+          Lider în tavane suspendate
+        </div>
+        
+        <!-- Heading -->
+        <h1 id="hero-title" class="text-white mb-6 animate-slide-up text-left">
+          {heroSlides[0].title}
+        </h1>
+        
+        <!-- Description -->
+        <p id="hero-description" class="text-xl md:text-2xl text-white mb-8 leading-relaxed animate-slide-up text-left" style="animation-delay: 0.1s">
+          {heroSlides[0].description}
+        </p>
+        
+        <!-- CTA Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4 justify-start animate-slide-up" style="animation-delay: 0.2s">
+          <a 
+            href="#produse" 
+            class="btn-primary-hero inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
+          >
+            <span class="button-overlay-hero absolute inset-0 bg-accent-600"></span>
+            <span class="relative z-10 flex items-center text-white">
+              Vezi Produsele
+              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
+              </svg>
+            </span>
+          </a>
+          
+          <a 
+            href="/contact#form" 
+            class="btn-primary-hero inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
+          >
+            <span class="button-overlay-hero absolute inset-0 bg-accent-600"></span>
+            <span class="relative z-10 flex items-center text-white">
+              Cere Ofertă
+              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+              </svg>
+            </span>
+          </a>
+        </div>
+        
+        <!-- Stats - Inside the wrapper -->
+        <div class="mt-12 grid grid-cols-3 gap-6 animate-slide-up" style="animation-delay: 0.3s">
+          <div class="text-left">
+            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">30.000m²</div>
+            <div class="text-sm text-white mt-1">Facilități Producție</div>
+          </div>
+          <div class="text-left">
+            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">15+</div>
+            <div class="text-sm text-white mt-1">Ani Experiență</div>
+          </div>
+          <div class="text-left">
+            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">1000+</div>
+            <div class="text-sm text-white mt-1">Proiecte Finalizate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Carousel Navigation Arrows -->
+  <button
+    id="carousel-prev"
+    class="absolute left-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
+    aria-label="Slide anterior"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+    </svg>
+  </button>
+  
+  <button
+    id="carousel-next"
+    class="absolute right-4 top-1/2 transform -translate-y-1/2 z-20 bg-white/20 hover:bg-white/30 text-white p-3 rounded-full transition-all duration-300 backdrop-blur-sm"
+    aria-label="Slide următor"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+    </svg>
+  </button>
+  
+  <!-- Carousel Navigation Dots -->
+  <div class="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20 flex space-x-3">
+    {heroSlides.map((_, index) => (
+      <button
+        class={`carousel-dot w-3 h-3 rounded-full transition-all duration-300 ${index === 0 ? 'bg-primary-400 w-8' : 'bg-white/50 hover:bg-white/75'}`}
+        data-slide-index={index}
+        aria-label={`Slide ${index + 1}`}
+      ></button>
+    ))}
+  </div>
+  
+  <!-- Scroll Indicator -->
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
+    <a href="#produse" class="flex flex-col items-center text-white/70 hover:text-white transition-colors group">
+      <span class="text-sm mb-2">Scroll jos</span>
+      <svg class="w-6 h-6 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"/>
+      </svg>
+    </a>
+  </div>
+</section>
+
+<script>
+  const heroSlides = [
+    {
+      image: '/images/hero/hero-1.jpg',
+      title: 'Sisteme de Tavane Suspendate',
+      description: 'Soluții profesionale de înaltă calitate pentru tavane suspendate în proiecte comerciale, rezidențiale și industriale.'
+    },
+    {
+      image: '/images/hero/hero-2.jpg',
+      title: 'Tavane Suspendate de Calitate',
+      description: 'Peste 15 ani de experiență în producția de sisteme de tavane suspendate.'
+    },
+    {
+      image: '/images/hero/hero-3.jpg',
+      title: 'Gama Completă de Tavane',
+      description: 'De la tavane metalice la panouri acustice - soluții complete de tavane suspendate pentru orice proiect.'
+    },
+    {
+      image: '/images/hero/hero-4.jpg',
+      title: 'Tavane Suspendate Inovatoare',
+      description: 'Tehnologii moderne pentru sisteme de tavane suspendate de cea mai bună calitate.'
+    },
+    {
+      image: '/images/hero/hero-5.jpg',
+      title: 'Proiecte Tavane Suspendate',
+      description: 'Mii de proiecte de tavane suspendate finalizate cu succes în România și peste hotare.'
+    },
+    {
+      image: '/images/hero/hero-6.jpg',
+      title: 'Partener pentru Tavane Suspendate',
+      description: 'Colaborăm cu arhitecți, designeri și constructorii pentru soluții personalizate de tavane suspendate.'
+    },
+  ];
+
+  let currentSlide = 0;
+  const slides = document.querySelectorAll('.hero-slide');
+  const dots = document.querySelectorAll('.carousel-dot');
+  const titleEl = document.getElementById('hero-title');
+  const descriptionEl = document.getElementById('hero-description');
+
+  function showSlide(index) {
+    // Animate slides from left to right
+    slides.forEach((slide, i) => {
+      if (i === index) {
+        slide.classList.remove('translate-x-full', '-translate-x-full');
+        slide.classList.add('translate-x-0');
+      } else if (i < index) {
+        // Slide is to the left (already passed)
+        slide.classList.remove('translate-x-0', 'translate-x-full');
+        slide.classList.add('-translate-x-full');
+      } else {
+        // Slide is to the right (coming next)
+        slide.classList.remove('translate-x-0', '-translate-x-full');
+        slide.classList.add('translate-x-full');
+      }
+    });
+    
+    // Update dots
+    dots.forEach((dot, i) => {
+      if (i === index) {
+        dot.classList.add('bg-primary-400', 'w-8');
+        dot.classList.remove('bg-white/50');
+      } else {
+        dot.classList.remove('bg-primary-400', 'w-8');
+        dot.classList.add('bg-white/50');
+      }
+    });
+    
+    // Update content
+    if (titleEl) titleEl.textContent = heroSlides[index].title;
+    if (descriptionEl) {
+      descriptionEl.textContent = heroSlides[index].description;
+    }
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % heroSlides.length;
+    showSlide(currentSlide);
+  }
+
+  function prevSlide() {
+    currentSlide = (currentSlide - 1 + heroSlides.length) % heroSlides.length;
+    showSlide(currentSlide);
+  }
+
+  // Auto-advance carousel every 5 seconds
+  let carouselInterval: ReturnType<typeof setInterval> | null = null;
+  
+  function startCarousel() {
+    carouselInterval = setInterval(nextSlide, 5000);
+  }
+  
+  function stopCarousel() {
+    if (carouselInterval) {
+      clearInterval(carouselInterval);
+      carouselInterval = null;
+    }
+  }
+  
+  startCarousel();
+
+  // Arrow navigation
+  const prevBtn = document.getElementById('carousel-prev');
+  const nextBtn = document.getElementById('carousel-next');
+  
+  prevBtn?.addEventListener('click', () => {
+    stopCarousel();
+    prevSlide();
+    startCarousel();
+  });
+  
+  nextBtn?.addEventListener('click', () => {
+    stopCarousel();
+    nextSlide();
+    startCarousel();
+  });
+
+  // Dot navigation
+  dots.forEach((dot, index) => {
+    dot.addEventListener('click', () => {
+      stopCarousel();
+      currentSlide = index;
+      showSlide(currentSlide);
+      startCarousel();
+    });
+  });
+
+  // Pause on hover
+  const carousel = document.getElementById('hero-carousel');
+  
+  carousel?.addEventListener('mouseenter', stopCarousel);
+  carousel?.addEventListener('mouseleave', startCarousel);
+</script>
+
+<style>
+  .hero-slide {
+    transition: transform 1s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .carousel-dot {
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .carousel-dot:hover {
+    transform: scale(1.2);
+  }
+  
+  /* Smooth image loading */
+  .hero-slide img {
+    transition: transform 0.5s ease-out;
+  }
+  
+  .hero-slide:hover img {
+    transform: scale(1.02);
+  }
+  
+  /* Button overlay animation from bottom to top */
+  .button-overlay-hero {
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 0.4s ease-out;
+  }
+  
+  .btn-primary-hero:hover .button-overlay-hero {
+    clip-path: inset(0% 0 0 0%);
+  }
+  
+  .btn-primary-hero:hover span {
+    color: white !important;
+  }
+</style>

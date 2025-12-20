@@ -1,0 +1,43 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import Breadcrumb from '@/components/ui/Breadcrumb.astro';
+import ProductCard from '@/components/product/ProductCard.astro';
+import productsData from '@/data/products.json';
+const products = productsData;
+---
+
+<Layout 
+  title="Produse"
+  description="Gama completă de produse Prosista: tavane metalice, tavane din lemn, panouri acustice și sisteme purtătoare."
+>
+  <Section padding="lg" class="pt-32">
+    <Container>
+      <Breadcrumb items={[
+        { name: 'Acasă', href: '/' },
+        { name: 'Produse' }
+      ]} />
+      
+      <div class="mb-12">
+        <h1 class="mb-4">Gama Completă de Produse</h1>
+        <p class="text-xl text-secondary-600 max-w-3xl">
+          Oferim soluții complete pentru tavane suspendate, de la sisteme metalice moderne 
+          la panouri acustice de înaltă performanță.
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+        {products.categories.map(category => (
+          <ProductCard
+            name={category.name}
+            description={category.description}
+            image={category.image}
+            href={`/produse/${category.slug}`}
+          />
+        ))}
+      </div>
+    </Container>
+  </Section>
+</Layout>
+

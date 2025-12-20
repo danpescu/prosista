@@ -1,0 +1,228 @@
+---
+import referencesData from '@/data/references.json';
+const references = referencesData.references;
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+---
+
+<Section id="referinte" padding="lg" class="bg-secondary-100">
+  <Container>
+    <div class="text-center mb-12">
+      <!-- Title with red horizontal line BEFORE -->
+      <div class="mb-4 flex items-center justify-center gap-3">
+        <div class="h-0.5 w-8 bg-accent-600"></div>
+        <h2 class="text-sm md:text-base font-bold uppercase tracking-wider" style="font-family: 'Mulish', sans-serif; font-weight: 800; color: rgb(6, 59, 139);">
+          REFERINȚELE NOASTRE
+        </h2>
+      </div>
+      
+      <!-- Subtitle - Mulish 400, centered, two lines -->
+      <h2 class="mb-6 text-center" style="font-family: 'Mulish', sans-serif; font-weight: 400; font-size: 40px; line-height: 48px; color: rgb(0, 28, 65);">
+        Exemple Inspiratoare ale Soluțiilor<br><strong style="font-weight: 700;">Noastre Inovatoare</strong>
+      </h2>
+    </div>
+    
+    <!-- Carousel Container -->
+    <div class="relative">
+      <div id="references-carousel" class="overflow-hidden">
+        <div id="references-slides" class="flex transition-transform duration-500 ease-in-out" style="width: max-content;">
+          {references.map((ref, index) => (
+            <div 
+              class="flex-shrink-0"
+              style="width: 412px; margin-right: 30px;"
+              data-slide-index={index}
+            >
+              <div class="bg-white overflow-hidden group cursor-pointer card-style12">
+                <div class="relative overflow-hidden">
+                  <img 
+                    src={ref.image} 
+                    alt={ref.name}
+                    class="w-full h-full object-cover transition-transform duration-500"
+                    style="aspect-ratio: 4/3;"
+                  />
+                  <!-- Blue overlay on hover -->
+                  <div class="absolute inset-0 bg-primary-600 opacity-0 group-hover:opacity-90 transition-opacity duration-300 flex flex-col items-center justify-center text-white px-6" style="top: 0; left: 0; right: 0; bottom: 0;">
+                    <div class="content">
+                      <div class="inner-content text-center">
+                        <h4 class="text-xl font-bold mb-3 text-white">
+                          <a href={`/referinte/${ref.id}`} class="text-white hover:opacity-80">{ref.name}</a>
+                        </h4>
+                        <a href={`/referinte/${ref.id}`} class="link-btn white inline-flex items-center text-white hover:opacity-80">
+                          Vezi mai mult
+                          <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <!-- Navigation Arrows - Square buttons -->
+      <button
+        id="references-prev"
+        class="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-12 bg-primary-600 hover:bg-accent-600 text-white p-4 shadow-lg transition-all duration-300 z-10 rounded-none"
+        aria-label="Slide anterior"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+        </svg>
+      </button>
+      
+      <button
+        id="references-next"
+        class="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-12 bg-primary-600 hover:bg-accent-600 text-white p-4 shadow-lg transition-all duration-300 z-10 rounded-none"
+        aria-label="Slide următor"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+      
+      <!-- Pagination Dots -->
+      <div class="flex justify-center space-x-2 mt-8">
+        {Array.from({ length: Math.ceil(references.length / 3) }).map((_, pageIndex) => (
+          <button
+            class={`carousel-dot h-3 rounded-full transition-all duration-300 ${
+              pageIndex === 0 ? 'bg-primary-600 w-8' : 'bg-secondary-300 w-3 hover:bg-secondary-400'
+            }`}
+            data-page-index={pageIndex}
+            aria-label={`Page ${pageIndex + 1}`}
+          ></button>
+        ))}
+      </div>
+    </div>
+  </Container>
+</Section>
+
+<script define:vars={{ totalReferences: references.length }}>
+  let currentPage = 0;
+  const slidesContainer = document.getElementById('references-slides');
+  const dots = document.querySelectorAll('.carousel-dot');
+  const prevBtn = document.getElementById('references-prev');
+  const nextBtn = document.getElementById('references-next');
+  const slidesPerPage = 3;
+  const slideWidth = 412; // Width of each slide in pixels
+  const slideMargin = 30; // Margin between slides
+  const slideTotalWidth = slideWidth + slideMargin; // Total width per slide including margin
+  const totalPages = Math.ceil(totalReferences / slidesPerPage);
+  
+  function updateCarousel() {
+    const translateX = -(currentPage * slideTotalWidth * slidesPerPage);
+    slidesContainer?.style.setProperty('transform', `translate3d(${translateX}px, 0px, 0px)`);
+    slidesContainer?.style.setProperty('transition', 'transform 1.5s');
+    
+    // Update dots
+    dots.forEach((dot) => {
+      const pageIndex = parseInt(dot.getAttribute('data-page-index') || '0');
+      if (pageIndex === currentPage) {
+        dot.classList.add('bg-primary-600', 'w-8');
+        dot.classList.remove('bg-secondary-300', 'w-3');
+      } else {
+        dot.classList.remove('bg-primary-600', 'w-8');
+        dot.classList.add('bg-secondary-300', 'w-3');
+      }
+    });
+  }
+
+  function nextSlide() {
+    if (currentPage < totalPages - 1) {
+      currentPage++;
+    } else {
+      currentPage = 0; // Loop back to start
+    }
+    updateCarousel();
+  }
+
+  function prevSlide() {
+    if (currentPage > 0) {
+      currentPage--;
+    } else {
+      currentPage = totalPages - 1; // Loop to end
+    }
+    updateCarousel();
+  }
+
+  // Arrow navigation
+  prevBtn?.addEventListener('click', prevSlide);
+  nextBtn?.addEventListener('click', nextSlide);
+
+  // Dot navigation
+  dots.forEach((dot) => {
+    dot.addEventListener('click', () => {
+      const pageIndex = parseInt(dot.getAttribute('data-page-index') || '0');
+      currentPage = pageIndex;
+      updateCarousel();
+    });
+  });
+
+  // Initialize
+  updateCarousel();
+</script>
+
+<style>
+  .carousel-dot {
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .carousel-dot:hover {
+    transform: scale(1.2);
+  }
+  
+  #references-slides {
+    display: flex;
+  }
+  
+  .card-style12 {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .card-style12 img {
+    transition: transform 0.5s ease;
+  }
+  
+  .card-style12:hover img {
+    transform: scale(1.1);
+  }
+  
+  /* Navigation buttons hover */
+  #references-prev:hover,
+  #references-next:hover {
+    transform: translateY(-50%) scale(1.05);
+  }
+  
+  .link-btn.white {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .link-btn.white:hover {
+    opacity: 0.8;
+  }
+  
+  @media (max-width: 1024px) {
+    #references-slides > div {
+      width: calc(50% - 15px) !important;
+      margin-right: 30px !important;
+    }
+  }
+  
+  @media (max-width: 640px) {
+    #references-slides > div {
+      width: 100% !important;
+      margin-right: 0 !important;
+    }
+    
+    #references-prev,
+    #references-next {
+      display: none;
+    }
+  }
+</style>

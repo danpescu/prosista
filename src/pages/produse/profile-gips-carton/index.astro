@@ -1,0 +1,73 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import CategorySidebar from '@/components/product/CategorySidebar.astro';
+import ProductCard from '@/components/product/ProductCard.astro';
+import productsData from '@/data/products.json';
+
+const products = productsData;
+const category = products.categories.find(cat => cat.id === 'profile-gips-carton');
+const allCategories = products.categories.map(cat => ({
+  id: cat.id,
+  name: cat.name,
+  slug: cat.slug
+}));
+---
+
+<Layout 
+  title="Profile Gips-Carton"
+  description="Profile metalice pentru montaj gips-carton. Soluții profesionale pentru construcții interioare."
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title={category?.name || 'Profile Gips-Carton'}
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Profile Gips-Carton' }
+    ]}
+    backgroundImage={category?.image}
+  />
+  
+  <!-- Main Content -->
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+        <!-- Sidebar -->
+        <CategorySidebar 
+          currentCategoryId="profile-gips-carton"
+          allCategories={allCategories}
+        />
+        
+        <!-- Main Content Grid -->
+        <div class="flex-1">
+          {category?.subcategories && category.subcategories.length > 0 ? (
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+              {category.subcategories.map(subcat => (
+                <ProductCard
+                  name={subcat.name}
+                  description={(subcat as any).description || `Detalii despre ${subcat.name}`}
+                  image={(subcat as any).image || category?.image || '/images/products/profile-gips.jpg'}
+                  href={`/produse/profile-gips-carton/${subcat.slug}`}
+                />
+              ))}
+            </div>
+          ) : (
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+              {category?.products?.map(product => (
+                <ProductCard
+                  name={product.name}
+                  description={`Detalii despre ${product.name}`}
+                  image={category?.image || '/images/products/profile-gips.jpg'}
+                  href={`/produse/profile-gips-carton/${product.slug}`}
+                />
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>
+

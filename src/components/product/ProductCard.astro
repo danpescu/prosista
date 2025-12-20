@@ -1,0 +1,43 @@
+---
+interface Props {
+  name: string;
+  description: string;
+  image: string;
+  href: string;
+}
+
+const { name, description, image, href } = Astro.props;
+---
+
+<a href={href} class="group block bg-white overflow-hidden transition-all duration-300">
+  <div class="relative overflow-hidden aspect-[4/3]">
+    <img 
+      src={image} 
+      alt={name}
+      class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
+      loading="lazy"
+    />
+  </div>
+  <!-- Title -->
+  <div class="text-center mt-4 mb-2">
+    <h3 class="text-lg md:text-xl font-semibold transition-colors duration-200" style="font-family: 'Mulish', sans-serif; font-weight: 700; color: rgb(6, 59, 139);">
+      {name}
+    </h3>
+  </div>
+  <!-- Colored Bar - Red effect from center to edges on hover -->
+  <div class="relative h-1 bg-primary-600 group-hover:h-1.5 overflow-hidden">
+    <div class="red-bar-effect absolute inset-0 bg-accent-600"></div>
+  </div>
+</a>
+
+<style>
+  .red-bar-effect {
+    clip-path: inset(0 50% 0 50%);
+    transition: clip-path 0.6s ease-out;
+  }
+  
+  .group:hover .red-bar-effect {
+    clip-path: inset(0 0% 0 0%);
+  }
+</style>
+

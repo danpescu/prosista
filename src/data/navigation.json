@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "name": "Tavane Metalice",
+      "href": "/produse/tavane-metalice"
+    },
+    {
+      "name": "Tavane din Lemn",
+      "href": "/produse/tavane-lemn"
+    },
+    {
+      "name": "Panouri Acustice Tapițate",
+      "href": "/produse/panouri-acustice-tapisate"
+    },
+    {
+      "name": "Panouri Lână Minerală",
+      "href": "/produse/panouri-lana-minerala"
+    },
+    {
+      "name": "Panouri Lână Lemn",
+      "href": "/produse/panouri-lana-lemn"
+    },
+    {
+      "name": "Sisteme Purtătoare",
+      "href": "/produse/sisteme-purtatoare"
+    },
+    {
+      "name": "Panouri Gips cu Vinil",
+      "href": "/produse/panouri-gips-vinil"
+    },
+    {
+      "name": "Profile Gips-Carton",
+      "href": "/produse/profile-gips-carton"
+    }
+  ]
+}
+

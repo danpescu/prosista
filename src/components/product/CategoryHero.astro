@@ -1,0 +1,57 @@
+---
+interface Props {
+  title: string;
+  breadcrumbs: Array<{ name: string; href?: string }>;
+  backgroundImage?: string;
+}
+
+const { title, breadcrumbs, backgroundImage } = Astro.props;
+---
+
+<section class="relative bg-primary-900 text-white py-32 md:py-40 lg:py-48">
+  <!-- Background Image -->
+  <div class="absolute inset-0 z-0">
+    <img 
+      src="/images/page-title-bg.jpg" 
+      alt={title}
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-primary-900/70"></div>
+  </div>
+  
+  <div class="relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+    <div class="max-w-7xl mx-auto pt-16">
+      <!-- Title - Mulish 800, 40px, line-height 40px, white -->
+      <h1 class="mb-4" style="font-family: 'Mulish', sans-serif; font-weight: 800; font-size: 40px; line-height: 40px; color: rgb(255, 255, 255);">
+        {title}
+      </h1>
+      
+      <!-- Breadcrumbs - Below title, Mulish 700, 12px, line-height 20px, red -->
+      <nav aria-label="Breadcrumb">
+        <ol class="flex items-center space-x-2">
+          {breadcrumbs.map((item, index) => (
+            <li class="flex items-center">
+              {index > 0 && (
+                <span class="mx-2" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21);">—</span>
+              )}
+              {item.href ? (
+                <a 
+                  href={item.href} 
+                  class="hover:opacity-80 transition-opacity uppercase"
+                  style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21);"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <span class="uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(255, 255, 255);">
+                  {item.name}
+                </span>
+              )}
+            </li>
+          ))}
+        </ol>
+      </nav>
+    </div>
+  </div>
+</section>
+

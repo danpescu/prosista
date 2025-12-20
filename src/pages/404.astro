@@ -1,0 +1,35 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import Button from '@/components/ui/Button.astro';
+---
+
+<Layout 
+  title="Pagina nu a fost găsită"
+  description="Pagina pe care o căutați nu există."
+>
+  <Section padding="lg" class="pt-32">
+    <Container>
+      <div class="max-w-2xl mx-auto text-center">
+        <div class="mb-8">
+          <h1 class="text-9xl font-bold text-primary-600 mb-4">404</h1>
+          <h2 class="text-4xl font-semibold mb-4">Pagina nu a fost găsită</h2>
+          <p class="text-xl text-secondary-600 mb-8">
+            Ne pare rău, pagina pe care o căutați nu există sau a fost mutată.
+          </p>
+        </div>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button href="/" variant="primary" size="lg">
+            Înapoi la Acasă
+          </Button>
+          <Button href="/contact" variant="outline" size="lg">
+            Contact
+          </Button>
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>
+

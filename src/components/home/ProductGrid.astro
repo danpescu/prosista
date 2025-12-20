@@ -1,0 +1,37 @@
+---
+import productsData from '@/data/products.json';
+const products = productsData;
+import ProductCard from '@/components/product/ProductCard.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+---
+
+<Section id="produse" padding="lg">
+  <Container>
+    <div class="text-center mb-12">
+      <!-- Title with red horizontal line BEFORE -->
+      <div class="mb-4 flex items-center justify-center gap-3">
+        <div class="h-0.5 w-8 bg-accent-600"></div>
+        <h2 class="text-sm md:text-base font-bold uppercase tracking-wider" style="font-family: 'Mulish', sans-serif; font-weight: 800; color: rgb(6, 59, 139);">
+          SISTEME DE TAVANE SUSPENDATE
+        </h2>
+      </div>
+      <p class="text-xl text-secondary-600 max-w-3xl mx-auto">
+        Oferim soluții complete pentru tavane suspendate, de la sisteme metalice moderne 
+        la panouri acustice de înaltă performanță.
+      </p>
+    </div>
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+      {products.categories.map(category => (
+        <ProductCard
+          name={category.name}
+          description={category.description}
+          image={category.image}
+          href={`/produse/${category.slug}`}
+        />
+      ))}
+    </div>
+  </Container>
+</Section>
+

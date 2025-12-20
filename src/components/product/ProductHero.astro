@@ -1,0 +1,30 @@
+---
+interface Props {
+  name: string;
+  image: string;
+  category?: string;
+}
+
+const { name, image, category } = Astro.props;
+---
+
+<section class="relative h-[400px] md:h-[500px] flex items-center">
+  <div class="absolute inset-0 z-0">
+    <img 
+      src={image} 
+      alt={name}
+      class="w-full h-full object-cover"
+    />
+    <div class="absolute inset-0 bg-gradient-to-r from-secondary-900/80 to-secondary-900/60"></div>
+  </div>
+  
+  <div class="relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+    {category && (
+      <div class="text-primary-300 text-sm font-medium mb-4">{category}</div>
+    )}
+    <h1 class="text-white text-4xl md:text-5xl lg:text-6xl font-bold">
+      {name}
+    </h1>
+  </div>
+</section>
+

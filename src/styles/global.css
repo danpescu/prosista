@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base Styles - Matching Live Site */
+@layer base {
+  body {
+    @apply bg-white text-secondary-900 font-sans antialiased;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+  }
+
+  /* Headings - Matching Live Site Typography */
+  h1 {
+    @apply font-bold text-4xl md:text-5xl lg:text-6xl leading-tight;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 800;
+    color: rgb(6, 59, 139);
+    letter-spacing: -0.02em;
+  }
+
+  h2 {
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 800;
+    font-size: 17px;
+    line-height: 29px;
+    color: rgb(6, 59, 139);
+    letter-spacing: 0;
+  }
+
+  h3 {
+    @apply font-semibold text-2xl md:text-3xl leading-tight;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(6, 59, 139);
+  }
+
+  h4 {
+    @apply font-semibold text-xl md:text-2xl leading-tight;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 700;
+    color: rgb(6, 59, 139);
+  }
+
+  h5 {
+    @apply font-medium text-lg md:text-xl text-secondary-800 leading-tight;
+    font-weight: 500;
+  }
+
+  h6 {
+    @apply font-medium text-base md:text-lg text-secondary-800 leading-tight;
+    font-weight: 500;
+  }
+
+  /* Body text - Matching Live Site */
+  p {
+    @apply text-base md:text-lg leading-relaxed;
+    font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: rgb(66, 84, 94);
+  }
+
+  /* Links - Matching Live Site Hover Effects */
+  a {
+    @apply text-primary-600 transition-all duration-200;
+  }
+  
+  a:hover {
+    @apply text-primary-700;
+  }
+
+  /* Lists */
+  ul, ol {
+    @apply text-base md:text-lg text-secondary-700 space-y-2;
+  }
+
+  li {
+    @apply leading-relaxed;
+  }
+
+  /* Buttons - Base Styles */
+  button {
+    @apply transition-all duration-200;
+  }
+
+  /* Inputs - Base Styles */
+  input, textarea, select {
+    @apply transition-all duration-200;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    @apply outline-none ring-2 ring-primary-500 border-primary-500;
+  }
+}
+
+/* Custom Components - Matching Live Site */
+@layer components {
+  /* Button Styles */
+  .btn-primary {
+    @apply bg-primary-600 text-white px-6 py-3 font-semibold transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-primary:hover {
+    @apply transform -translate-y-0.5;
+  }
+
+  /* Card Hover Effects */
+  .card-hover {
+    @apply transition-all duration-300;
+  }
+  
+  .card-hover:hover {
+    @apply transform -translate-y-1 shadow-xl;
+  }
+
+  /* Image Styles */
+  img {
+    @apply transition-opacity duration-300;
+  }
+  
+  img:hover {
+    @apply opacity-90;
+  }
+
+  /* Link Hover Effects */
+  .link-hover {
+    @apply transition-colors duration-200;
+  }
+  
+  .link-hover:hover {
+    @apply text-primary-700;
+  }
+}
+
+/* Custom Utilities */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  /* Smooth Transitions */
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Carousel Styles */
+  .carousel-slide {
+    @apply transition-opacity duration-500 ease-in-out;
+  }
+  
+  /* Image Gallery Styles */
+  .gallery-image {
+    @apply transition-transform duration-300 cursor-pointer;
+  }
+  
+  .gallery-image:hover {
+    @apply scale-105;
+  }
+}
+

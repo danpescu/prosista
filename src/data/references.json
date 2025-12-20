@@ -1,0 +1,53 @@
+{
+  "references": [
+    {
+      "id": "velux-residence",
+      "name": "Velux Residence",
+      "location": "București, România",
+      "type": "Rezidențial",
+      "image": "/images/references/velux-residence.jpg",
+      "description": "Proiect rezidențial de înaltă calitate cu sisteme de tavane suspendate"
+    },
+    {
+      "id": "antalya-airport",
+      "name": "Aeroportul Antalya",
+      "location": "Antalya, Turcia",
+      "type": "Comercial",
+      "image": "/images/references/antalya-airport.jpg",
+      "description": "Soluții acustice pentru spații comerciale mari"
+    },
+    {
+      "id": "izmir-hospital",
+      "name": "Spitalul Izmir",
+      "location": "Izmir, Turcia",
+      "type": "Medical",
+      "image": "/images/references/izmir-hospital.jpg",
+      "description": "Sisteme de tavane pentru facilități medicale"
+    },
+    {
+      "id": "yumurtalik-power",
+      "name": "Centrala Yumurtalik",
+      "location": "Yumurtalik, Turcia",
+      "type": "Industrial",
+      "image": "/images/references/yumurtalik-power.jpg",
+      "description": "Soluții pentru spații industriale"
+    },
+    {
+      "id": "yasar-university",
+      "name": "Universitatea Yaşar",
+      "location": "Izmir, Turcia",
+      "type": "Educațional",
+      "image": "/images/references/yasar-university.jpg",
+      "description": "Sisteme acustice pentru săli de curs"
+    },
+    {
+      "id": "turkey-petroleum",
+      "name": "Petrolul Turciei",
+      "location": "Ankara, Turcia",
+      "type": "Office",
+      "image": "/images/references/turkey-petroleum.jpg",
+      "description": "Soluții moderne pentru spații de birouri"
+    }
+  ]
+}
+

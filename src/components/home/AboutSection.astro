@@ -1,0 +1,78 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+---
+
+<Section padding="lg" class="bg-white">
+  <Container>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- World Map - Left Side -->
+      <div class="relative">
+        <img 
+          src="/images/world-map.png" 
+          alt="Prezența globală Prosista" 
+          class="w-full h-auto"
+          loading="lazy"
+        />
+      </div>
+      
+      <!-- About Content - Right Side -->
+      <div>
+        <!-- Title with red horizontal line before -->
+        <div class="mb-6">
+          <h2 class="flex items-center justify-center lg:justify-start gap-3 mb-2" style="font-family: 'Mulish', sans-serif; font-weight: 800; font-size: 17px; line-height: 29px; color: rgb(6, 59, 139);">
+            <div class="h-0.5 w-8 bg-accent-600"></div>
+            <span>DESPRE NOI</span>
+          </h2>
+        </div>
+        
+        <!-- Slogan -->
+        <div class="mb-6">
+          <p class="text-3xl md:text-4xl font-heading italic text-primary-600 mb-2">
+            "Embrace Change"
+          </p>
+          <p class="text-lg" style="color: rgb(66, 84, 94);">
+            este sloganul nostru, și continuăm să creștem în fiecare zi.
+          </p>
+        </div>
+        
+        <!-- Body Text -->
+        <div class="space-y-4 text-base mb-8 leading-relaxed" style="color: rgb(66, 84, 94);">
+          <p>
+            Prosista este unul dintre producătorii lideri de sisteme de tavane suspendate din România, 
+            cu ani de experiență în piață. În facilitățile noastre de producție de peste 30.000 m², 
+            producem o gamă largă de produse, inclusiv sisteme baffle, liniare, open cell, expanded mesh, 
+            tavane metalice, toate sistemele purtătoare și accesoriile, sisteme acustice, tencuială acustică, 
+            soluții acustice din lemn, panouri gips cu vinil și profile gips-carton.
+          </p>
+          <p>
+            Oferim un parteneriat de soluție unică prin producerea tuturor produselor în propriile noastre 
+            facilități. Continuăm să investim în facilități, mașini și cercetare-dezvoltare pentru a oferi 
+            soluții inovatoare.
+          </p>
+        </div>
+        
+        <!-- Buttons -->
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a 
+            href="#despre" 
+            class="inline-flex items-center justify-center px-8 py-3 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-md hover:shadow-lg relative overflow-hidden"
+          >
+            <span class="button-overlay absolute inset-0 bg-accent-600" style="clip-path: inset(100% 0 0 0); transition: clip-path 0.4s ease-out;"></span>
+            <span class="relative z-10 text-white">DESPRE NOI</span>
+          </a>
+          <a 
+            href="https://www.youtube.com/watch?v=Uu8DN2CDa4I" 
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center justify-center px-8 py-3 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-md hover:shadow-lg relative overflow-hidden"
+          >
+            <span class="button-overlay absolute inset-0 bg-accent-600" style="clip-path: inset(100% 0 0 0); transition: clip-path 0.4s ease-out;"></span>
+            <span class="relative z-10 text-white">VIDEO PROMOȚIONAL</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Section>
+

@@ -1,0 +1,242 @@
+---
+import navigation from '@/data/navigation.json';
+---
+
+<nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
+  <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
+    <div class="flex justify-between items-center h-20">
+      
+      <!-- Logo -->
+      <a href="/" class="flex items-center">
+        <img 
+          src="/images/logo-white.png" 
+          alt="Prosista România" 
+          class="h-12 w-auto transition-opacity duration-300"
+          id="navbar-logo"
+        />
+      </a>
+      
+      <!-- Desktop Menu - Centered -->
+      <div class="hidden lg:flex items-center justify-center flex-1 space-x-8">
+        <!-- Produse Dropdown -->
+        <div class="relative group">
+          <button class="nav-link flex items-center uppercase">
+            PRODUSE
+            <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+            </svg>
+          </button>
+          
+          <!-- Dropdown Menu -->
+          <div class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 pt-2 w-64 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none group-hover:pointer-events-auto">
+            <div class="py-2">
+              {navigation.products.map(cat => (
+                <a href={cat.href} class="dropdown-item block px-4 py-2 text-sm uppercase hover:bg-primary-50 transition-colors duration-200" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(6, 59, 139);">
+                  {cat.name.toUpperCase()}
+                </a>
+              ))}
+            </div>
+          </div>
+        </div>
+        
+        <a href="#referinte" class="nav-link uppercase">REFERINȚE</a>
+        
+        <a href="/contact" class="nav-link uppercase">CONTACT</a>
+      </div>
+      
+      <!-- CTA Button - Right Side -->
+      <div class="hidden lg:flex items-center flex-shrink-0">
+        <a href="/contact#form" class="btn-primary">
+          <span>CERE OFERTA</span>
+        </a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button
+        id="mobile-menu-btn"
+        class="lg:hidden p-2 text-white md:text-secondary-700 hover:text-primary-600"
+        aria-label="Meniu"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path id="menu-icon" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+          <path id="close-icon" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="lg:hidden hidden bg-white border-t">
+    <div class="px-4 py-6 space-y-4">
+      <div>
+        <button id="mobile-products-toggle" class="w-full flex justify-between items-center uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">
+          PRODUSE
+          <svg class="w-4 h-4 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"/>
+          </svg>
+        </button>
+        <div id="mobile-products-menu" class="hidden mt-2 ml-4 space-y-2">
+          {navigation.products.map(cat => (
+            <a href={cat.href} class="block text-sm uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">
+              {cat.name.toUpperCase()}
+            </a>
+          ))}
+        </div>
+      </div>
+      
+      <a href="#referinte" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">REFERINȚE</a>
+      
+      <a href="/contact" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">CONTACT</a>
+      
+      <a href="/contact#form" class="block btn-primary text-center">
+        <span>CERE OFERTA</span>
+      </a>
+    </div>
+  </div>
+</nav>
+
+<style>
+  .nav-link {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 10px 25px 8px 32px;
+    color: white;
+    transition: all 0.2s ease-out;
+    position: relative;
+    text-transform: uppercase;
+  }
+  
+  .nav-link:hover {
+    color: #db1415 !important;
+  }
+  
+  /* Remove underline effect */
+  .nav-link::after {
+    display: none;
+  }
+  
+  .btn-primary {
+    @apply bg-primary-600 text-white px-8 py-2.5 font-semibold transition-all duration-200 shadow-md hover:shadow-lg relative overflow-hidden rounded-none;
+  }
+  
+  .btn-primary::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgb(230, 0, 0);
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 0.4s ease-out;
+  }
+  
+  .btn-primary:hover::before {
+    clip-path: inset(0% 0 0 0%);
+  }
+  
+  .btn-primary span {
+    position: relative;
+    z-index: 10;
+    color: white;
+  }
+  
+  .btn-primary:hover {
+    transform: translateY(-2px);
+  }
+  
+  .btn-primary:hover span {
+    color: white;
+  }
+  
+  /* Navbar transparent on hero, white background on scroll */
+  #navbar {
+    background: linear-gradient(to bottom, rgba(0,0,0,0.7), transparent);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  #navbar.scrolled {
+    background: white !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #navbar.scrolled #navbar-logo {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  #navbar.scrolled .nav-link {
+    color: #000;
+  }
+  
+  #navbar.scrolled .nav-link:hover {
+    color: #db1415 !important;
+  }
+  
+  /* Dropdown menu hover effects */
+  #navbar .group:hover .absolute {
+    animation: fadeInDown 0.3s ease-out;
+  }
+  
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Dropdown item colors */
+  .dropdown-item {
+    color: rgb(6, 59, 139) !important; /* Blue color */
+  }
+  
+  .dropdown-item:hover {
+    color: rgb(219, 20, 21) !important; /* Red on hover */
+  }
+</style>
+
+<script>
+  // Navbar scroll effect
+  const navbar = document.getElementById('navbar');
+  const navbarLogo = document.getElementById('navbar-logo');
+  
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 50) {
+      navbar?.classList.add('scrolled');
+      // Schimbă logo-ul la scroll - folosește logo colorat
+      navbarLogo?.setAttribute('src', 'https://www.prosista.com/u/i/logo-en.png');
+      navbarLogo?.setAttribute('alt', 'Prosista România');
+    } else {
+      navbar?.classList.remove('scrolled');
+      // Revine la logo-ul alb
+      navbarLogo?.setAttribute('src', '/images/logo-white.png');
+      navbarLogo?.setAttribute('alt', 'Prosista România');
+    }
+  });
+  
+  // Mobile menu toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuIcon = document.getElementById('menu-icon');
+  const closeIcon = document.getElementById('close-icon');
+  
+  mobileMenuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+    menuIcon?.classList.toggle('hidden');
+    closeIcon?.classList.toggle('hidden');
+  });
+  
+  // Mobile products submenu toggle
+  const productsToggle = document.getElementById('mobile-products-toggle');
+  const productsMenu = document.getElementById('mobile-products-menu');
+  
+  productsToggle?.addEventListener('click', () => {
+    productsMenu?.classList.toggle('hidden');
+    const svg = productsToggle.querySelector('svg');
+    svg?.classList.toggle('rotate-180');
+  });
+</script>
+

@@ -1,0 +1,202 @@
+---
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import { CONTACT_INFO } from '@/utils/constants';
+---
+
+<Section id="form" padding="lg" class="bg-white">
+  <Container>
+    <div class="max-w-6xl mx-auto">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 rounded-lg overflow-hidden shadow-xl">
+        <!-- Left Panel - Contact Information (Dark Blue) -->
+        <div class="bg-primary-900 text-white p-8 md:p-12 flex flex-col justify-between relative overflow-hidden">
+          <!-- Background Pattern -->
+          <div class="absolute inset-0 opacity-10">
+            <div class="absolute inset-0 bg-[url('/images/logo-white.png')] bg-center bg-no-repeat bg-contain"></div>
+          </div>
+          
+          <div class="relative z-10">
+            <!-- Headset Icon -->
+            <div class="mb-8">
+              <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+              </svg>
+            </div>
+            
+            <!-- Phone Number -->
+            <div class="mb-6">
+              <p class="text-4xl md:text-5xl font-bold mb-4">444 5 772</p>
+            </div>
+            
+            <!-- Call to Action Text -->
+            <div class="mb-8">
+              <p class="text-2xl md:text-3xl font-bold">Contactează-ne</p>
+            </div>
+          </div>
+          
+          <!-- Contact Button -->
+          <div class="relative z-10">
+            <a 
+              href="/contact" 
+              class="inline-block bg-primary-600 text-white px-8 py-3 font-semibold transition-all duration-200 shadow-md hover:shadow-lg relative overflow-hidden"
+            >
+              <span class="button-overlay absolute inset-0 bg-accent-600" style="clip-path: inset(100% 0 0 0); transition: clip-path 0.4s ease-out;"></span>
+              <span class="relative z-10 text-white">CONTACTEAZĂ-NE</span>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Right Panel - Get a Quote Form (White) -->
+        <div class="bg-white p-8 md:p-12">
+          <!-- Title with red horizontal line before -->
+          <div class="mb-8">
+            <h2 class="flex items-center gap-3 mb-2" style="font-family: 'Mulish', sans-serif; font-weight: 800; font-size: 17px; line-height: 29px; color: rgb(6, 59, 139);">
+              <div class="h-0.5 w-8 bg-accent-600"></div>
+              <span>CERE OFERTĂ</span>
+            </h2>
+          </div>
+          
+          <form 
+            action="/send-email.php" 
+            method="POST" 
+            id="contact-form-home"
+          >
+            <!-- Full Name -->
+            <div class="mb-6">
+              <label for="name" class="block text-sm font-medium text-secondary-700 mb-2">
+                Numele tău complet *
+              </label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                required
+                placeholder="Numele tău complet"
+                class="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-secondary-900"
+              />
+            </div>
+            
+            <!-- Email -->
+            <div class="mb-6">
+              <label for="email" class="block text-sm font-medium text-secondary-700 mb-2">
+                Email *
+              </label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                required
+                placeholder="Email"
+                class="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-secondary-900"
+              />
+            </div>
+            
+            <!-- Phone Number -->
+            <div class="mb-6">
+              <label for="phone" class="block text-sm font-medium text-secondary-700 mb-2">
+                Număr de telefon *
+              </label>
+              <input 
+                type="tel" 
+                id="phone" 
+                name="phone"
+                required
+                placeholder="(ex. 5555555555)"
+                class="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-secondary-900"
+              />
+            </div>
+            
+            <!-- Message -->
+            <div class="mb-6">
+              <label for="message" class="block text-sm font-medium text-secondary-700 mb-2">
+                Mesaj *
+              </label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                required
+                placeholder="Mesaj"
+                class="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-secondary-900 resize-y"
+              ></textarea>
+            </div>
+            
+            <!-- reCAPTCHA Placeholder -->
+            <div class="mb-6">
+              <div class="flex items-center gap-2 p-4 border border-secondary-300 rounded-lg bg-secondary-50">
+                <input type="checkbox" id="recaptcha" class="w-4 h-4 text-primary-600 border-secondary-300 rounded focus:ring-primary-500" />
+                <label for="recaptcha" class="text-sm text-secondary-700">
+                  Nu sunt un robot
+                </label>
+              </div>
+              <p class="text-xs text-secondary-500 mt-2">
+                Acest site este protejat de reCAPTCHA și se aplică 
+                <a href="#" class="text-primary-600 hover:underline">Politica de confidențialitate</a> și 
+                <a href="#" class="text-primary-600 hover:underline">Termenii și condițiile</a> Google.
+              </p>
+            </div>
+            
+            <!-- Submit Button -->
+            <button 
+              type="submit"
+              class="w-full bg-primary-600 text-white px-8 py-3 font-semibold transition-all duration-200 shadow-md hover:shadow-lg relative overflow-hidden"
+            >
+              <span class="button-overlay absolute inset-0 bg-accent-600" style="clip-path: inset(100% 0 0 0); transition: clip-path 0.4s ease-out;"></span>
+              <span class="relative z-10 text-white">TRIMITE</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </Container>
+</Section>
+
+<script>
+  const form = document.getElementById('contact-form-home');
+  
+  form?.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(form);
+    const submitButton = form.querySelector('button[type="submit"]');
+    const originalText = submitButton?.textContent;
+    
+    if (submitButton) {
+      submitButton.textContent = 'Se trimite...';
+      submitButton.disabled = true;
+    }
+    
+    try {
+      const response = await fetch('/send-email.php', {
+        method: 'POST',
+        body: formData,
+      });
+      
+      if (response.ok) {
+        alert('Mesajul a fost trimis cu succes! Vă vom contacta în cel mai scurt timp.');
+        form.reset();
+      } else {
+        alert('A apărut o eroare. Vă rugăm să încercați din nou sau să ne contactați direct.');
+      }
+    } catch (error) {
+      alert('A apărut o eroare. Vă rugăm să ne contactați direct.');
+    } finally {
+      if (submitButton) {
+        submitButton.textContent = originalText || 'Trimite Mesaj';
+        submitButton.disabled = false;
+      }
+    }
+  });
+</script>
+
+<style>
+  .button-overlay {
+    transition: clip-path 0.4s ease-out;
+  }
+  
+  a:hover .button-overlay,
+  button:hover .button-overlay {
+    clip-path: inset(0% 0 0 0%);
+  }
+</style>
+

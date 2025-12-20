@@ -1,0 +1,299 @@
+{
+  "categories": [
+    {
+      "id": "tavane-metalice",
+      "name": "Tavane Metalice",
+      "slug": "tavane-metalice",
+      "description": "Sisteme moderne de tavane suspendate metalice pentru interioare comerciale și industriale",
+      "image": "/images/products/tavane-metalice.jpg",
+      "subcategories": [
+        {
+          "id": "baffle-linear",
+          "name": "Baffle/Linear",
+          "slug": "baffle-linear",
+          "products": [
+            {
+              "id": "tavan-baffle",
+              "name": "Tavan Baffle",
+              "slug": "tavan-baffle"
+            },
+            {
+              "id": "tavan-baffle-extrudat",
+              "name": "Tavan Baffle Extrudat",
+              "slug": "tavan-baffle-extrudat"
+            },
+            {
+              "id": "tavan-baffle-vectoral",
+              "name": "Tavan Baffle Vectoral",
+              "slug": "tavan-baffle-vectoral"
+            },
+            {
+              "id": "baffle-perete",
+              "name": "Baffle Perete",
+              "slug": "baffle-perete"
+            },
+            {
+              "id": "tavan-multipanel",
+              "name": "Tavan Multipanel",
+              "slug": "tavan-multipanel"
+            },
+            {
+              "id": "tavan-linear-f",
+              "name": "Tavan Linear F",
+              "slug": "tavan-linear-f"
+            }
+          ]
+        },
+        {
+          "id": "open-cell",
+          "name": "Open Cell",
+          "slug": "open-cell",
+          "products": [
+            {
+              "id": "tavan-open-cell-autoportant",
+              "name": "Tavan Open Cell Autoportant",
+              "slug": "tavan-open-cell-autoportant"
+            },
+            {
+              "id": "tavan-open-cell-t15",
+              "name": "Tavan Open Cell T15",
+              "slug": "tavan-open-cell-t15"
+            },
+            {
+              "id": "tavan-open-cell-piramidal",
+              "name": "Tavan Open Cell Piramidal",
+              "slug": "tavan-open-cell-piramidal"
+            },
+            {
+              "id": "tavan-open-cell-lamina",
+              "name": "Tavan Open Cell Lamina",
+              "slug": "tavan-open-cell-lamina"
+            }
+          ]
+        },
+        {
+          "id": "mesh-expandat",
+          "name": "Mesh Expandat",
+          "slug": "mesh-expandat",
+          "products": [
+            {
+              "id": "tavan-mesh-lay-in",
+              "name": "Tavan Mesh Lay-In",
+              "slug": "tavan-mesh-lay-in"
+            },
+            {
+              "id": "tavan-mesh-lay-on",
+              "name": "Tavan Mesh Lay-On",
+              "slug": "tavan-mesh-lay-on"
+            },
+            {
+              "id": "tavan-mesh-hook-on",
+              "name": "Tavan Mesh Hook-On",
+              "slug": "tavan-mesh-hook-on"
+            }
+          ]
+        },
+        {
+          "id": "tip-caseta",
+          "name": "Tip Casetă",
+          "slug": "tip-caseta",
+          "products": [
+            {
+              "id": "tavan-suspendat-clip-in",
+              "name": "Tavan Suspendat Clip-In",
+              "slug": "tavan-suspendat-clip-in"
+            },
+            {
+              "id": "tavan-suspendat-lay-on",
+              "name": "Tavan Suspendat Lay-On",
+              "slug": "tavan-suspendat-lay-on"
+            },
+            {
+              "id": "tavan-suspendat-lay-in",
+              "name": "Tavan Suspendat Lay-In",
+              "slug": "tavan-suspendat-lay-in"
+            }
+          ]
+        },
+        {
+          "id": "plank-linear",
+          "name": "Plank Linear",
+          "slug": "plank-linear",
+          "products": [
+            {
+              "id": "tavan-suspendat-hook-on",
+              "name": "Tavan Suspendat Hook-On",
+              "slug": "tavan-suspendat-hook-on"
+            },
+            {
+              "id": "tavan-coridor-hook-on",
+              "name": "Tavan Coridor Hook-On",
+              "slug": "tavan-coridor-hook-on"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tavane-lemn",
+      "name": "Tavane din Lemn",
+      "slug": "tavane-lemn",
+      "description": "Sisteme de tavane și pereți acustici din lemn natural",
+      "image": "/images/products/tavane-lemn.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "baffle-lemn",
+          "name": "Baffle Lemn",
+          "slug": "baffle-lemn"
+        },
+        {
+          "id": "tavan-acustic-lemn",
+          "name": "Tavan Acustic Lemn",
+          "slug": "tavan-acustic-lemn"
+        },
+        {
+          "id": "perete-acustic-lemn",
+          "name": "Perete Acustic Lemn",
+          "slug": "perete-acustic-lemn"
+        }
+      ]
+    },
+    {
+      "id": "panouri-acustice-tapisate",
+      "name": "Panouri Acustice Tapițate",
+      "slug": "panouri-acustice-tapisate",
+      "description": "Panouri acustice tapițate cu țesătură pentru controlul sunetului",
+      "image": "/images/products/panouri-acustice-tapisate.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "baffle-acustic-lana-sticla",
+          "name": "Baffle Acustic Lână Sticlă",
+          "slug": "baffle-acustic-lana-sticla"
+        },
+        {
+          "id": "canopy-acustic-lana-sticla",
+          "name": "Canopy Acustic Lână Sticlă",
+          "slug": "canopy-acustic-lana-sticla"
+        },
+        {
+          "id": "panouri-perete-lana-sticla",
+          "name": "Panouri Perete Lână Sticlă",
+          "slug": "panouri-perete-lana-sticla"
+        },
+        {
+          "id": "panouri-tavan-lana-sticla",
+          "name": "Panouri Tavan Lână Sticlă",
+          "slug": "panouri-tavan-lana-sticla"
+        }
+      ]
+    },
+    {
+      "id": "panouri-lana-minerala",
+      "name": "Panouri Lână Minerală",
+      "slug": "panouri-lana-minerala",
+      "description": "Panouri acustice din lână minerală pentru izolație termică și fonică",
+      "image": "/images/products/panouri-lana-minerala.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "knauf-amf",
+          "name": "Knauf AMF",
+          "slug": "knauf-amf"
+        },
+        {
+          "id": "ecophon",
+          "name": "Ecophon",
+          "slug": "ecophon"
+        },
+        {
+          "id": "eurocoustic",
+          "name": "Eurocoustic",
+          "slug": "eurocoustic"
+        }
+      ]
+    },
+    {
+      "id": "panouri-lana-lemn",
+      "name": "Panouri Lână Lemn",
+      "slug": "panouri-lana-lemn",
+      "description": "Panouri acustice din lână de lemn pentru design natural",
+      "image": "/images/products/panouri-lana-lemn.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "knauf-heradesign",
+          "name": "Knauf Heradesign",
+          "slug": "knauf-heradesign"
+        },
+        {
+          "id": "ecophon-saga",
+          "name": "Ecophon Saga",
+          "slug": "ecophon-saga"
+        }
+      ]
+    },
+    {
+      "id": "sisteme-purtatoare",
+      "name": "Sisteme Purtătoare",
+      "slug": "sisteme-purtatoare",
+      "description": "Sisteme de susținere pentru tavane suspendate",
+      "image": "/images/products/sisteme-purtatoare.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "sistem-purtator-t24",
+          "name": "Sistem Purtător T24",
+          "slug": "sistem-purtator-t24"
+        },
+        {
+          "id": "sistem-purtator-t15",
+          "name": "Sistem Purtător T15",
+          "slug": "sistem-purtator-t15"
+        },
+        {
+          "id": "sistem-purtator-canal-t15",
+          "name": "Sistem Purtător Canal T15",
+          "slug": "sistem-purtator-canal-t15"
+        }
+      ]
+    },
+    {
+      "id": "panouri-gips-vinil",
+      "name": "Panouri Gips cu Vinil",
+      "slug": "panouri-gips-vinil",
+      "description": "Panouri din gips cu finisare vinil pentru durabilitate",
+      "image": "/images/products/gips-vinil.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "panou-gips-vinil",
+          "name": "Panou Gips Vinil",
+          "slug": "panou-gips-vinil"
+        },
+        {
+          "id": "panou-acustic-vinil",
+          "name": "Panou Acustic Vinil",
+          "slug": "panou-acustic-vinil"
+        }
+      ]
+    },
+    {
+      "id": "profile-gips-carton",
+      "name": "Profile Gips-Carton",
+      "slug": "profile-gips-carton",
+      "description": "Profile metalice pentru montaj gips-carton",
+      "image": "/images/products/profile-gips.jpg",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "profile-gips-carton",
+          "name": "Profile Gips-Carton",
+          "slug": "profile-gips-carton"
+        }
+      ]
+    }
+  ]
+}
+

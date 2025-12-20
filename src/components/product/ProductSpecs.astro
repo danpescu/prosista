@@ -1,0 +1,22 @@
+---
+interface Props {
+  specs: Array<{ label: string; value: string }>;
+}
+
+const { specs } = Astro.props;
+---
+
+<div class="bg-secondary-50 rounded-lg p-6">
+  <h3 class="text-2xl font-semibold mb-6">Specificații Tehnice</h3>
+  <table class="w-full">
+    <tbody class="space-y-2">
+      {specs.map(spec => (
+        <tr class="border-b border-secondary-200">
+          <td class="py-3 font-semibold text-secondary-700 w-1/3">{spec.label}</td>
+          <td class="py-3 text-secondary-600">{spec.value}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
