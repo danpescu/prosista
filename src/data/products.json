@@ -293,6 +293,15 @@
           "slug": "profile-gips-carton"
         }
       ]
+    },
+    {
+      "id": "vezi-referinte",
+      "name": "Vezi referinte",
+      "slug": "vezi-referinte",
+      "description": "Vezi toate referințele noastre",
+      "image": "/images/products/vezi-referinte.jpg",
+      "subcategories": [],
+      "products": []
     }
   ]
 }

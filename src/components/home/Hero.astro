@@ -33,7 +33,7 @@ const heroSlides = [
 ];
 ---
 
-<section class="relative h-[600px] md:h-[700px] lg:h-[800px] flex items-center overflow-hidden">
+<section class="relative min-h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] flex items-center overflow-hidden py-8 sm:py-0">
   <!-- Hero Carousel -->
   <div id="hero-carousel" class="absolute inset-0 z-0 overflow-hidden">
     {heroSlides.map((slide, index) => (
@@ -52,35 +52,35 @@ const heroSlides = [
   
   <!-- Content - Left Aligned -->
   <div class="relative z-10 w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12">
-    <div class="max-w-4xl text-left ml-[100px]">
+    <div class="max-w-4xl text-left mx-auto lg:mx-0 lg:ml-[100px]">
       <!-- Blue transparent background wrapper - More transparent -->
-      <div class="bg-primary-600/20 backdrop-blur-sm rounded-lg p-6 md:p-8 lg:p-10">
+      <div class="bg-primary-600/20 backdrop-blur-sm rounded-lg p-4 sm:p-6 md:p-8 lg:p-10">
         <!-- Badge -->
-        <div class="inline-flex items-center px-4 py-2 bg-transparent rounded-full text-white text-sm font-medium mb-6">
-          <span class="w-2 h-2 bg-primary-400 rounded-full mr-2 animate-pulse"></span>
+        <div class="inline-flex items-center px-3 sm:px-4 py-1.5 sm:py-2 bg-transparent rounded-full text-white text-xs sm:text-sm font-medium mb-4 sm:mb-6">
+          <span class="w-1.5 h-1.5 sm:w-2 sm:h-2 bg-primary-400 rounded-full mr-2 animate-pulse"></span>
           Lider în tavane suspendate
         </div>
         
         <!-- Heading -->
-        <h1 id="hero-title" class="text-white mb-6 animate-slide-up text-left">
+        <h1 id="hero-title" class="mb-4 sm:mb-6 animate-slide-up text-left text-2xl sm:text-3xl md:text-4xl lg:text-[40px] leading-tight sm:leading-[40px]" style="font-family: 'Mulish', sans-serif; font-weight: 800; font-style: normal; color: rgb(255, 255, 255);">
           {heroSlides[0].title}
         </h1>
         
         <!-- Description -->
-        <p id="hero-description" class="text-xl md:text-2xl text-white mb-8 leading-relaxed animate-slide-up text-left" style="animation-delay: 0.1s">
+        <p id="hero-description" class="text-base sm:text-lg md:text-xl lg:text-2xl text-white mb-6 sm:mb-8 leading-relaxed animate-slide-up text-left" style="animation-delay: 0.1s">
           {heroSlides[0].description}
         </p>
         
         <!-- CTA Buttons -->
-        <div class="flex flex-col sm:flex-row gap-4 justify-start animate-slide-up" style="animation-delay: 0.2s">
+        <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-start animate-slide-up" style="animation-delay: 0.2s">
           <a 
             href="#produse" 
-            class="btn-primary-hero inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
+            class="btn-primary-hero inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-primary-600 text-white text-sm sm:text-base font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
           >
             <span class="button-overlay-hero absolute inset-0 bg-accent-600"></span>
             <span class="relative z-10 flex items-center text-white">
               Vezi Produsele
-              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="ml-2 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/>
               </svg>
             </span>
@@ -88,12 +88,12 @@ const heroSlides = [
           
           <a 
             href="/contact#form" 
-            class="btn-primary-hero inline-flex items-center justify-center px-8 py-4 bg-primary-600 text-white font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
+            class="btn-primary-hero inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 bg-primary-600 text-white text-sm sm:text-base font-semibold transition-all duration-200 shadow-xl hover:shadow-2xl relative overflow-hidden rounded-none"
           >
             <span class="button-overlay-hero absolute inset-0 bg-accent-600"></span>
             <span class="relative z-10 flex items-center text-white">
               Cere Ofertă
-              <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg class="ml-2 w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
               </svg>
             </span>
@@ -101,18 +101,18 @@ const heroSlides = [
         </div>
         
         <!-- Stats - Inside the wrapper -->
-        <div class="mt-12 grid grid-cols-3 gap-6 animate-slide-up" style="animation-delay: 0.3s">
-          <div class="text-left">
-            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">30.000m²</div>
-            <div class="text-sm text-white mt-1">Facilități Producție</div>
+        <div class="mt-8 sm:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6 animate-slide-up" style="animation-delay: 0.3s">
+          <div class="text-left sm:text-center lg:text-left">
+            <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white px-2 sm:px-4 py-2 rounded inline-block">30.000m²</div>
+            <div class="text-xs sm:text-sm text-white mt-1">Facilități Producție</div>
           </div>
-          <div class="text-left">
-            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">15+</div>
-            <div class="text-sm text-white mt-1">Ani Experiență</div>
+          <div class="text-left sm:text-center lg:text-left">
+            <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white px-2 sm:px-4 py-2 rounded inline-block">15+</div>
+            <div class="text-xs sm:text-sm text-white mt-1">Ani Experiență</div>
           </div>
-          <div class="text-left">
-            <div class="text-3xl md:text-4xl font-bold text-white px-4 py-2 rounded inline-block">1000+</div>
-            <div class="text-sm text-white mt-1">Proiecte Finalizate</div>
+          <div class="text-left sm:text-center lg:text-left">
+            <div class="text-2xl sm:text-3xl md:text-4xl font-bold text-white px-2 sm:px-4 py-2 rounded inline-block">1000+</div>
+            <div class="text-xs sm:text-sm text-white mt-1">Proiecte Finalizate</div>
           </div>
         </div>
       </div>
@@ -202,7 +202,7 @@ const heroSlides = [
   const titleEl = document.getElementById('hero-title');
   const descriptionEl = document.getElementById('hero-description');
 
-  function showSlide(index) {
+  function showSlide(index: number) {
     // Animate slides from left to right
     slides.forEach((slide, i) => {
       if (i === index) {

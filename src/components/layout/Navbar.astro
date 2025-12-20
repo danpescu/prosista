@@ -54,7 +54,7 @@ import navigation from '@/data/navigation.json';
       <!-- Mobile Menu Button -->
       <button
         id="mobile-menu-btn"
-        class="lg:hidden p-2 text-white md:text-secondary-700 hover:text-primary-600"
+        class="lg:hidden p-2 text-white hover:text-primary-600 transition-colors duration-300"
         aria-label="Meniu"
       >
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -170,6 +170,14 @@ import navigation from '@/data/navigation.json';
   
   #navbar.scrolled .nav-link:hover {
     color: #db1415 !important;
+  }
+  
+  #navbar.scrolled #mobile-menu-btn {
+    color: rgb(6, 59, 139) !important;
+  }
+  
+  #navbar.scrolled #mobile-menu-btn:hover {
+    color: rgb(219, 20, 21) !important;
   }
   
   /* Dropdown menu hover effects */

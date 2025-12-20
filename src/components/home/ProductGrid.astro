@@ -28,7 +28,7 @@ import Section from '@/components/ui/Section.astro';
           name={category.name}
           description={category.description}
           image={category.image}
-          href={`/produse/${category.slug}`}
+          href={category.slug === 'vezi-referinte' ? '#referinte' : `/produse/${category.slug}`}
         />
       ))}
     </div>
