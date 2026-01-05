@@ -72,3 +72,6 @@ async function downloadWorldMap() {
 
 downloadWorldMap().catch(console.error);
 
+
+
+

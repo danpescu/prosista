@@ -1,8 +1,8 @@
 export const CONTACT_INFO = {
-  email: 'info@prosista.ro',
-  phone: '+40-444-5-772',
-  phoneDisplay: '+40 444 5 772',
-  address: 'București, România',
+  email: 'office@prosista.ro',
+  phone: '+40723643578',
+  phoneDisplay: '0723 643 578',
+  address: 'Com Bucov, sat Pleasa, str Dimitrie Cantemir, nr.311, jud Prahova cod 107113',
   workingHours: 'Luni - Vineri: 09:00 - 18:00',
 };
 
@@ -18,4 +18,62 @@ export const SOCIAL_LINKS = [
     iconPath: 'M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z',
   },
 ];
+
+// Mapare categorii -> imagini default
+export const CATEGORY_IMAGES: Record<string, string> = {
+  'panouri-lana-lemn': '/images/products/panouri-lana-lemn.jpg',
+  'panouri-lana-minerala': '/images/products/panouri-lana-minerala.jpg',
+  'panouri-acustice-tapisate': '/images/products/panouri-acustice-tapisate.jpg',
+  'tavane-metalice': '/images/products/tavane-metalice.jpg',
+  'tavane-lemn': '/images/products/tavane-lemn.jpg',
+  'sisteme-purtatoare': '/images/products/sisteme-purtatoare.jpg',
+  'panouri-gips-vinil': '/images/products/gips-vinil.jpg',
+  'profile-gips-carton': '/images/products/profile-gips.jpg',
+  'sisteme-de-tavane-metalice': '/images/products/sisteme-de-tavane-metalice.jpg',
+  'panouri-din-fibra-de-lemn': '/images/products/panouri-din-fibra-de-lemn.jpg',
+  'panouri-din-vata-minerala': '/images/products/panouri-din-vata-minerala.jpg',
+  'baffle-linear': '/images/products/tavane-metalice.jpg',
+  'open-cell': '/images/products/tavane-metalice.jpg',
+  'mesh-expandat': '/images/products/tavane-metalice.jpg',
+  'tip-caseta': '/images/products/tavane-metalice.jpg',
+  'plank-linear': '/images/products/tavane-metalice.jpg',
+  'tavane-tip-baffle-si-liniare': '/images/products/tavane-tip-baffle-si-liniare.jpg',
+};
+
+// Imagine default pentru produse și categorii
+export const DEFAULT_PRODUCT_IMAGE = '/images/products/tavane-metalice.jpg';
+export const DEFAULT_CATEGORY_IMAGE = '/images/products/tavane-metalice.jpg';
+
+/**
+ * Returnează o imagine cu fallback pentru o categorie
+ */
+export function getCategoryImage(categorySlug: string | undefined | null): string {
+  if (!categorySlug) return DEFAULT_CATEGORY_IMAGE;
+  return CATEGORY_IMAGES[categorySlug] || DEFAULT_CATEGORY_IMAGE;
+}
+
+/**
+ * Returnează o imagine cu fallback pentru un produs
+ */
+export function getProductImage(
+  productImage: string | undefined | null,
+  categorySlug: string | undefined | null
+): string {
+  if (productImage) return productImage;
+  return getCategoryImage(categorySlug);
+}
+
+/**
+ * Returnează un array de imagini cu fallback pentru un produs
+ */
+export function getProductImages(
+  productImages: string[] | undefined | null,
+  categorySlug: string | undefined | null
+): string[] {
+  if (productImages && productImages.length > 0) {
+    return productImages;
+  }
+  const fallbackImage = getCategoryImage(categorySlug);
+  return [fallbackImage];
+}
 

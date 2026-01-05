@@ -1,0 +1,568 @@
+{
+  "metadata": {
+    "totalPages": 70,
+    "extractionMethod": "pdfplumber"
+  },
+  "pages": [
+    {
+      "pageNumber": 1,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 2,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 3,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 4,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 5,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 6,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 7,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 8,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 9,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 10,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 11,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 12,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 13,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 14,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 15,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 16,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 17,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 18,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 19,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 20,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 21,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 22,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 23,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 24,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 25,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 26,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 27,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 28,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 29,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 30,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 31,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 32,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 33,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 34,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 35,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 36,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 37,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 38,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 39,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 40,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 41,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 42,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 43,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 44,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 45,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 46,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 47,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 48,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 49,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 50,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 51,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 52,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 53,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 54,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 55,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 56,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 57,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 58,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 59,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 60,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 61,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 62,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 63,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 64,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 65,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 66,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 67,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 68,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 69,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    },
+    {
+      "pageNumber": 70,
+      "text": "",
+      "hasTables": false,
+      "tables": [],
+      "hasImages": true,
+      "imageCount": 1
+    }
+  ]
+}

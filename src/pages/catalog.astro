@@ -1,0 +1,72 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import Button from '@/components/ui/Button.astro';
+---
+
+<Layout 
+  title="Catalog Produse - Prosista România"
+  description="Descarcă catalogul complet de produse Prosista: tavane metalice, tavane din lemn, panouri acustice, profile și sisteme purtătoare."
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title="Catalog Produse"
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Catalog' }
+    ]}
+  />
+  
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="max-w-4xl mx-auto text-center mb-12">
+        <p class="text-xl text-secondary-600 mb-8">
+          Descoperă gama completă de soluții Prosista pentru tavane suspendate, panouri acustice, sisteme purtătoare și
+          profile pentru gips-carton, într-un singur catalog tehnic.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <Button 
+            href="/catalog_prosista.pdf" 
+            target="_blank"
+            variant="primary"
+            size="lg"
+          >
+            Descarcă Catalog PDF
+          </Button>
+        </div>
+      </div>
+      
+      <div class="max-w-4xl mx-auto">
+        <div class="bg-white rounded-lg shadow-lg p-8 mb-8">
+          <h2 class="text-2xl font-semibold mb-4">Despre catalog</h2>
+          <div class="prose max-w-none">
+            <p>
+              Catalogul conține informații detaliate despre fiecare tip de tavan metalic, sisteme open cell, tavane din plasă
+              expandată, soluții acustice pentru lână minerală și lână de lemn, precum și panouri din gips cu vinil și
+              profile metalice pentru gips-carton.
+            </p>
+            <p>
+              Pentru fiecare sistem sunt prezentate secțiuni cu descriere, domenii de utilizare, exemple de configurații
+              și soluții acustice, astfel încât să poți alege rapid varianta potrivită pentru proiectul tău.
+            </p>
+          </div>
+        </div>
+        
+        <div class="bg-gray-100 rounded-lg p-4">
+          <iframe 
+            src="/catalog_prosista.pdf" 
+            class="w-full h-[600px] border-0"
+            title="Catalog Produse Prosista"
+          ></iframe>
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>
+
+
+
+

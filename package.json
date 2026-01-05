@@ -7,15 +7,18 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "deploy": "node deploy.js",
     "astro": "astro"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",
+    "@vitalets/google-translate-api": "^9.2.1",
     "astro": "^5.16.6",
     "tailwindcss": "^3.4.0"
   },
   "devDependencies": {
     "@types/node": "^20.10.0",
+    "basic-ftp": "^5.1.0",
     "typescript": "^5.3.0"
   }
 }

@@ -1,5 +1,7 @@
 # Ghid de Deployment - Prosista România
 
+**Domeniu:** prosista.infora.agency
+
 ## 📋 Pași pentru Deployment pe cPanel
 
 ### 1. Build Local

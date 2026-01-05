@@ -28,7 +28,7 @@ import navigation from '@/data/navigation.json';
           </button>
           
           <!-- Dropdown Menu -->
-          <div class="absolute top-full left-1/2 transform -translate-x-1/2 mt-2 pt-2 w-64 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none group-hover:pointer-events-auto">
+          <div class="dropdown-menu absolute top-full left-1/2 transform -translate-x-1/2 w-64 bg-white rounded-lg shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pointer-events-none group-hover:pointer-events-auto">
             <div class="py-2">
               {navigation.products.map(cat => (
                 <a href={cat.href} class="dropdown-item block px-4 py-2 text-sm uppercase hover:bg-primary-50 transition-colors duration-200" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(6, 59, 139);">
@@ -39,7 +39,9 @@ import navigation from '@/data/navigation.json';
           </div>
         </div>
         
-        <a href="#referinte" class="nav-link uppercase">REFERINȚE</a>
+        <a href="/#referinte" class="nav-link uppercase">REFERINȚE</a>
+        
+        <a href="/catalog" class="nav-link uppercase">CATALOG</a>
         
         <a href="/contact" class="nav-link uppercase">CONTACT</a>
       </div>
@@ -84,7 +86,9 @@ import navigation from '@/data/navigation.json';
         </div>
       </div>
       
-      <a href="#referinte" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">REFERINȚE</a>
+      <a href="/#referinte" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">REFERINȚE</a>
+      
+      <a href="/catalog" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">CATALOG</a>
       
       <a href="/contact" class="block uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: rgb(219, 20, 21);">CONTACT</a>
       
@@ -183,6 +187,22 @@ import navigation from '@/data/navigation.json';
   /* Dropdown menu hover effects */
   #navbar .group:hover .absolute {
     animation: fadeInDown 0.3s ease-out;
+  }
+  
+  /* Create invisible bridge between button and dropdown */
+  .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    height: 8px;
+    background: transparent;
+  }
+  
+  /* Add top spacing to dropdown */
+  .dropdown-menu {
+    margin-top: 8px;
   }
   
   @keyframes fadeInDown {

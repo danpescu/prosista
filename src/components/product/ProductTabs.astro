@@ -1,0 +1,27 @@
+---
+interface Props {
+  specs?: Array<{ label: string; value: string }>;
+  hasDrawing?: boolean;
+  hasDataSheet?: boolean;
+  drawingPdf?: string;
+  datasheetPdf?: string;
+}
+
+const { specs = [], hasDrawing = false, hasDataSheet = false, drawingPdf = '', datasheetPdf = '' } = Astro.props;
+---
+
+<div class="product-info mb-8">
+  <!-- Specifications Section -->
+  {specs.length > 0 && (
+    <div class="mb-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        {specs.map(spec => (
+          <div class="border-b border-secondary-200 pb-3">
+            <dt class="text-sm font-medium text-secondary-500" style="font-family: Arial, sans-serif;">{spec.label}</dt>
+            <dd class="mt-1 text-sm text-secondary-900" style="font-family: Arial, sans-serif;">{spec.value}</dd>
+          </div>
+        ))}
+      </div>
+    </div>
+  )}
+</div>

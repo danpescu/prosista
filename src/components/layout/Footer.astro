@@ -67,34 +67,34 @@ const currentYear = new Date().getFullYear();
         
         <!-- Contact Info -->
         <div class="space-y-2">
-          <p class="text-white" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px;">București, România</p>
-          <p class="text-white" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px;">România</p>
-          <p class="text-white" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px;">+40 444 5 772</p>
-          <p class="text-white" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px;">prosista.ro</p>
+          <p class="text-white" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px;">Com Bucov, sat Pleasa, str Dimitrie Cantemir, nr.311, jud Prahova cod 107113</p>
+          <p class="text-white" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px;">0723 643 578</p>
+          <p class="text-white" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px;">office@prosista.ro</p>
         </div>
       </div>
       
       <!-- Column 2: MENU -->
       <div>
-        <h3 class="mb-4 uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: white;">
+        <h3 class="mb-4 uppercase" style="font-family: Arial, sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: white;">
           MENU
         </h3>
         <ul class="space-y-2">
           <li><a href="/" class="footer-link">ACASĂ</a></li>
           <li><a href="#despre" class="footer-link">DESPRE NOI</a></li>
           <li><a href="/produse" class="footer-link">PRODUSE</a></li>
-          <li><a href="#referinte" class="footer-link">REFERINȚE</a></li>
+          <li><a href="/#referinte" class="footer-link">REFERINȚE</a></li>
           <li><a href="/contact" class="footer-link">CONTACTEAZĂ-NE</a></li>
+          <li><a href="/catalog" class="footer-link">CATALOG PRODUSE</a></li>
         </ul>
       </div>
       
       <!-- Column 3: PRODUCT CATEGORIES -->
       <div>
-        <h3 class="mb-4 uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: white;">
+        <h3 class="mb-4 uppercase" style="font-family: Arial, sans-serif; font-weight: 700; font-size: 14px; line-height: 24px; color: white;">
           CATEGORII PRODUSE
         </h3>
         <ul class="space-y-2">
-          {navigation.products.slice(0, 6).map(cat => (
+          {navigation.products.map(cat => (
             <li>
               <a href={cat.href} class="footer-link uppercase">{cat.name.toUpperCase()}</a>
             </li>
@@ -110,7 +110,7 @@ const currentYear = new Date().getFullYear();
   <!-- Floating Social Media Bar (Right Side) -->
   <div class="fixed right-4 bottom-32 z-50 hidden lg:flex flex-col space-y-2">
     <a 
-      href="https://wa.me/404445772" 
+      href="https://wa.me/40723643578" 
       target="_blank" 
       rel="noopener noreferrer"
       class="w-10 h-10 rounded bg-green-500 hover:bg-green-600 flex items-center justify-center transition-all duration-200 shadow-md"
@@ -157,12 +157,12 @@ const currentYear = new Date().getFullYear();
   <div class="border-t border-white/10">
     <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 py-6">
       <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-        <div class="flex flex-wrap gap-4 text-sm" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px;">
+        <div class="flex flex-wrap gap-4 text-sm" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px;">
           <a href="/politica-confidentialitate" class="hover:underline text-white">Politica Cookie</a>
           <a href="/termeni-conditii" class="hover:underline text-white">Termeni de Utilizare</a>
           <a href="/politica-confidentialitate" class="hover:underline text-white">Politica de Confidențialitate</a>
         </div>
-        <p class="text-sm" style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 14px; line-height: 24px; color: white;">
+        <p class="text-sm" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 24px; color: white;">
           PROSISTA ©{currentYear} - Toate Drepturile Rezervate.
         </p>
       </div>
@@ -173,8 +173,8 @@ const currentYear = new Date().getFullYear();
 <style>
   .footer-link {
     @apply transition-all duration-200;
-    font-family: 'Mulish', sans-serif;
-    font-weight: 500;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     color: white;

@@ -1,19 +1,25 @@
 ---
+import { getProductImage, DEFAULT_PRODUCT_IMAGE } from '@/utils/constants';
+
 interface Props {
   name: string;
   image: string;
   category?: string;
+  categorySlug?: string;
 }
 
-const { name, image, category } = Astro.props;
+const { name, image, category, categorySlug } = Astro.props;
+const productImage = getProductImage(image, categorySlug);
+const defaultImage = DEFAULT_PRODUCT_IMAGE;
 ---
 
 <section class="relative h-[400px] md:h-[500px] flex items-center">
   <div class="absolute inset-0 z-0">
     <img 
-      src={image} 
+      src={productImage} 
       alt={name}
       class="w-full h-full object-cover"
+      onerror={`this.src='${defaultImage}'; this.onerror=null;`}
     />
     <div class="absolute inset-0 bg-gradient-to-r from-secondary-900/80 to-secondary-900/60"></div>
   </div>

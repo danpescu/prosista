@@ -6,7 +6,7 @@ import Container from '@/components/ui/Container.astro';
 import Section from '@/components/ui/Section.astro';
 ---
 
-<Section id="produse" padding="lg">
+<Section id="produse" padding="lg" class="bg-secondary-50">
   <Container>
     <div class="text-center mb-12">
       <!-- Title with red horizontal line BEFORE -->
@@ -22,15 +22,22 @@ import Section from '@/components/ui/Section.astro';
       </p>
     </div>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
       {products.categories.map(category => (
         <ProductCard
           name={category.name}
           description={category.description}
           image={category.image}
-          href={category.slug === 'vezi-referinte' ? '#referinte' : `/produse/${category.slug}`}
+          href={`/categorii/${category.slug}`}
         />
       ))}
+      <!-- Catalog Card -->
+      <ProductCard
+        name="Catalog"
+        description="Descarcă catalogul complet de produse"
+        image="/images/page-title-bg.jpg"
+        href="/catalog"
+      />
     </div>
   </Container>
 </Section>

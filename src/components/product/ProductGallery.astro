@@ -1,56 +1,162 @@
 ---
+import { getProductImages, DEFAULT_PRODUCT_IMAGE } from '@/utils/constants';
+
 interface Props {
   images: string[];
+  categorySlug?: string;
 }
 
-const { images } = Astro.props;
+const { images, categorySlug } = Astro.props;
+const validImages = getProductImages(images, categorySlug);
+const hasMultipleImages = validImages.length > 1;
+const defaultImage = DEFAULT_PRODUCT_IMAGE;
 ---
 
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-  {images.map((image, index) => (
-    <div class="relative overflow-hidden rounded-lg group cursor-pointer transform hover:-translate-y-1 transition-all duration-300 shadow-md hover:shadow-xl">
-      <img 
-        src={image} 
-        alt={`Imagine ${index + 1}`}
-        class="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500 ease-out"
-        data-gallery-image={index}
-        loading="lazy"
-      />
-      <div class="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-      <div class="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM10 7v3m0 0v3m0-3h3m-3 0H7"/>
+<div class="product-gallery-container">
+  {hasMultipleImages ? (
+    <!-- Slider for multiple images -->
+    <div class="relative">
+      <div class="product-gallery-slider overflow-hidden">
+        <div class="product-gallery-track flex transition-transform duration-300 ease-in-out" id="gallery-track">
+          {validImages.map((image, index) => (
+            <div class="product-gallery-slide flex-shrink-0 w-full">
+              <img 
+                src={image} 
+                alt={`Imagine ${index + 1}`}
+                class="w-full h-auto object-cover"
+                loading={index === 0 ? "eager" : "lazy"}
+                onerror={`this.src='${defaultImage}'; this.onerror=null;`}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+      
+      <!-- Navigation arrows -->
+      <button 
+        class="product-gallery-prev absolute left-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all z-10"
+        id="gallery-prev"
+        aria-label="Imaginea anterioară"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
         </svg>
+      </button>
+      <button 
+        class="product-gallery-next absolute right-4 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white text-gray-800 p-2 rounded-full shadow-lg transition-all z-10"
+        id="gallery-next"
+        aria-label="Imaginea următoare"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+        </svg>
+      </button>
+      
+      <!-- Dots indicator -->
+      <div class="flex justify-center gap-2 mt-4" id="gallery-dots">
+        {validImages.map((_, index) => (
+          <button 
+            class={`gallery-dot w-2 h-2 rounded-full transition-all ${index === 0 ? 'bg-primary-600' : 'bg-gray-300'}`}
+            data-slide={index}
+            aria-label={`Mergi la imaginea ${index + 1}`}
+          ></button>
+        ))}
       </div>
     </div>
-  ))}
+  ) : (
+    <!-- Single image -->
+    <div class="relative">
+      <img 
+        src={validImages[0]} 
+        alt="Imagine produs"
+        class="w-full h-auto object-cover"
+        loading="eager"
+        onerror={`this.src='${defaultImage}'; this.onerror=null;`}
+      />
+    </div>
+  )}
 </div>
 
-<script>
-  // Simple lightbox functionality
-  const images = document.querySelectorAll('[data-gallery-image]');
-  
-  images.forEach(img => {
-    img.addEventListener('click', () => {
-      const lightbox = document.createElement('div');
-      lightbox.className = 'fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4';
-      lightbox.innerHTML = `
-        <img src="${img.src}" alt="${img.alt}" class="max-w-full max-h-full object-contain">
-        <button class="absolute top-4 right-4 text-white text-4xl hover:text-gray-300">&times;</button>
-      `;
+{hasMultipleImages && (
+  <script define:vars={{ hasMultipleImages }}>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (!hasMultipleImages) return;
       
-      document.body.appendChild(lightbox);
+      let currentSlide = 0;
+      const track = document.getElementById('gallery-track');
+      const slides = track?.querySelectorAll('.product-gallery-slide');
+      const totalSlides = slides?.length || 0;
+      const prevBtn = document.getElementById('gallery-prev');
+      const nextBtn = document.getElementById('gallery-next');
+      const dots = document.querySelectorAll('.gallery-dot');
       
-      lightbox.querySelector('button')?.addEventListener('click', () => {
-        lightbox.remove();
+      if (!track || totalSlides === 0) return;
+      
+      function updateSlider() {
+        const offset = -currentSlide * 100;
+        track.style.transform = `translateX(${offset}%)`;
+        
+        // Update dots
+        dots.forEach((dot, index) => {
+          if (index === currentSlide) {
+            dot.classList.remove('bg-gray-300');
+            dot.classList.add('bg-primary-600');
+          } else {
+            dot.classList.remove('bg-primary-600');
+            dot.classList.add('bg-gray-300');
+          }
+        });
+      }
+      
+      prevBtn?.addEventListener('click', () => {
+        currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+        updateSlider();
       });
       
-      lightbox.addEventListener('click', (e) => {
-        if (e.target === lightbox) {
-          lightbox.remove();
-        }
+      nextBtn?.addEventListener('click', () => {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateSlider();
+      });
+      
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          currentSlide = index;
+          updateSlider();
+        });
       });
     });
-  });
-</script>
+  </script>
+)}
+
+<style>
+  .product-gallery-container {
+    position: relative;
+  }
+  
+  .product-gallery-slider {
+    position: relative;
+    width: 100%;
+  }
+  
+  .product-gallery-track {
+    display: flex;
+    width: 100%;
+  }
+  
+  .product-gallery-slide {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+  .product-gallery-prev,
+  .product-gallery-next {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .product-gallery-container:hover .product-gallery-prev,
+  .product-gallery-container:hover .product-gallery-next {
+    opacity: 1;
+  }
+</style>
 

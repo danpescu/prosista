@@ -1,20 +1,26 @@
 ---
+import { getCategoryImage, DEFAULT_CATEGORY_IMAGE } from '@/utils/constants';
+
 interface Props {
   title: string;
   breadcrumbs: Array<{ name: string; href?: string }>;
   backgroundImage?: string;
+  categorySlug?: string;
 }
 
-const { title, breadcrumbs, backgroundImage } = Astro.props;
+const { title, breadcrumbs, backgroundImage, categorySlug } = Astro.props;
+const heroImage = backgroundImage || getCategoryImage(categorySlug);
+const defaultImage = DEFAULT_CATEGORY_IMAGE;
 ---
 
 <section class="relative bg-primary-900 text-white py-32 md:py-40 lg:py-48">
   <!-- Background Image -->
   <div class="absolute inset-0 z-0">
     <img 
-      src="/images/page-title-bg.jpg" 
+      src={heroImage} 
       alt={title}
       class="w-full h-full object-cover"
+      onerror={`this.src='${defaultImage}'; this.onerror=null;`}
     />
     <div class="absolute inset-0 bg-primary-900/70"></div>
   </div>
@@ -28,22 +34,22 @@ const { title, breadcrumbs, backgroundImage } = Astro.props;
       
       <!-- Breadcrumbs - Below title, Mulish 700, 12px, line-height 20px, red -->
       <nav aria-label="Breadcrumb">
-        <ol class="flex items-center space-x-2">
+        <ol class="flex items-center space-x-2" style="line-height: 20px;">
           {breadcrumbs.map((item, index) => (
-            <li class="flex items-center">
+            <li class="flex items-center" style="line-height: 20px; height: 20px;">
               {index > 0 && (
-                <span class="mx-2" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21);">—</span>
+                <span class="mx-2" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21); height: 20px; display: flex; align-items: center;">—</span>
               )}
               {item.href ? (
                 <a 
                   href={item.href} 
                   class="hover:opacity-80 transition-opacity uppercase"
-                  style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21);"
+                  style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(219, 20, 21); height: 20px; display: flex; align-items: center;"
                 >
                   {item.name}
                 </a>
               ) : (
-                <span class="uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(255, 255, 255);">
+                <span class="uppercase" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 12px; line-height: 20px; color: rgb(255, 255, 255); height: 20px; display: flex; align-items: center;">
                   {item.name}
                 </span>
               )}

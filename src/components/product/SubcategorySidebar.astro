@@ -1,0 +1,114 @@
+---
+interface Props {
+  currentSubcategoryId: string;
+  subcategories: Array<{
+    id: string;
+    name: string;
+    slug: string;
+  }>;
+  categorySlug: string;
+}
+
+const { currentSubcategoryId, subcategories, categorySlug } = Astro.props;
+---
+
+<aside class="w-full lg:w-[400px] flex-shrink-0 mb-8 lg:mb-0">
+  <div class="bg-secondary-100 p-6">
+    <!-- Title with red line BEFORE -->
+    <div class="mb-6 flex items-center gap-3">
+      <div class="h-0.5 w-8 bg-accent-600"></div>
+      <h3 class="text-sm md:text-base font-bold uppercase tracking-wider" style="font-family: 'Mulish', sans-serif; font-weight: 700; font-size: 19px; line-height: 23px; color: rgb(6, 59, 139);">
+        ALTE CATEGORII
+      </h3>
+    </div>
+    
+    <ul class="space-y-2">
+      {subcategories.map(subcat => (
+        <li>
+          <a 
+            href={`/produse/${categorySlug}/${subcat.slug}`}
+            class={`sidebar-subcategory-link flex items-center justify-between py-3 px-4 border transition-all duration-200 ${
+              currentSubcategoryId === subcat.id
+                ? 'bg-primary-600 text-white border-primary-600'
+                : 'bg-white border-secondary-300 text-secondary-700 hover:bg-accent-600 hover:text-white hover:border-accent-600'
+            }`}
+            style="font-family: 'Mulish', sans-serif; font-weight: 500; font-size: 16px; line-height: 27px;"
+          >
+            <span class="sidebar-link-text">{subcat.name}</span>
+            <svg class="w-5 h-5 flex-shrink-0 ml-2 sidebar-link-arrow" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+            </svg>
+          </a>
+        </li>
+      ))}
+      
+      <!-- REFERINȚE Button - Blue -->
+      <li class="pt-4 mt-4">
+        <a 
+          href="/#referinte"
+          class="sidebar-references-btn flex items-center justify-between py-3 px-4 bg-primary-600 text-white transition-all duration-200 relative overflow-hidden"
+          style="font-family: Arial, sans-serif; font-weight: 700; font-size: 14px; line-height: 24px;"
+        >
+          <span class="button-overlay-references absolute inset-0 bg-accent-600"></span>
+          <span class="relative z-10 flex items-center">
+            REFERINȚE
+          </span>
+          <svg class="w-5 h-5 flex-shrink-0 ml-2 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </li>
+      
+      <!-- BACK Button - Red -->
+      <li>
+        <a 
+          href={`/produse/${categorySlug}`}
+          class="flex items-center justify-between py-3 px-4 bg-accent-600 text-white hover:bg-accent-700 transition-all duration-200"
+          style="font-family: Arial, sans-serif; font-weight: 700; font-size: 14px; line-height: 24px;"
+        >
+          <span class="flex items-center">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+            </svg>
+            ÎNAPOI
+          </span>
+          <svg class="w-5 h-5 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </li>
+    </ul>
+  </div>
+</aside>
+
+<style>
+  .sidebar-subcategory-link:hover .sidebar-link-text {
+    color: white !important;
+  }
+  
+  .sidebar-subcategory-link:hover .sidebar-link-arrow {
+    color: white !important;
+    transform: translateX(4px);
+    transition: transform 0.2s ease-out;
+  }
+  
+  .sidebar-subcategory-link .sidebar-link-arrow {
+    transition: transform 0.2s ease-out;
+  }
+  
+  /* References button overlay animation */
+  .button-overlay-references {
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 0.4s ease-out;
+  }
+  
+  .sidebar-references-btn:hover .button-overlay-references {
+    clip-path: inset(0% 0 0 0%);
+  }
+  
+  .sidebar-references-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+</style>
+

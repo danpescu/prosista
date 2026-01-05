@@ -25,7 +25,7 @@ import { CONTACT_INFO } from '@/utils/constants';
             
             <!-- Phone Number -->
             <div class="mb-6">
-              <p class="text-4xl md:text-5xl font-bold mb-4">444 5 772</p>
+              <p class="text-4xl md:text-5xl font-bold mb-4">0723 643 578</p>
             </div>
             
             <!-- Call to Action Text -->
@@ -55,6 +55,9 @@ import { CONTACT_INFO } from '@/utils/constants';
               <span>CERE OFERTĂ</span>
             </h2>
           </div>
+          
+          <!-- Success/Error Message -->
+          <div id="form-message-home" class="hidden mb-6 p-4 rounded-lg"></div>
           
           <form 
             action="/send-email.php" 
@@ -101,7 +104,7 @@ import { CONTACT_INFO } from '@/utils/constants';
                 id="phone" 
                 name="phone"
                 required
-                placeholder="(ex. 5555555555)"
+                placeholder="072........."
                 class="w-full px-4 py-3 border border-secondary-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 text-secondary-900"
               />
             </div>
@@ -172,14 +175,45 @@ import { CONTACT_INFO } from '@/utils/constants';
         body: formData,
       });
       
-      if (response.ok) {
-        alert('Mesajul a fost trimis cu succes! Vă vom contacta în cel mai scurt timp.');
+      let result;
+      try {
+        const text = await response.text();
+        result = text ? JSON.parse(text) : { success: false, message: 'Răspuns invalid de la server' };
+      } catch (parseError) {
+        result = { success: false, message: 'Eroare la procesarea răspunsului serverului' };
+      }
+      
+      const messageDiv = document.getElementById('form-message-home');
+      
+      if (result.success) {
+        messageDiv.className = 'mb-6 p-4 rounded-lg bg-green-100 border border-green-400 text-green-700';
+        messageDiv.textContent = result.message || 'Mesajul a fost trimis cu succes! Vă vom contacta în cel mai scurt timp.';
+        messageDiv.classList.remove('hidden');
         form.reset();
+        
+        // Scroll to message
+        messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        
+        // Hide message after 5 seconds
+        setTimeout(() => {
+          messageDiv.classList.add('hidden');
+        }, 5000);
       } else {
-        alert('A apărut o eroare. Vă rugăm să încercați din nou sau să ne contactați direct.');
+        messageDiv.className = 'mb-6 p-4 rounded-lg bg-red-100 border border-red-400 text-red-700';
+        messageDiv.textContent = result.message || 'A apărut o eroare. Vă rugăm să încercați din nou sau să ne contactați direct.';
+        messageDiv.classList.remove('hidden');
+        
+        // Scroll to message
+        messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
       }
     } catch (error) {
-      alert('A apărut o eroare. Vă rugăm să ne contactați direct.');
+      const messageDiv = document.getElementById('form-message-home');
+      messageDiv.className = 'mb-6 p-4 rounded-lg bg-red-100 border border-red-400 text-red-700';
+      messageDiv.textContent = 'A apărut o eroare de conexiune. Vă rugăm să verificați conexiunea la internet și să încercați din nou.';
+      messageDiv.classList.remove('hidden');
+      
+      // Scroll to message
+      messageDiv.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
     } finally {
       if (submitButton) {
         submitButton.textContent = originalText || 'Trimite Mesaj';

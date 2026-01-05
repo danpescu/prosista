@@ -1,0 +1,2396 @@
+{
+  "categories": [
+    {
+      "id": "metal-ceiling-systems",
+      "name": "Sisteme de tavane metalice",
+      "slug": "sisteme-de-tavane-metalice",
+      "parent_id": null,
+      "description": "Sisteme de tavane metalice - Soluții profesionale.",
+      "image": "/images/products/sisteme-de-tavane-metalice.jpg",
+      "meta_title": "Sisteme de tavane metalice – PROSISTA",
+      "meta_description": "Sisteme de tavane metalice - PROSISTA"
+    },
+    {
+      "id": "wooden-ceiling-and-wall-systems",
+      "name": "Sisteme din lemn pentru tavan si perete",
+      "slug": "sisteme-din-lemn-pentru-tavan-si-perete",
+      "parent_id": null,
+      "description": "Sisteme din lemn pentru tavan si perete - Soluții profesionale.",
+      "image": "/images/products/sisteme-din-lemn-pentru-tavan-si-perete.jpg",
+      "meta_title": "Sisteme din lemn pentru tavan si perete – PROSISTA",
+      "meta_description": "Sisteme din lemn pentru tavan si perete - PROSISTA"
+    },
+    {
+      "id": "fabric-covered-acoustic-panels",
+      "name": "Panouri acustice placate cu material textil",
+      "slug": "panouri-acustice-placate-cu-material-textil",
+      "parent_id": null,
+      "description": "Panouri acustice placate cu material textil - Soluții profesionale.",
+      "image": "/images/products/panouri-acustice-placate-cu-material-textil.jpg",
+      "meta_title": "Panouri acustice placate cu material textil – PROSISTA",
+      "meta_description": "Panouri acustice placate cu material textil - PROSISTA"
+    },
+    {
+      "id": "mineral-wool-panels",
+      "name": "Panouri din vata minerala",
+      "slug": "panouri-din-vata-minerala",
+      "parent_id": null,
+      "description": "Panouri din vata minerala - Soluții profesionale.",
+      "image": "/images/products/panouri-din-vata-minerala.jpg",
+      "meta_title": "Panouri din vata minerala – PROSISTA",
+      "meta_description": "Panouri din vata minerala - PROSISTA"
+    },
+    {
+      "id": "wood-wool-panels",
+      "name": "Panouri din lana de lemn",
+      "slug": "panouri-din-lana-de-lemn",
+      "parent_id": null,
+      "description": "Panouri din lana de lemn - Soluții profesionale.",
+      "image": "/images/products/panouri-din-lana-de-lemn.jpg",
+      "meta_title": "Panouri din lana de lemn – PROSISTA",
+      "meta_description": "Panouri din lana de lemn - PROSISTA"
+    },
+    {
+      "id": "carrier-systems",
+      "name": "Sisteme de sustinere",
+      "slug": "sisteme-de-sustinere",
+      "parent_id": null,
+      "description": "Sisteme de sustinere - Soluții profesionale.",
+      "image": "/images/products/sisteme-de-sustinere.jpg",
+      "meta_title": "Sisteme de sustinere – PROSISTA",
+      "meta_description": "Sisteme de sustinere - PROSISTA"
+    },
+    {
+      "id": "vinyl-coated-gypsum-panel",
+      "name": "Panouri din gips-carton placate cu vinil",
+      "slug": "panouri-din-gips-carton-placate-cu-vinil",
+      "parent_id": null,
+      "description": "Panouri din gips-carton placate cu vinil - Soluții profesionale.",
+      "image": "/images/products/panouri-din-gips-carton-placate-cu-vinil.jpg",
+      "meta_title": "Panouri din gips-carton placate cu vinil – PROSISTA",
+      "meta_description": "Panouri din gips-carton placate cu vinil - PROSISTA"
+    },
+    {
+      "id": "gypsum-panel-profiles",
+      "name": "Profile pentru panouri din gips-carton",
+      "slug": "profile-pentru-panouri-din-gips-carton",
+      "parent_id": null,
+      "description": "Profile pentru panouri din gips-carton - Soluții profesionale.",
+      "image": "/images/products/profile-pentru-panouri-din-gips-carton.jpg",
+      "meta_title": "Profile pentru panouri din gips-carton – PROSISTA",
+      "meta_description": "Profile pentru panouri din gips-carton - PROSISTA"
+    }
+  ],
+  "products": [
+    {
+      "id": "srvvh5i7tsj",
+      "name": "Tavan tip baffle",
+      "name_en": "Baffle Ceiling",
+      "slug": "tavan-tip-baffle",
+      "slug_en": "baffle-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Baffle suspended ceiling systems are decorative products that provide design freedom. They are preferred in architectural solutions by combining aesthetics and functionality. Due to their versatility, they have a wide range of applications across various sectors and can be used in both indoor and outdoor spaces. Baffle suspended ceiling systems can be utilized in offices, workspaces, shopping malls, stores, restaurants, cafes, airports, train stations, metro stations, concert halls, theaters, conference rooms, hotels, and many other areas. They enhance the decorative appearance of a space without reducing its volume. Features of Clipped Bent Baffle Ceiling System: Baffle suspended ceiling profiles can be manufactured using galvanized steel or aluminum, with a minimum width of 20 mm and heights ranging from 30 to 300 mm. Installation and, when necessary, disassembly are easy with the special spring-clipped carrier. (Our special spring-clipped carrier is protected by patent number TR 2021 014785 Y.) The spring carrier dampens vibrations and oscillations, increasing safety during disasters such as earthquakes and fires. Perforations can be applied to baffle profiles based on acoustic requirements. Acoustic fabric and/or glass wool/rock wool can be incorporated inside. The baffle ceiling system can be produced with the desired spacing between axes. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors or wood-look finishes are also available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan.jpg",
+        "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-2.jpg",
+        "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-3.jpg",
+        "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-4.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/tirnakli-bukum-baffle-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan tip baffle – PROSISTA",
+      "meta_description": "Tavan tip baffle - PROSISTA"
+    },
+    {
+      "id": "zow17k7hpo",
+      "name": "Tavan tip baffle extrudat",
+      "name_en": "Extruded Baffle Ceiling",
+      "slug": "tavan-tip-baffle-extrudat",
+      "slug_en": "extruded-baffle-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Extruded Baffle systems are decorative suspended ceiling solutions that offer design freedom. They are preferred in architectural applications by combining aesthetics and functionality. With their versatility, they have a wide range of uses across various sectors and can be applied in both indoor and outdoor environments. These systems can be utilized in offices, workspaces, shopping malls, stores, restaurants, cafes, airports, train stations, metro stations, concert halls, theaters, conference rooms, hotels, and many other areas. They provide a decorative appearance without reducing the volume of the space. Features of Extruded Baffle: Aluminum profiles can be produced in standard rectangular sizes of 30×100 mm, 50×100 mm, 30×150 mm, 50×150 mm, or in tubular shapes with diameters of 50 mm or 75 mm, or in custom cross-sections up to 6 meters in length. The 10 mm spaced holes on the PROSİSTA Z carrier profiles allow for installation at any desired axial spacing. They can be electrostatically powder-coated in any RAL color or finished with a wood-look transfer coating. If slotted Z carriers are used, they facilitate easy installation and disassembly, providing quick access to utilities.",
+      "main_image": "https://www.prosista.com/u/i/urunler/ekstruzyon-baffle.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/ekstruzyon-baffle.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/ekstruzyon-baffle-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan tip baffle extrudat – PROSISTA",
+      "meta_description": "Tavan tip baffle extrudat - PROSISTA"
+    },
+    {
+      "id": "f8rttvkzqe6",
+      "name": "Tavan tip baffle vectorial",
+      "name_en": "Vectoral Baffle Ceiling",
+      "slug": "tavan-tip-baffle-vectorial",
+      "slug_en": "vectoral-baffle-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Vectoral Baffle Ceilings feature a pendant design. This characteristic breaks the flat and plain appearance of the ceiling, adding aesthetic and functional variety to the space's design. When used in high-ceiling environments, it reduces the perceived overall dimensions of the space, creating a warmer and more inviting atmosphere. Particularly preferred in cafes, shopping malls, and similar venues, it provides a modern appearance and ambiance. Features of Vectoral Baffle Ceilings: Vectoral Baffle Ceilings can be manufactured in various sizes and dimensions using aluminum or galvanized steel. Vectoral Baffle Ceilings profiles are locked into a clipped carrier system connected to the L carrier profile. Easy to install and disassemble. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors or wood-look finishes are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/vektorel-baffle-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/vektorel-baffle-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/vektorel-baffle-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan tip baffle vectorial – PROSISTA",
+      "meta_description": "Tavan tip baffle vectorial - PROSISTA"
+    },
+    {
+      "id": "fo9y7ugzudt",
+      "name": "Baffle decorativ de perete",
+      "name_en": "Wall Baffle",
+      "slug": "baffle-decorativ-de-perete",
+      "slug_en": "wall-baffle",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Wall baffle ceiling systems are a design solution that offers design freedom and stands out as a decorative product. Thanks to its concealed carrier system, this system can be used on walls without visible carriers. This feature provides a clean and elegant aesthetic appearance. It can also be used as a separator in projects when desired. It is a special wall solution designed to bring the aesthetic appeal of ceilings to walls. Wall baffle systems can be preferred in offices, workspaces, shopping malls, stores, restaurants, cafes, airports, train stations, metro stations, concert halls, theaters, conference rooms, hotels, and many other areas. Features of Wall Baffle System: Wall baffle profiles can be manufactured using galvanized steel or aluminum, with a minimum width of 20 mm and heights ranging from 30 to 300 mm. Can be produced in any desired size, length, and color. Integrated solutions with decorative lighting can be implemented. Contributes to the acoustics of the environment. Baffle panels can be installed with customizable axial spacing based on the project and can be produced as perforated, non-perforated, with or without acoustic fabric, or filled with glass wool or rock wool. Wall baffle system with easy installation using the PROSİSTA special concealed carrier. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors or wood-look finishes are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/duvar-baffle.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/duvar-baffle.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/duvar-baffle-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Baffle decorativ de perete – PROSISTA",
+      "meta_description": "Baffle decorativ de perete - PROSISTA"
+    },
+    {
+      "id": "2m6m31rxq11",
+      "name": "Tavan multipanel",
+      "name_en": "Multipanel Ceiling",
+      "slug": "tavan-multipanel",
+      "slug_en": "multipanel-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Multipanel ceiling systems are products with a wide range of applications, offering unique design flexibility, functionality, and aesthetically rich solutions. This system is created by combining linear panels of varying widths and depths, consisting of carriers suspended on the horizontal axis and U-shaped bent panels attached to the carriers on the vertical axis. When used in large spaces such as wide corridors, airport terminals, shopping malls, and large offices, it provides an excellent aesthetic appearance. Features of Multipanel Ceiling System: Multipanel ceilings can be manufactured in various sizes using aluminum or galvanized steel. Panels are mounted by locking onto a clipped carrier. Different gap alternatives between panels are possible. Provides a multilayered aesthetic appearance for various design and acoustic needs. Can be perforated. Standard colors are RAL 9016, 9005, 7016, and wood-look finishes are available.",
+      "main_image": "https://www.prosista.com/u/i/urunler/multipanel-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/multipanel-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/multipanel-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan multipanel – PROSISTA",
+      "meta_description": "Tavan multipanel - PROSISTA"
+    },
+    {
+      "id": "crbgfgacl4",
+      "name": "Tavan liniar tip F",
+      "name_en": "F Linear Ceiling",
+      "slug": "tavan-liniar-tip-f",
+      "slug_en": "f-linear-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "F Linear Ceilings provide a decorative appearance without reducing the volume of the space. They are a commonly preferred ceiling model for outdoor applications, particularly in fuel stations. Additionally, they are used in shopping malls and public institutions. Features of F Linear Ceilings: F Linear Ceilings can be manufactured in desired lengths using aluminum or galvanized steel. Panels are locked onto a clipped carrier to form a linear ceiling plane. Perforation is possible. Standard color is RAL 9016. Can also be painted in any desired RAL color or finished with a wood-look appearance.",
+      "main_image": "https://www.prosista.com/u/i/urunler/dogrusal-f-tavanlar.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/dogrusal-f-tavanlar.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/dogrusal-f-tavanlar-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Baffle / Linear Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan liniar tip F – PROSISTA",
+      "meta_description": "Tavan liniar tip F - PROSISTA"
+    },
+    {
+      "id": "ykusl701cg",
+      "name": "Tavan open cell autoportant",
+      "name_en": "Self Carrying Open Cell Ceiling",
+      "slug": "tavan-open-cell-autoportant",
+      "slug_en": "self-carrying-open-cell-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Self-Carrying Open Cell Ceilings, combining elegant design with superior functionality, are an essential element of modern architecture. They offer unique solutions in various projects such as offices, hotels, shopping malls, and art galleries. This ceiling system does not require an additional carrier structure. It partially covers the original ceiling, creating a decorative appearance while allowing the desired amount of the ceiling to remain visible. Features of Self-Carrying Open Cell Ceilings: Easy to access, can be comfortably removed and reinstalled. Does not obstruct air circulation. Packaged in a disassembled state, making storage and transportation easy and cost-effective. Being self-carrying, it provides a seamless, monolithic appearance on the ceiling. Can be produced in cell sizes of 50×50, 60×60, 75×75, 86×86, 100×100, 120×120, 150×150, 200×200, 300×300, or custom dimensions. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors or wood-look finishes are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/kendinden-tasiyicili-petek-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/kendinden-tasiyicili-petek-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/kendinden-tasiyicili-petek-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Open Cell Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan open cell autoportant – PROSISTA",
+      "meta_description": "Tavan open cell autoportant - PROSISTA"
+    },
+    {
+      "id": "o2f59wrzzpg",
+      "name": "Tavan open cell T15",
+      "name_en": "T15 Open Cell Ceiling",
+      "slug": "tavan-open-cell-t15",
+      "slug_en": "t15-open-cell-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "T15 Open Cell Ceilings, offering design freedom, can be easily preferred in various settings such as hospitals, offices, industrial facilities, airports, metro stations, banks, hotels, shopping malls, and sports centers. Features of T15 Open Cell Ceiling System: An open cell ceiling model compatible with the T15 carrier system. Can be manufactured using aluminum or galvanized steel. Easy to access, can be comfortably removed and reinstalled. Does not obstruct air circulation. Packaged in an assembled state, providing ease of application. Can be produced in cell sizes of 50×50, 60×60, 75×75, 86×86, 100×100, 120×120, 150×150, 200×200, 300×300, or custom dimensions. Standard colors are RAL 9016, 9005, and 7016. Can be painted in any desired RAL color.",
+      "main_image": "https://www.prosista.com/u/i/urunler/t-15-petek-tavan.jpeg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/t-15-petek-tavan.jpeg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/t15-petek-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Open Cell Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan open cell T15 – PROSISTA",
+      "meta_description": "Tavan open cell T15 - PROSISTA"
+    },
+    {
+      "id": "w00noop6q1",
+      "name": "Tavan open cell piramidal",
+      "name_en": "Pyramid Open Cell Ceiling",
+      "slug": "tavan-open-cell-piramidal",
+      "slug_en": "pyramid-open-cell-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Pyramid Open Cell ceilings add a modern and stylish ambiance to interior spaces with various design and color options. They also enhance sound insulation, providing noise control. They are particularly significant in high-noise environments such as offices, conference rooms, and restaurants. Features of Pyramid Open Cell Ceiling System: The self-carrying Pyramid Open Cell ceiling system offers a bold alternative to standard appearances. Contributes to acoustic performance through perforations and a triangular form that widens towards the back. Easy to access, can be comfortably removed and reinstalled. Does not obstruct air circulation. Packaged in a disassembled state, making storage and transportation economical. Can be produced in cell sizes of 150×150, 200×200, and 300×300, or in custom dimensions. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors or wood-look finishes are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/piramit-petek-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/piramit-petek-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/piramit-petek-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Open Cell Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan open cell piramidal – PROSISTA",
+      "meta_description": "Tavan open cell piramidal - PROSISTA"
+    },
+    {
+      "id": "l6p1fdo70f",
+      "name": "Tavan open cell lamelar",
+      "name_en": "Lamina Open Cell Ceiling",
+      "slug": "tavan-open-cell-lamelar",
+      "slug_en": "lamina-open-cell-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Lamina Open Cell ceilings are products that stand out for their perfect blend of aesthetic design and acoustic performance. These ceilings provide effective sound insulation, isolating the environment from noise, while also creating a visually appealing atmosphere. Features of Lamina Open Cell Ceiling System: Made from aluminum or galvanized steel, Lamina Open Cell stands out for its elegant and aesthetic appeal. A ceiling system with a high ability to create a dense grid on the ceiling, concealing the background. Its modular system and openable panel feature provide easy access and intervention to the ceiling background. Does not obstruct air circulation. Can be perforated. Standard colors are RAL 9016, 9005, and 7016. Other RAL colors are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/lamina-petek-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/lamina-petek-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/lamina-petek-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Open Cell Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan open cell lamelar – PROSISTA",
+      "meta_description": "Tavan open cell lamelar - PROSISTA"
+    },
+    {
+      "id": "t8rhstm9tb9",
+      "name": "Tavan din plasa expandata lay-in",
+      "name_en": "Lay In Mesh Ceiling",
+      "slug": "tavan-din-plasa-expandata-lay-in",
+      "slug_en": "lay-in-mesh-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Lay-In Mesh Suspended Ceiling System: Lay-in panels are dangled by hanging them 8 mm or 12 mm from T24 and T15 carriers. Available in various pitches and mesh opening sizes Can be painted in any desired RAL color using electrostatic powder coating. A seamless appearance can be achieved by welding the profile from below. Acoustic fabric can be applied to the flattened/ironed mesh option. The “Z” profile used at the edges conceals cut plates, creating a jointed ceiling appearance. Available in standard sizes of 600x600mm, 600x1200mm, or custom sizes, and can be manufactured from galvanized steel or aluminum based on preference.",
+      "main_image": "https://www.prosista.com/u/i/urunler/lay-in-mesh-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/lay-in-mesh-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Expanded Mesh Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan din plasa expandata lay-in – PROSISTA",
+      "meta_description": "Tavan din plasa expandata lay-in - PROSISTA"
+    },
+    {
+      "id": "007ddad469lng",
+      "name": "Tavan din plasa expandata lay-on",
+      "name_en": "Lay On Mesh Ceiling",
+      "slug": "tavan-din-plasa-expandata-lay-on",
+      "slug_en": "lay-on-mesh-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Lay-On Mesh Suspended Ceiling System: Applied by freely placing onto T24 or T15 carriers from above. In this system, the carriers are visible, creating a grid-like appearance on the ceiling. Available in various pitch and mesh opening sizes. Can be painted in any desired RAL color using electrostatic powder coating. A seamless appearance can be achieved by welding the profile from below. Acoustic fabric can be applied to the flattened/ironed mesh option. Available in standard sizes of 600x600mm, 300x300mm, 600x1200mm, or custom sizes, and can be manufactured from galvanized steel or aluminum based on preference.",
+      "main_image": "https://www.prosista.com/u/i/urunler/lay-on-mesh-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/lay-on-mesh-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Expanded Mesh Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan din plasa expandata lay-on – PROSISTA",
+      "meta_description": "Tavan din plasa expandata lay-on - PROSISTA"
+    },
+    {
+      "id": "jkfpcjazrri",
+      "name": "Tavan din plasa expandata hook-on",
+      "name_en": "Hook On Mesh Ceiling",
+      "slug": "tavan-din-plasa-expandata-hook-on",
+      "slug_en": "hook-on-mesh-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Hook-On Mesh Suspended Ceiling System: A concealed carrier suspended ceiling system is typically preferred for large-scale modulations. Available in various pitches and mesh opening sizes. Can be painted in any desired RAL color using electrostatic powder coating. A seamless appearance can be achieved by welding the profile from below. Acoustic fabric can be applied to the flattened/ironed mesh option. Available in standard sizes of 600x600mm, 600x1200mm, or custom sizes, and can be manufactured from galvanized steel or aluminum based on preference.",
+      "main_image": "https://www.prosista.com/u/i/urunler/hook-on-mesh-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/hook-on-mesh-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Expanded Mesh Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan din plasa expandata hook-on – PROSISTA",
+      "meta_description": "Tavan din plasa expandata hook-on - PROSISTA"
+    },
+    {
+      "id": "eu15zjbsmw",
+      "name": "Tavan suspendat clip-in",
+      "name_en": "Clip In Suspended Ceiling",
+      "slug": "tavan-suspendat-clip-in",
+      "slug_en": "clip-in-suspended-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Clip-In Suspended Ceiling System: Provides an aesthetic ceiling surface by concealing the carrier system using Clip-in Omega concealed carrier profiles. Manufactured from aluminum or galvanized steel in sizes such as 600×600, 300×300, or 600×1200 mm, and in various thicknesses. Coated with electrostatic powder paint with a minimum thickness of 70 microns. Can have perforated or smooth surfaces. Acoustic fabric can be applied to perforated panels.",
+      "main_image": "https://www.prosista.com/u/i/urunler/clip-in-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/clip-in-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/clip-in-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Cassette Type Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan suspendat clip-in – PROSISTA",
+      "meta_description": "Tavan suspendat clip-in - PROSISTA"
+    },
+    {
+      "id": "ifvb9ugwtu",
+      "name": "Tavan suspendat lay-on",
+      "name_en": "Lay On Suspended Ceiling",
+      "slug": "tavan-suspendat-lay-on",
+      "slug_en": "lay-on-suspended-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Lay-On Suspended Ceiling System: Applied by freely placing onto T24 or T15 carriers from above. In this system, the carriers are visible, creating a grid-like appearance on the ceiling. Made from corrosion-resistant galvanized steel or aluminum in sizes such as 600×600, 300×300, 600×1200 mm, available in any desired RAL color or with a wood-look finish. Can have perforated or smooth surfaces. Acoustic fabric can be applied to perforated panels.",
+      "main_image": "https://www.prosista.com/u/i/urunler/lay-on-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/lay-on-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/lay-on-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Cassette Type Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan suspendat lay-on – PROSISTA",
+      "meta_description": "Tavan suspendat lay-on - PROSISTA"
+    },
+    {
+      "id": "ntercpcezg8",
+      "name": "Tavan suspendat lay-in",
+      "name_en": "Lay In Suspended Ceiling",
+      "slug": "tavan-suspendat-lay-in",
+      "slug_en": "lay-in-suspended-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Lay-In Suspended Ceiling System: Lay-in panels are suspended 8 mm or 12 mm from T24 and T15 carriers, creating an elegant shadow effect on the carrier. The “Z” profile used at the edges conceals cut plates, resulting in a jointed ceiling appearance. Can be manufactured from galvanized steel or aluminum in various sizes, perforations, and colors based on preference. Can have perforated or smooth surfaces. Acoustic fabric can be applied to perforated panels.",
+      "main_image": "https://www.prosista.com/u/i/urunler/lay-in-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/lay-in-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/lay-in-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Cassette Type Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan suspendat lay-in – PROSISTA",
+      "meta_description": "Tavan suspendat lay-in - PROSISTA"
+    },
+    {
+      "id": "h8vxmqbckvm",
+      "name": "Tavan suspendat hook-on",
+      "name_en": "Hook On Suspended Ceiling",
+      "slug": "tavan-suspendat-hook-on",
+      "slug_en": "hook-on-suspended-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of Hook-On Suspended Ceiling System: A concealed carrier suspended ceiling system is typically preferred for large-scale modulations. Can be easily accessed when needed. Perforated or mesh panels in various sizes can be used. Can have perforated or smooth surfaces. Can be painted in all RAL colors.",
+      "main_image": "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hook-on-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Linear Plank Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan suspendat hook-on – PROSISTA",
+      "meta_description": "Tavan suspendat hook-on - PROSISTA"
+    },
+    {
+      "id": "gy6y9qm5knt",
+      "name": "Tavan tip coridor hook-on",
+      "name_en": "Hook-on Corridor Ceiling",
+      "slug": "tavan-tip-coridor-hook-on",
+      "slug_en": "hook-on-corridor-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Hook-On Corridor Ceiling Features: Can be sized to suit the dimensions of the space where it will be used. Can be easily installed and dismantled. Hook-on bends on the panel are produced interlocking. This system can be applied to mesh, perforated metal, or non-perforated metal panels. Offers the possibility of application with a wall connection piece.",
+      "main_image": "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hook-on-asma-tavan-teknik-foy.pdf"
+      ],
+      "category": "Metal Ceiling Systems",
+      "subcategory": "Linear Plank Ceiling",
+      "categories": [
+        "metal-ceiling-systems"
+      ],
+      "meta_title": "Tavan tip coridor hook-on – PROSISTA",
+      "meta_description": "Tavan tip coridor hook-on - PROSISTA"
+    },
+    {
+      "id": "upky11ztry",
+      "name": "Baffle din lemn",
+      "name_en": "Wooden Baffle",
+      "slug": "baffle-din-lemn",
+      "slug_en": "wooden-baffle",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "A preferred option in spaces seeking aesthetics and design flexibility. The natural and warm appearance of wood, combined with durability, makes this ceiling system a long-lasting and impressive decorative solution. The acoustic wooden baffle product provides excellent sound performance in concert halls, offices, conference rooms, and ballrooms. Features of Wooden Baffle System: Can be made from natural wood or MDF with wood veneer, slatted, or painted in any desired color with lacquer. Flame-retardant wood varnish can be applied. If a slotted Z carrier is used, it facilitates easy installation and disassembly, providing quick access to utilities.",
+      "main_image": "https://www.prosista.com/u/i/urunler/ahsap-baffle.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/ahsap-baffle.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/ahsap-baffle-teknik-foy.pdf"
+      ],
+      "category": "Wooden Ceiling and Wall",
+      "subcategory": "",
+      "categories": [
+        "wooden-ceiling-and-wall-systems"
+      ],
+      "meta_title": "Baffle din lemn – PROSISTA",
+      "meta_description": "Baffle din lemn - PROSISTA"
+    },
+    {
+      "id": "2fcx19o32uu",
+      "name": "Tavan acustic din lemn",
+      "name_en": "Acoustic Wood Ceiling",
+      "slug": "tavan-acustic-din-lemn",
+      "slug_en": "acoustic-wood-ceiling",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Acoustic Wood Ceilings provide a natural appearance in spaces such as offices, showrooms, and lobbies, adding warmth and naturalness to the environment. Perforated wood panels, with various perforation types, offer medium to high sound absorption performance. This makes them an ideal choice for commercial spaces requiring high acoustic or aesthetic performance. Features of Acoustic Wood Ceiling System: Decorative ceiling panels in various sizes that combine the naturalness of wood with perforation options and high acoustic properties. Compatible with T24, T15, and concealed carrier systems, available with lay-on or suspended edge details. In addition to standard perforation options, custom perforation and channel types can also be applied. Border options are flexible and can be produced according to preference. LAY-ON, SUSPENDED, AND CONCEALED CARRIER WOODEN PANELS All acoustic wooden ceiling panels can be manufactured and applied to suit T24 / T15 / concealed carrier systems.",
+      "main_image": "https://www.prosista.com/u/i/urunler/akustik-ahsap-tavan.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/akustik-ahsap-tavan.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/akustik-ahsap-tavan-teknik-foy.pdf"
+      ],
+      "category": "Wooden Ceiling and Wall",
+      "subcategory": "",
+      "categories": [
+        "wooden-ceiling-and-wall-systems"
+      ],
+      "meta_title": "Tavan acustic din lemn – PROSISTA",
+      "meta_description": "Tavan acustic din lemn - PROSISTA"
+    },
+    {
+      "id": "7vyfgge58b8",
+      "name": "Perete acustic din lemn",
+      "name_en": "Acoustic Wood Wall",
+      "slug": "perete-acustic-din-lemn",
+      "slug_en": "acoustic-wood-wall",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Tongue & Groove These panels are used to provide acoustic performance in interiors. They offer flat or perforated surface options and help control sound reflection and absorption. Easy to mount on walls. Connector Strip Acoustic wooden panels are assembled using connector strips placed between them. These strips must match the panel dimensions and required width. The maximum workable size is 1500×3000 mm. Custom sizes are available upon request.",
+      "main_image": "https://www.prosista.com/u/i/urunler/akustik-ahsap-duvar-panelleri.jpeg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/akustik-ahsap-duvar-panelleri.jpeg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/akustik-ahsap-duvar-panelleri-teknik-foy.pdf"
+      ],
+      "category": "Wooden Ceiling and Wall",
+      "subcategory": "",
+      "categories": [
+        "wooden-ceiling-and-wall-systems"
+      ],
+      "meta_title": "Perete acustic din lemn – PROSISTA",
+      "meta_description": "Perete acustic din lemn - PROSISTA"
+    },
+    {
+      "id": "q3hddqbffr",
+      "name": "Baffle acustic din vata minerala",
+      "name_en": "Acoustic Glass Wool Baffle",
+      "slug": "baffle-acustic-din-vata-minerala",
+      "slug_en": "acoustic-glass-wool-baffle",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Acoustic Glass Wool Baffles are acoustic regulation panels that provide sound insulation while offering an elegant appearance. These panels are used to address issues such as reverberation, echo, and sound absorption in various environments. With their sound-blocking properties, they absorb sound waves, reducing reflected sound energy. When used with a proper placement plan and sufficient Acoustic Glass Wool Baffles, they maximize the noise reduction coefficient, offering an effective solution. They are ideal for libraries, cafes, open offices, restaurants, meeting rooms, airports, gyms, shopping malls, exhibition centers, conference halls, amphitheaters, cafeterias, and many other spaces. Acoustic Glass Wool Baffles can also be applied to walls with decorative, colorful, and varied model options. Since it is applied by hanging it on the ceiling, it adds depth to the space and increases aesthetics. Features of Acoustic Glass Wool Baffle System: Acoustic panels are formed by reinforcing the edges of glass wool panels, which vary in thickness from 20 mm to 100 mm, and covering them with fabric or glass mesh. Floating panels provide a controlled sound distribution while ensuring a linear integrity on the ceilings at the same time. The panels meet acoustic performance expectations with an NRC 0,80-1,00 range. The desired colors can also be produced specifically for the Project",
+      "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-baffle.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-baffle.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-baffle-teknik-foy.pdf"
+      ],
+      "category": "Fabric Covered Acoustic Panels",
+      "subcategory": "",
+      "categories": [
+        "fabric-covered-acoustic-panels"
+      ],
+      "meta_title": "Baffle acustic din vata minerala – PROSISTA",
+      "meta_description": "Baffle acustic din vata minerala - PROSISTA"
+    },
+    {
+      "id": "nvp62ta2e",
+      "name": "Panou acustic suspendat tip canopy",
+      "name_en": "Acoustic Glass Wool Canopy",
+      "slug": "panou-acustic-suspendat-tip-canopy",
+      "slug_en": "acoustic-glass-wool-canopy",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Acoustic glass wool canopy systems are used in workplaces, shopping malls, gyms, meeting rooms, libraries, call centers, and factories where acoustic issues are present. The system facilitates communication in a comfortable environment. In such spaces, it is crucial for reducing intense sound absorption and creating a more comfortable working environment. Available in various sizes, shapes, and colors, these options provide solutions tailored to the specific design needs of the space. Features of Acoustic Glass Wool Canopy System: Horizontal acoustic panels are created by reinforcing the four edges of glass wool panels, ranging from 40 mm to 100 mm in thickness, and covering them with fabric or glass mesh. Floating ceilings enhance acoustic performance in the space with high absorption while providing a decorative appearance. With an NRC range of 0.80-1.00, these panels meet acoustic performance expectations. Custom production in desired colors can be made for specific projects.",
+      "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-kanopi.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-kanopi.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-kanopi-teknik-foy.pdf"
+      ],
+      "category": "Fabric Covered Acoustic Panels",
+      "subcategory": "",
+      "categories": [
+        "fabric-covered-acoustic-panels"
+      ],
+      "meta_title": "Panou acustic suspendat tip canopy – PROSISTA",
+      "meta_description": "Panou acustic suspendat tip canopy - PROSISTA"
+    },
+    {
+      "id": "phwe1rl0p0m",
+      "name": "Panouri acustice din vata minerala pentru perete",
+      "name_en": "Glass Wool Wall Panels",
+      "slug": "panouri-acustice-din-vata-minerala-pentru-perete",
+      "slug_en": "glass-wool-wall-panels",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Glass wool wall panels are frequently preferred in environments such as sound studios, recording rooms, and music rooms. They can also be used in homes, offices, or industrial facilities. Glass wool wall panels contribute to creating a peaceful environment with their practicality, visual appeal, and high sound insulation performance. Available in various sizes, shapes, and colors, these options provide solutions tailored to the specific design needs of the space. Features of Glass Wool Wall Panels: Acoustic wall panels are created by reinforcing the four edges of 95 kg/m³ glass wool panels, ranging from 20 mm to 100 mm in thickness, and covering them with fabric or glass mesh. Acoustic wall panels are high-performance Class A sound absorbers and are easy to apply. They absorb sound in the environment, ensuring optimal sound transmission. Custom production in desired colors can be made for specific projects.",
+      "main_image": "https://www.prosista.com/u/i/urunler/cam-yunu-duvar-panelleri.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/cam-yunu-duvar-panelleri.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/cam-yunu-duvar-panelleri-teknik-foy.pdf"
+      ],
+      "category": "Fabric Covered Acoustic Panels",
+      "subcategory": "",
+      "categories": [
+        "fabric-covered-acoustic-panels"
+      ],
+      "meta_title": "Panouri acustice din vata minerala pentru perete – PROSISTA",
+      "meta_description": "Panouri acustice din vata minerala pentru perete - PROSISTA"
+    },
+    {
+      "id": "cuea5kaiw9",
+      "name": "Panouri acustice din vata minerala pentru tavan",
+      "name_en": "Glass Wool Ceiling Panels",
+      "slug": "panouri-acustice-din-vata-minerala-pentru-tavan",
+      "slug_en": "glass-wool-ceiling-panels",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Acoustic glass wool ceiling panels provide solutions for sound control in indoor environments. When used in spaces such as cinemas, conference halls, offices, and hospitals, they contribute to the absorption of sound reflected from ceiling surfaces. This results in improved acoustic performance and a quieter environment. Features of Acoustic Glass Wool Ceiling Panels: Acoustic ceiling panels are created by reinforcing the four edges of glass wool panels with a density of 50–95 kg/m³ and thicknesses of 15 mm–20 mm, and covering the front surface with glass mesh. Acoustic panels are high-performance Class A sound-absorbing panels. Easy to apply. Absorbs sound in the environment, ensuring optimal sound transmission. Carrier systems such as T24, T15, channeled, or concealed systems can be used. Custom production in desired colors can be made for specific projects.",
+      "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-tavan-panelleri.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-tavan-panelleri.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-tavan-panelleri-teknik-foy.pdf"
+      ],
+      "category": "Fabric Covered Acoustic Panels",
+      "subcategory": "",
+      "categories": [
+        "fabric-covered-acoustic-panels"
+      ],
+      "meta_title": "Panouri acustice din vata minerala pentru tavan – PROSISTA",
+      "meta_description": "Panouri acustice din vata minerala pentru tavan - PROSISTA"
+    },
+    {
+      "id": "ioelk2sd6ro",
+      "name": "AMF ECOMİN Trento",
+      "name_en": "AMF ECOMİN Trento",
+      "slug": "amf-ecomi-n-trento",
+      "slug_en": "amf-ecomi-n-trento",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-trento.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-ecomin-trento.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-ecomin-trento-13mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-ecomin-trento-13mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF ECOMİN Trento – PROSISTA",
+      "meta_description": "AMF ECOMİN Trento - PROSISTA"
+    },
+    {
+      "id": "yevsy0jfymi",
+      "name": "AMF ECOMİN Orbit",
+      "name_en": "AMF ECOMİN Orbit",
+      "slug": "amf-ecomi-n-orbit",
+      "slug_en": "amf-ecomi-n-orbit",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-orbit.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-ecomin-orbit.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-ecomin-orbit-13mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-ecomin-orbit-13mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF ECOMİN Orbit – PROSISTA",
+      "meta_description": "AMF ECOMİN Orbit - PROSISTA"
+    },
+    {
+      "id": "i2dhnpth39r",
+      "name": "AMF THERMATEX Mercure",
+      "name_en": "AMF THERMATEX Mercure",
+      "slug": "amf-thermatex-mercure",
+      "slug_en": "amf-thermatex-mercure",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-mercure.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-mercure.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-mercure.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-mercure-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Mercure – PROSISTA",
+      "meta_description": "AMF THERMATEX Mercure - PROSISTA"
+    },
+    {
+      "id": "mwfp9omoko",
+      "name": "AMF ECOMİN Planet",
+      "name_en": "AMF ECOMİN Planet",
+      "slug": "amf-ecomi-n-planet",
+      "slug_en": "amf-ecomi-n-planet",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-planet.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-ecomin-planet.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-ecomin-planet-13mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-ecomin-planet-13mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF ECOMİN Planet – PROSISTA",
+      "meta_description": "AMF ECOMİN Planet - PROSISTA"
+    },
+    {
+      "id": "k3k5s6k55kn",
+      "name": "AMF THERMATEX Feinstratos",
+      "name_en": "AMF THERMATEX Feinstratos",
+      "slug": "amf-thermatex-feinstratos",
+      "slug_en": "amf-thermatex-feinstratos",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinstratos-15mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-feinstratos-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Feinstratos – PROSISTA",
+      "meta_description": "AMF THERMATEX Feinstratos - PROSISTA"
+    },
+    {
+      "id": "acpe9ujopat",
+      "name": "AMF THERMATEX Feinstratos Micro",
+      "name_en": "AMF THERMATEX Feinstratos Micro",
+      "slug": "amf-thermatex-feinstratos-micro",
+      "slug_en": "amf-thermatex-feinstratos-micro",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos-micro-15mm.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos-micro-15mm.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinstratos-micro-15mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-feinstratos-micro-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Feinstratos Micro – PROSISTA",
+      "meta_description": "AMF THERMATEX Feinstratos Micro - PROSISTA"
+    },
+    {
+      "id": "2gunuf7g7b7",
+      "name": "AMF THERMATEX Feinfresko",
+      "name_en": "AMF THERMATEX Feinfresko",
+      "slug": "amf-thermatex-feinfresko",
+      "slug_en": "amf-thermatex-feinfresko",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinfresko.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-feinfresko.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinfresko.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-feinfresko-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Feinfresko – PROSISTA",
+      "meta_description": "AMF THERMATEX Feinfresko - PROSISTA"
+    },
+    {
+      "id": "zchxdgonhy9",
+      "name": "Antaris C",
+      "name_en": "Antaris C",
+      "slug": "antaris-c",
+      "slug_en": "antaris-c",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/antaris-c.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/antaris-c.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/ds_knauf-ceiling-solutions_antaris-c_trpdf.pdf",
+        "https://prosista.com/u/d/data-sheet/antaris-c.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Antaris C – PROSISTA",
+      "meta_description": "Antaris C - PROSISTA"
+    },
+    {
+      "id": "wafe5ybph2",
+      "name": "AMF THERMATEX Thermofon",
+      "name_en": "AMF THERMATEX Thermofon",
+      "slug": "amf-thermatex-thermofon",
+      "slug_en": "amf-thermatex-thermofon",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-thermofon.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-thermofon.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/ds_amf_thermatex-thermofon.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-thermofon-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Thermofon – PROSISTA",
+      "meta_description": "AMF THERMATEX Thermofon - PROSISTA"
+    },
+    {
+      "id": "ydywk3l40tb",
+      "name": "AMF THERMATEX Alpha HD 19mm",
+      "name_en": "AMF THERMATEX Alpha HD 19mm",
+      "slug": "amf-thermatex-alpha-hd-19mm",
+      "slug_en": "amf-thermatex-alpha-hd-19mm",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-hd-19mm.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-hd-19mm.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-hd-19mm.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-hd-19mm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Alpha HD 19mm – PROSISTA",
+      "meta_description": "AMF THERMATEX Alpha HD 19mm - PROSISTA"
+    },
+    {
+      "id": "f8ixw6tbjvk",
+      "name": "AMF THERMATEX Alpha One",
+      "name_en": "AMF THERMATEX Alpha One",
+      "slug": "amf-thermatex-alpha-one",
+      "slug_en": "amf-thermatex-alpha-one",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-one.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-one.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-one.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-one.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Alpha One – PROSISTA",
+      "meta_description": "AMF THERMATEX Alpha One - PROSISTA"
+    },
+    {
+      "id": "p4a6g5osvf",
+      "name": "AMF THERMATEX Alpha",
+      "name_en": "AMF THERMATEX Alpha",
+      "slug": "amf-thermatex-alpha",
+      "slug_en": "amf-thermatex-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Alpha – PROSISTA",
+      "meta_description": "AMF THERMATEX Alpha - PROSISTA"
+    },
+    {
+      "id": "q1o93sqhhdm",
+      "name": "AMF THERMATEX Colour",
+      "name_en": "AMF THERMATEX Colour",
+      "slug": "amf-thermatex-colour",
+      "slug_en": "amf-thermatex-colour",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-colour.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-colour.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-colour.pdf",
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-colour-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF THERMATEX Colour – PROSISTA",
+      "meta_description": "AMF THERMATEX Colour - PROSISTA"
+    },
+    {
+      "id": "hetlbxhs75p",
+      "name": "ADAGIO Acoustic",
+      "name_en": "ADAGIO Acoustic",
+      "slug": "adagio-acoustic",
+      "slug_en": "adagio-acoustic",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-acoustic.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-acoustic.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-acoustic.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-acoustic+en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO Acoustic – PROSISTA",
+      "meta_description": "ADAGIO Acoustic - PROSISTA"
+    },
+    {
+      "id": "p65e8deoaxj",
+      "name": "ADAGIO Alpha",
+      "name_en": "ADAGIO Alpha",
+      "slug": "adagio-alpha",
+      "slug_en": "adagio-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-alpha.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-alpha.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-alpha+-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO Alpha – PROSISTA",
+      "meta_description": "ADAGIO Alpha - PROSISTA"
+    },
+    {
+      "id": "g1isbqz7ux5",
+      "name": "ADAGIO dB",
+      "name_en": "ADAGIO dB",
+      "slug": "adagio-db",
+      "slug_en": "adagio-db",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-db.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-db.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-db.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-db+-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO dB – PROSISTA",
+      "meta_description": "ADAGIO dB - PROSISTA"
+    },
+    {
+      "id": "vns6vo3tjuq",
+      "name": "ADAGIO HD 19mm",
+      "name_en": "ADAGIO HD 19mm",
+      "slug": "adagio-hd-19mm",
+      "slug_en": "adagio-hd-19mm",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-hd-19mm.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-hd+-19mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO HD 19mm – PROSISTA",
+      "meta_description": "ADAGIO HD 19mm - PROSISTA"
+    },
+    {
+      "id": "bs3a21jc1tm",
+      "name": "ADAGIO HD 30mm",
+      "name_en": "ADAGIO HD 30mm",
+      "slug": "adagio-hd-30mm",
+      "slug_en": "adagio-hd-30mm",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-hd-30mm.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-hd+-30mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO HD 30mm – PROSISTA",
+      "meta_description": "ADAGIO HD 30mm - PROSISTA"
+    },
+    {
+      "id": "5vnp3w4sgec",
+      "name": "ADAGIO HD 35mm",
+      "name_en": "ADAGIO HD 35mm",
+      "slug": "adagio-hd-35mm",
+      "slug_en": "adagio-hd-35mm",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/adagio-hd-35mm.pdf",
+        "https://prosista.com/u/d/data-sheet/adagio-hd+-35mm-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "ADAGIO HD 35mm – PROSISTA",
+      "meta_description": "ADAGIO HD 35mm - PROSISTA"
+    },
+    {
+      "id": "66a5do6xmch",
+      "name": "HYGENA Alpha",
+      "name_en": "HYGENA Alpha",
+      "slug": "hygena-alpha",
+      "slug_en": "hygena-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygena-alpha.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygena-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/hygena-alpha-en.pdf",
+        "https://prosista.com/u/d/data-sheet/hygena-alpha-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "HYGENA Alpha – PROSISTA",
+      "meta_description": "HYGENA Alpha - PROSISTA"
+    },
+    {
+      "id": "tog3jjpq87g",
+      "name": "HYGENA Aquatec",
+      "name_en": "HYGENA Aquatec",
+      "slug": "hygena-aquatec",
+      "slug_en": "hygena-aquatec",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygena-aquatec.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygena-aquatec.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/hygena-aquatec-en.pdf",
+        "https://prosista.com/u/d/data-sheet/hygena-aquatec-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "HYGENA Aquatec – PROSISTA",
+      "meta_description": "HYGENA Aquatec - PROSISTA"
+    },
+    {
+      "id": "mndnj76475",
+      "name": "HYGENA Plain",
+      "name_en": "HYGENA Plain",
+      "slug": "hygena-plain",
+      "slug_en": "hygena-plain",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "",
+      "images": [],
+      "pdfs": [
+        "https://prosista.com/u/d/data-sheet/hygena-plain-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "HYGENA Plain – PROSISTA",
+      "meta_description": "HYGENA Plain - PROSISTA"
+    },
+    {
+      "id": "moq77687h1d",
+      "name": "HYGENA Schlicht",
+      "name_en": "HYGENA Schlicht",
+      "slug": "hygena-schlicht",
+      "slug_en": "hygena-schlicht",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygena-schlict.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygena-schlict.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/hygena-schlicht-en.pdf",
+        "https://prosista.com/u/d/data-sheet/hygena-schlicht-en.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "HYGENA Schlicht – PROSISTA",
+      "meta_description": "HYGENA Schlicht - PROSISTA"
+    },
+    {
+      "id": "09k367k10apq",
+      "name": "AMF TOPIQ Efficient Pro",
+      "name_en": "AMF TOPIQ Efficient Pro",
+      "slug": "amf-topiq-efficient-pro",
+      "slug_en": "amf-topiq-efficient-pro",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "",
+      "images": [],
+      "pdfs": [
+        "https://prosista.com/u/d/data-sheet/amf-thermatex-topiq-efficient-pro.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF TOPIQ Efficient Pro – PROSISTA",
+      "meta_description": "AMF TOPIQ Efficient Pro - PROSISTA"
+    },
+    {
+      "id": "mbruy4goxh",
+      "name": "AMF TOPIQ Prime",
+      "name_en": "AMF TOPIQ Prime",
+      "slug": "amf-topiq-prime",
+      "slug_en": "amf-topiq-prime",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "",
+      "images": [],
+      "pdfs": [
+        "https://prosista.com/u/d/data-sheet/amf-topiq-prime.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Knauf AMF",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "AMF TOPIQ Prime – PROSISTA",
+      "meta_description": "AMF TOPIQ Prime - PROSISTA"
+    },
+    {
+      "id": "tldwkd6r19m",
+      "name": "Opta A",
+      "name_en": "Opta A",
+      "slug": "opta-a",
+      "slug_en": "opta-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/advantage-a-1.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/advantage-a-1.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/opta-a-tech-m360.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Opta A – PROSISTA",
+      "meta_description": "Opta A - PROSISTA"
+    },
+    {
+      "id": "s1yjzv470j8",
+      "name": "Opta E",
+      "name_en": "Opta E",
+      "slug": "opta-e",
+      "slug_en": "opta-e",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/advantage-e-1.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/advantage-e-1.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/opta-e-tech-m140.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Opta E – PROSISTA",
+      "meta_description": "Opta E - PROSISTA"
+    },
+    {
+      "id": "hzr5bo42u8g",
+      "name": "Focus A",
+      "name_en": "Focus A",
+      "slug": "focus-a",
+      "slug_en": "focus-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/focus-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/focus-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/focus-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Focus A – PROSISTA",
+      "meta_description": "Focus A - PROSISTA"
+    },
+    {
+      "id": "7omm2dvof2q",
+      "name": "Focus DG",
+      "name_en": "Focus DG",
+      "slug": "focus-dg",
+      "slug_en": "focus-dg",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/focus-dg.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/focus-dg.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/focus-dg-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Focus DG – PROSISTA",
+      "meta_description": "Focus DG - PROSISTA"
+    },
+    {
+      "id": "np62h6e9r4e",
+      "name": "Focus DS",
+      "name_en": "Focus DS",
+      "slug": "focus-ds",
+      "slug_en": "focus-ds",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/focus-ds.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/focus-ds.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/focus-ds-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Focus DS – PROSISTA",
+      "meta_description": "Focus DS - PROSISTA"
+    },
+    {
+      "id": "zg85z1yq8xd",
+      "name": "Focus E",
+      "name_en": "Focus E",
+      "slug": "focus-e",
+      "slug_en": "focus-e",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/focus-e.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/focus-e.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/focus-e-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Focus E – PROSISTA",
+      "meta_description": "Focus E - PROSISTA"
+    },
+    {
+      "id": "2ofn7tc6bsp",
+      "name": "Focus LP",
+      "name_en": "Focus LP",
+      "slug": "focus-lp",
+      "slug_en": "focus-lp",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/focus-lp.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/focus-lp.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/focus-lp-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Focus LP – PROSISTA",
+      "meta_description": "Focus LP - PROSISTA"
+    },
+    {
+      "id": "86cmfdpchsk",
+      "name": "Hygiene Clinic A",
+      "name_en": "Hygiene Clinic A",
+      "slug": "hygiene-clinic-a",
+      "slug_en": "hygiene-clinic-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-clinic-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-clinic-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-clinic-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Clinic A – PROSISTA",
+      "meta_description": "Hygiene Clinic A - PROSISTA"
+    },
+    {
+      "id": "tsybk8u420o",
+      "name": "Hygiene Clinic E",
+      "name_en": "Hygiene Clinic E",
+      "slug": "hygiene-clinic-e",
+      "slug_en": "hygiene-clinic-e",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-clinic-e.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-clinic-e.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-clinic-e-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Clinic E – PROSISTA",
+      "meta_description": "Hygiene Clinic E - PROSISTA"
+    },
+    {
+      "id": "dwspc6mcxxv",
+      "name": "Hygiene Performance A",
+      "name_en": "Hygiene Performance A",
+      "slug": "hygiene-performance-a",
+      "slug_en": "hygiene-performance-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance A – PROSISTA",
+      "meta_description": "Hygiene Performance A - PROSISTA"
+    },
+    {
+      "id": "kyexksqt4v",
+      "name": "Hygiene Performance B",
+      "name_en": "Hygiene Performance B",
+      "slug": "hygiene-performance-b",
+      "slug_en": "hygiene-performance-b",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-b.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-b.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-b-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance B – PROSISTA",
+      "meta_description": "Hygiene Performance B - PROSISTA"
+    },
+    {
+      "id": "be1aahna6t",
+      "name": "Hygiene Performance Baffle",
+      "name_en": "Hygiene Performance Baffle",
+      "slug": "hygiene-performance-baffle",
+      "slug_en": "hygiene-performance-baffle",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-baffle.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-baffle.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-baffle-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance Baffle – PROSISTA",
+      "meta_description": "Hygiene Performance Baffle - PROSISTA"
+    },
+    {
+      "id": "du7lkvytjv7",
+      "name": "Hygiene Performance Care Wall",
+      "name_en": "Hygiene Performance Care Wall",
+      "slug": "hygiene-performance-care-wall",
+      "slug_en": "hygiene-performance-care-wall",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-wall.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-wall.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-care-wall-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance Care Wall – PROSISTA",
+      "meta_description": "Hygiene Performance Care Wall - PROSISTA"
+    },
+    {
+      "id": "p0i5e871v8",
+      "name": "Hygiene Performance Ds",
+      "name_en": "Hygiene Performance Ds",
+      "slug": "hygiene-performance-ds",
+      "slug_en": "hygiene-performance-ds",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-ds.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-ds.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-ds-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance Ds – PROSISTA",
+      "meta_description": "Hygiene Performance Ds - PROSISTA"
+    },
+    {
+      "id": "x65dvjm7v4n",
+      "name": "Hygiene Performance Plus A",
+      "name_en": "Hygiene Performance Plus A",
+      "slug": "hygiene-performance-plus-a",
+      "slug_en": "hygiene-performance-plus-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-plus-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-plus-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-plus-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance Plus A – PROSISTA",
+      "meta_description": "Hygiene Performance Plus A - PROSISTA"
+    },
+    {
+      "id": "gbtrki64vn",
+      "name": "Hygiene Performance Wall",
+      "name_en": "Hygiene Performance Wall",
+      "slug": "hygiene-performance-wall",
+      "slug_en": "hygiene-performance-wall",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-care-wall.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/hygiene-performance-care-wall.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-wall-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Hygiene Performance Wall – PROSISTA",
+      "meta_description": "Hygiene Performance Wall - PROSISTA"
+    },
+    {
+      "id": "hgqrfhbumzn",
+      "name": "Advantage A",
+      "name_en": "Advantage A",
+      "slug": "advantage-a",
+      "slug_en": "advantage-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/opta-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/opta-a.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/advantage-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Advantage A – PROSISTA",
+      "meta_description": "Advantage A - PROSISTA"
+    },
+    {
+      "id": "1usm1fmeq4f",
+      "name": "Advantage E",
+      "name_en": "Advantage E",
+      "slug": "advantage-e",
+      "slug_en": "advantage-e",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/opta-e.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/opta-e.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/advantage-e-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Advantage E – PROSISTA",
+      "meta_description": "Advantage E - PROSISTA"
+    },
+    {
+      "id": "rqvj0xnhzvt",
+      "name": "Sombra A",
+      "name_en": "Sombra A",
+      "slug": "sombra-a",
+      "slug_en": "sombra-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/sombra-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/sombra-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/sombra-a-systempage.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Ecophon",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Sombra A – PROSISTA",
+      "meta_description": "Sombra A - PROSISTA"
+    },
+    {
+      "id": "ezo8kzly28p",
+      "name": "Minerval A12",
+      "name_en": "Minerval A12",
+      "slug": "minerval-a12",
+      "slug_en": "minerval-a12",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/minerval-a12.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/minerval-a12.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochureminervala12cm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Minerval A12 – PROSISTA",
+      "meta_description": "Minerval A12 - PROSISTA"
+    },
+    {
+      "id": "qcv3lic72q",
+      "name": "Minerval A15",
+      "name_en": "Minerval A15",
+      "slug": "minerval-a15",
+      "slug_en": "minerval-a15",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/minerval-a15.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/minerval-a15.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochureminervala15cm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Minerval A15 – PROSISTA",
+      "meta_description": "Minerval A15 - PROSISTA"
+    },
+    {
+      "id": "1bgl56n3j6l",
+      "name": "Tonga A22",
+      "name_en": "Tonga A22",
+      "slug": "tonga-a22",
+      "slug_en": "tonga-a22",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/tonga-a22.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/tonga-a22.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochuretongaa22cm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Tonga A22 – PROSISTA",
+      "meta_description": "Tonga A22 - PROSISTA"
+    },
+    {
+      "id": "ictayvecrhi",
+      "name": "Tonga Therm A",
+      "name_en": "Tonga Therm A",
+      "slug": "tonga-therm-a",
+      "slug_en": "tonga-therm-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/tonga-therm-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/tonga-therm-a.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochuretongathermacm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Tonga Therm A – PROSISTA",
+      "meta_description": "Tonga Therm A - PROSISTA"
+    },
+    {
+      "id": "r82p27gen6c",
+      "name": "Tonga DB 41 A",
+      "name_en": "Tonga DB 41 A",
+      "slug": "tonga-db-41-a",
+      "slug_en": "tonga-db-41-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/tonga-db-41a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/tonga-db-41a.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochuretongadb41acm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Tonga DB 41 A – PROSISTA",
+      "meta_description": "Tonga DB 41 A - PROSISTA"
+    },
+    {
+      "id": "tp2nlw5mkq",
+      "name": "Tonga DB 43 A",
+      "name_en": "Tonga DB 43 A",
+      "slug": "tonga-db-43-a",
+      "slug_en": "tonga-db-43-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/tonga-db-43-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/tonga-db-43-a.jpg"
+      ],
+      "pdfs": [
+        "https://prosista.com/u/d/teknik-foyler/productbrochuretongadb43acm.pdf"
+      ],
+      "category": "Mineral Wool Panels",
+      "subcategory": "Eurocoustic",
+      "categories": [
+        "mineral-wool-panels"
+      ],
+      "meta_title": "Tonga DB 43 A – PROSISTA",
+      "meta_description": "Tonga DB 43 A - PROSISTA"
+    },
+    {
+      "id": "bixo6b68c7e",
+      "name": "HERADESIGN® Fine",
+      "name_en": "HERADESIGN® Fine",
+      "slug": "heradesign-fine",
+      "slug_en": "heradesign-fine",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Fine_EN.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Fine – PROSISTA",
+      "meta_description": "HERADESIGN® Fine - PROSISTA"
+    },
+    {
+      "id": "icd3o8jckz",
+      "name": "HERADESIGN® Fine Alpha+",
+      "name_en": "HERADESIGN® Fine Alpha+",
+      "slug": "heradesign-fine-alpha",
+      "slug_en": "heradesign-fine-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-alpha.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Superfine_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-fine-alpha.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Fine Alpha+ – PROSISTA",
+      "meta_description": "HERADESIGN® Fine Alpha+ - PROSISTA"
+    },
+    {
+      "id": "885q33kyx1w",
+      "name": "HERADESIGN® Fine A2 Alpha+",
+      "name_en": "HERADESIGN® Fine A2 Alpha+",
+      "slug": "heradesign-fine-a2-alpha",
+      "slug_en": "heradesign-fine-a2-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-a2-alpha.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-a2-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Macro_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-fine-a2-alpha-plus.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Fine A2 Alpha+ – PROSISTA",
+      "meta_description": "HERADESIGN® Fine A2 Alpha+ - PROSISTA"
+    },
+    {
+      "id": "s4m1up5z3df",
+      "name": "HERADESIGN® Superfine Alpha",
+      "name_en": "HERADESIGN® Superfine Alpha",
+      "slug": "heradesign-superfine-alpha",
+      "slug_en": "heradesign-superfine-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-alpha.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-superfine-alpha.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Superfine Alpha – PROSISTA",
+      "meta_description": "HERADESIGN® Superfine Alpha - PROSISTA"
+    },
+    {
+      "id": "9w42a4wkfft",
+      "name": "HERADESIGN® Superfine A2 Alpha",
+      "name_en": "HERADESIGN® Superfine A2 Alpha",
+      "slug": "heradesign-superfine-a2-alpha",
+      "slug_en": "heradesign-superfine-a2-alpha",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-a2-alpha.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-a2-alpha.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element-Profile_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-superfine-a2-alpha-plus.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Superfine A2 Alpha – PROSISTA",
+      "meta_description": "HERADESIGN® Superfine A2 Alpha - PROSISTA"
+    },
+    {
+      "id": "xfsbvy1qyoc",
+      "name": "HERADESIGN® Macro",
+      "name_en": "HERADESIGN® Macro",
+      "slug": "heradesign-macro",
+      "slug_en": "heradesign-macro",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-macro.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-macro.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Sky-Element_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-macro.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Macro – PROSISTA",
+      "meta_description": "HERADESIGN® Macro - PROSISTA"
+    },
+    {
+      "id": "strdsz96ewp",
+      "name": "HERADESIGN® Baffle Element Arc Superfine",
+      "name_en": "HERADESIGN® Baffle Element Arc Superfine",
+      "slug": "heradesign-baffle-element-arc-superfine",
+      "slug_en": "heradesign-baffle-element-arc-superfine",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-arc-superfine.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-arc-superfine.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element-Arc_EN.pdf",
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element-arc.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Baffle Element Arc Superfine – PROSISTA",
+      "meta_description": "HERADESIGN® Baffle Element Arc Superfine - PROSISTA"
+    },
+    {
+      "id": "1uezx14sc5h",
+      "name": "HERADESIGN® Baffle Element Fine",
+      "name_en": "HERADESIGN® Baffle Element Fine",
+      "slug": "heradesign-baffle-element-fine",
+      "slug_en": "heradesign-baffle-element-fine",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-fine.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-fine.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Baffle Element Fine – PROSISTA",
+      "meta_description": "HERADESIGN® Baffle Element Fine - PROSISTA"
+    },
+    {
+      "id": "icj4dbgg9ir",
+      "name": "HERADESIGN® Baffle Element Profile Fine",
+      "name_en": "HERADESIGN® Baffle Element Profile Fine",
+      "slug": "heradesign-baffle-element-profile-fine",
+      "slug_en": "heradesign-baffle-element-profile-fine",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-profile-fine.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-profile-fine.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element-profile.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Baffle Element Profile Fine – PROSISTA",
+      "meta_description": "HERADESIGN® Baffle Element Profile Fine - PROSISTA"
+    },
+    {
+      "id": "e9tlg8tqryb",
+      "name": "HERADESIGN® Baffle Element Line Fine",
+      "name_en": "HERADESIGN® Baffle Element Line Fine",
+      "slug": "heradesign-baffle-element-line-fine",
+      "slug_en": "heradesign-baffle-element-line-fine",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-line-fine.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-line-fine.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-line.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Baffle Element Line Fine – PROSISTA",
+      "meta_description": "HERADESIGN® Baffle Element Line Fine - PROSISTA"
+    },
+    {
+      "id": "zdpafgkwjsd",
+      "name": "HERADESIGN® Sky Element",
+      "name_en": "HERADESIGN® Sky Element",
+      "slug": "heradesign-sky-element",
+      "slug_en": "heradesign-sky-element",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sky-element.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sky-element.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-sky-element.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Sky Element – PROSISTA",
+      "meta_description": "HERADESIGN® Sky Element - PROSISTA"
+    },
+    {
+      "id": "je9u3qiy3ph",
+      "name": "HERADESIGN® Sonic Element",
+      "name_en": "HERADESIGN® Sonic Element",
+      "slug": "heradesign-sonic-element",
+      "slug_en": "heradesign-sonic-element",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sonic-element.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sonic-element.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/heradesign-sonic-element.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Knauf Heradesign",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "HERADESIGN® Sonic Element – PROSISTA",
+      "meta_description": "HERADESIGN® Sonic Element - PROSISTA"
+    },
+    {
+      "id": "eaedqbea1y6",
+      "name": "Saga A",
+      "name_en": "Saga A",
+      "slug": "saga-a",
+      "slug_en": "saga-a",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/saga-a.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/saga-a.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/saga-a-systempage.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Ecophon Saga",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "Saga A – PROSISTA",
+      "meta_description": "Saga A - PROSISTA"
+    },
+    {
+      "id": "pwoyt6didv",
+      "name": "Saga B",
+      "name_en": "Saga B",
+      "slug": "saga-b",
+      "slug_en": "saga-b",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "",
+      "main_image": "https://prosista.com/u/i/kategoriler/saga-b.jpg",
+      "images": [
+        "https://prosista.com/u/i/kategoriler/saga-b.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/saga-b-systempage.pdf"
+      ],
+      "category": "Wood Wool Panels",
+      "subcategory": "Ecophon Saga",
+      "categories": [
+        "wood-wool-panels"
+      ],
+      "meta_title": "Saga B – PROSISTA",
+      "meta_description": "Saga B - PROSISTA"
+    },
+    {
+      "id": "pkcddgqqrci",
+      "name": "Sistem de sustinere T24",
+      "name_en": "T24 Carrier System",
+      "slug": "sistem-de-sustinere-t24",
+      "slug_en": "t24-carrier-system",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of T24 Carrier System: T24 carrier profiles undergo bending tests according to TSE - EN 13964 standard, and the deflection is less than 0.2 mm, thus complying with TSE EN norms. The locking system is specially designed. With special fire expansion gaps, the expanding structure prevents system collapse during a potential fire and ensures stability of the carrier system at high temperatures. Standard colors include RAL 9016 White, RAL 9005 Black, and RAL 7016 Anthracite Grey, or they can be painted in any desired RAL color. A wood-look option is also available.",
+      "main_image": "https://www.prosista.com/u/i/urunler/t24-tasiyici-sistem.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/t24-tasiyici-sistem.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+      ],
+      "category": "Carrier Systems",
+      "subcategory": "",
+      "categories": [
+        "carrier-systems"
+      ],
+      "meta_title": "Sistem de sustinere T24 – PROSISTA",
+      "meta_description": "Sistem de sustinere T24 - PROSISTA"
+    },
+    {
+      "id": "3grds6jeo7x",
+      "name": "Sistem de sustinere T15",
+      "name_en": "T15 Carrier System",
+      "slug": "sistem-de-sustinere-t15",
+      "slug_en": "t15-carrier-system",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Features of T15 Carrier System: T15 carrier profiles undergo bending tests according to TSE - EN 13964 standard, and the deflection is less than 0.2 mm, thus complying with TSE EN norms. The locking system is specially designed. With special fire expansion gaps, the expanding structure prevents system collapse during a potential fire and ensures stability of the carrier system at high temperatures. Standard colors include RAL 9016 White, RAL 9005 Black, and RAL 7016 Anthracite Grey, or they can be painted in any desired RAL color. A wood-look option is also available.",
+      "main_image": "https://www.prosista.com/u/i/urunler/t15-tasiyici-sistem.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/t15-tasiyici-sistem.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+      ],
+      "category": "Carrier Systems",
+      "subcategory": "",
+      "categories": [
+        "carrier-systems"
+      ],
+      "meta_title": "Sistem de sustinere T15 – PROSISTA",
+      "meta_description": "Sistem de sustinere T15 - PROSISTA"
+    },
+    {
+      "id": "r5k0em26wff",
+      "name": "Sistem de sustinere T15 cu canal",
+      "name_en": "T15 Channel Carrier System",
+      "slug": "sistem-de-sustinere-t15-cu-canal",
+      "slug_en": "t15-channel-carrier-system",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "T15 Channel Carrier System Features: T15 Channel Carrier profiles undergo bending tests according to TSE - EN 13964 standard, and the deflection is less than 0.2 mm, thus complying with TSE EN norms. The locking system is specially designed. With special fire expansion gaps, the expanding structure prevents system collapse during a potential fire and ensures stability of the carrier system at high temperatures. Allows the carrier and the channel inside it to be selected in different colors.",
+      "main_image": "https://www.prosista.com/u/i/urunler/t15-kanalli-tasiyici-sistem.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/t15-kanalli-tasiyici-sistem.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+      ],
+      "category": "Carrier Systems",
+      "subcategory": "",
+      "categories": [
+        "carrier-systems"
+      ],
+      "meta_title": "Sistem de sustinere T15 cu canal – PROSISTA",
+      "meta_description": "Sistem de sustinere T15 cu canal - PROSISTA"
+    },
+    {
+      "id": "gu5ukwscmx4",
+      "name": "Panou din gips-carton placat cu vinil",
+      "name_en": "Vinyl Coated Gypsum Panel",
+      "slug": "panou-din-gips-carton-placat-cu-vinil",
+      "slug_en": "vinyl-coated-gypsum-panel",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Vinyl Coated Gypsum Boards are a long-lasting, economical, and decorative solution. Vinyl Coated Gypsum Board Features: Available in smooth, patterned, white, or various color options. The foil applied to the back increases durability in humid environments. Stain-resistant and easily cleaned by wiping. Provides practical use by facilitating access to ventilation, lighting, and fire intervention systems.",
+      "main_image": "https://www.prosista.com/u/i/urunler/vinil-kapli-alci-panel.jpeg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/vinil-kapli-alci-panel.jpeg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/vinil-kapli-alci-panel-teknik-foy.pdf"
+      ],
+      "category": "Vinyl Coated Gypsum Panel",
+      "subcategory": "",
+      "categories": [
+        "vinyl-coated-gypsum-panel"
+      ],
+      "meta_title": "Panou din gips-carton placat cu vinil – PROSISTA",
+      "meta_description": "Panou din gips-carton placat cu vinil - PROSISTA"
+    },
+    {
+      "id": "i0051qpf2be",
+      "name": "Panou acustic din gips-carton placat cu vinil",
+      "name_en": "Vinyl Acoustic Panel",
+      "slug": "panou-acustic-din-gips-carton-placat-cu-vinil",
+      "slug_en": "vinyl-acoustic-panel",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Vinyl Laminated Acoustic Gypsum Panel Features: Available in standard panel sizes of 600×600 mm, 600×1200 mm, or custom dimensions, with perforation and color options. Can be 8 mm, 9.5 mm, or 12.5 mm in thickness. Can be chosen with vinyl coating, painted, or with an acoustic fabric backing.",
+      "main_image": "https://www.prosista.com/u/i/urunler/vinil-kapli-akustik-alci-panel.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/vinil-kapli-akustik-alci-panel.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/vinil-kapli-akustik-alci-tavan-panelleri-teknik-foy.pdf"
+      ],
+      "category": "Vinyl Coated Gypsum Panel",
+      "subcategory": "",
+      "categories": [
+        "vinyl-coated-gypsum-panel"
+      ],
+      "meta_title": "Panou acustic din gips-carton placat cu vinil – PROSISTA",
+      "meta_description": "Panou acustic din gips-carton placat cu vinil - PROSISTA"
+    },
+    {
+      "id": "ofjn4kr7uca",
+      "name": "Profile pentru panouri din gips-carton",
+      "name_en": "Gypsum Panel Profiles",
+      "slug": "profile-pentru-panouri-din-gips-carton",
+      "slug_en": "gypsum-panel-profiles",
+      "description": "",
+      "full_description_ro": "",
+      "full_description_en": "Gypsum Panel Profiles are essential components for gypsum board installations, providing structural support and finishing edges. These profiles ensure proper installation, alignment, and durability of gypsum board systems. Features of Gypsum Panel Profiles: Available in various standard sizes and configurations. Made from high-quality materials for long-lasting performance. Easy to install and compatible with standard gypsum board systems. Provides clean, professional finishes for interior applications.",
+      "main_image": "https://www.prosista.com/u/i/urunler/alci-levha-profilleri.jpg",
+      "images": [
+        "https://www.prosista.com/u/i/urunler/alci-levha-profilleri.jpg"
+      ],
+      "pdfs": [
+        "https://www.prosista.com/u/d/teknik-foyler/gypsum-panel-profiles-teknik-foy.pdf"
+      ],
+      "category": "Gypsum Panel Profiles",
+      "subcategory": "",
+      "categories": [
+        "gypsum-panel-profiles"
+      ],
+      "meta_title": "Profile pentru panouri din gips-carton – PROSISTA",
+      "meta_description": "Profile pentru panouri din gips-carton - PROSISTA"
+    }
+  ],
+  "metadata": {
+    "totalCategories": 8,
+    "totalProducts": 95,
+    "updatedAt": "2026-01-05T21:11:35.681Z"
+  }
+}

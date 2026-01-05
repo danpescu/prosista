@@ -1,0 +1,76 @@
+---
+---
+
+<div id="cookie-consent" class="cookie-consent hidden fixed bottom-0 left-0 right-0 z-50" style="background-color: #1a3b6a;">
+  <div class="w-full mx-auto px-4 sm:px-6 lg:px-8 xl:px-12 py-4 sm:py-5">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 md:gap-6">
+      <div class="flex-1">
+        <p class="text-white" style="font-family: Arial, sans-serif; font-weight: 400; font-size: 14px; line-height: 20px;">
+          Folosim cookie-uri pentru a îmbunătăți experiența de navigare, pentru a personaliza conținutul și reclamele, pentru a oferi funcționalități de rețele sociale și pentru a analiza traficul pe site. Poți afla mai multe despre modul de utilizare și control al cookie-urilor 
+          <a href="/politica-confidentialitate" class="text-white underline font-semibold hover:opacity-80">aici</a>. 
+          Continuarea navigării pe acest site reprezintă acordul tău pentru utilizarea cookie-urilor.
+        </p>
+      </div>
+      <div class="flex gap-3 flex-shrink-0">
+        <button
+          id="cookie-accept"
+          class="cookie-accept-btn px-6 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:opacity-90"
+          style="font-family: Arial, sans-serif; background-color: rgb(219, 20, 21); border: none;"
+        >
+          Acceptă Cookie-urile
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Check if user has already made a choice
+  const cookieConsent = localStorage.getItem('cookieConsent');
+  const cookieBanner = document.getElementById('cookie-consent');
+  
+  if (!cookieConsent && cookieBanner) {
+    // Show banner after a short delay
+    setTimeout(() => {
+      cookieBanner.classList.remove('hidden');
+    }, 1000);
+  }
+  
+  // Accept button
+  const acceptBtn = document.getElementById('cookie-accept');
+  acceptBtn?.addEventListener('click', () => {
+    localStorage.setItem('cookieConsent', 'accepted');
+    if (cookieBanner) {
+      cookieBanner.classList.add('hidden');
+    }
+  });
+  
+</script>
+
+<style>
+  .cookie-consent {
+    animation: slideUp 0.3s ease-out;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  .cookie-settings-btn {
+    border-radius: 4px;
+  }
+  
+  .cookie-accept-btn {
+    border-radius: 4px;
+  }
+</style>
+

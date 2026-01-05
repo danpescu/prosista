@@ -1,0 +1,150 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import ProductSidebar from '@/components/product/ProductSidebar.astro';
+import ProductGallery from '@/components/product/ProductGallery.astro';
+import QuoteModal from '@/components/product/QuoteModal.astro';
+import productsData from '@/data/products.json';
+
+const products = productsData;
+const productName = "Focus DS";
+const productSlug = "focus-ds";
+const categorySlug = "panouri-din-vata-minerala";
+const subcategorySlug = "ecophon";
+
+// Find category and subcategory
+const category = products.categories.find(cat => cat.slug === categorySlug);
+const subcategory = category?.subcategories?.find(sub => sub.slug === subcategorySlug);
+const categoryProducts = (subcategory?.products || []).filter(p => p.slug !== productSlug);
+
+// Find product for SEO
+const product = {"name":"Focus DS","slug":"focus-ds","meta_title":"Focus DS – PROSISTA","meta_description":"Focus DS - PROSISTA"};
+
+const productImages = [
+  "/images/products-detail/panouri-din-vata-minerala/focus-ds-1.jpg"
+];
+
+const specs = [
+
+];
+
+const description = `
+
+`;
+---
+
+<Layout 
+  title={product?.meta_title || productName}
+  description={product?.meta_description || `${productName} - Produs profesional de înaltă calitate.`}
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title={productName}
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Panouri din vata minerala', href: '/categorii/panouri-din-vata-minerala' },
+      { name: 'Ecophon', href: '/produse/panouri-din-vata-minerala/ecophon' }
+    ]}
+    backgroundImage="/images/products-detail/panouri-din-vata-minerala/focus-ds-1.jpg"
+    categorySlug="panouri-din-vata-minerala"
+  />
+  
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="flex flex-col lg:flex-row gap-8 lg:gap-12">
+        <!-- Sidebar -->
+        <ProductSidebar 
+          currentProductSlug={productSlug}
+          categorySlug={`${categorySlug}/${subcategorySlug}`}
+          categoryProducts={categoryProducts.map(p => ({
+            id: p.id,
+            name: p.name,
+            slug: p.slug
+          }))}
+        />
+        
+        <!-- Main Content -->
+        <div class="flex-1">
+          <!-- Product Container with Border -->
+          <div class="bg-white border border-gray-200 p-6">
+            <!-- Gallery - First -->
+            <div class="mb-8">
+              <ProductGallery images={productImages} categorySlug="panouri-din-vata-minerala" />
+            </div>
+            
+            <!-- Header with Title and PDF Buttons -->
+            <div class="mb-6">
+              <div class="flex flex-wrap justify-between items-center gap-4">
+                <h1 class="text-2xl font-bold" style="font-family: Arial, sans-serif; font-weight: 700; color: rgb(6, 59, 139);">
+                  {productName}
+                </h1>
+                <div class="flex flex-wrap items-center gap-4">
+                <a 
+                  href="https://www.prosista.com/u/d/teknik-foyler/focus-ds-systempage.pdf" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center gap-2 text-primary-600 hover:text-primary-700 transition-colors font-semibold text-sm"
+                  style="font-family: Arial, sans-serif;"
+                >
+                  <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+                  </svg>
+                  Fișa Tehnică
+                </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- CERE OFERTĂ Button -->
+            <div class="mb-6 flex justify-end">
+              <button
+                id="open-quote-modal"
+                class="bg-primary-600 text-white px-6 py-3 font-semibold transition-all duration-200 hover:bg-primary-700 relative overflow-hidden"
+                style="font-family: Arial, sans-serif;"
+              >
+                <span class="button-overlay-quote-btn absolute inset-0 bg-accent-600"></span>
+                <span class="relative z-10">CERE OFERTĂ</span>
+              </button>
+            </div>
+            
+            <!-- Specifications -->
+            {specs.length > 0 && (
+              <div class="mb-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {specs.map(spec => (
+                    <div class="border-b border-secondary-200 pb-3">
+                      <dt class="text-sm font-medium text-secondary-500" style="font-family: Arial, sans-serif;">{spec.label}</dt>
+                      <dd class="mt-1 text-sm text-secondary-900" style="font-family: Arial, sans-serif;">{spec.value}</dd>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+            
+            <!-- Description -->
+            <div class="prose prose-lg max-w-none">
+              <div class="text-secondary-700" style="font-family: Arial, sans-serif; font-size: 14px; line-height: 24px;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </Section>
+  
+  <QuoteModal />
+</Layout>
+
+<style>
+  .button-overlay-quote-btn {
+    clip-path: inset(100% 0 0 0);
+    transition: clip-path 0.4s ease-out;
+  }
+  
+  button:hover .button-overlay-quote-btn {
+    clip-path: inset(0% 0 0 0%);
+  }
+</style>

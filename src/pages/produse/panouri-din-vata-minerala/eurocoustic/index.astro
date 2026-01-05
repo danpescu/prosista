@@ -1,0 +1,89 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import SubcategorySidebar from '@/components/product/SubcategorySidebar.astro';
+import ProductCard from '@/components/product/ProductCard.astro';
+import productsData from '@/data/products.json';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const products = productsData;
+const category = products.categories.find(cat => cat.slug === 'panouri-din-vata-minerala');
+const subcategory = category?.subcategories?.find(sub => sub.slug === 'eurocoustic');
+const allSubcategories = category?.subcategories || [];
+
+// Load processed products for images
+let allProducts = [];
+try {
+  const processedData = JSON.parse(readFileSync(join(process.cwd(), 'prosista_products_processed.json'), 'utf-8'));
+  allProducts = processedData.products || [];
+} catch (e) {
+  console.warn('Could not load processed products:', e.message);
+}
+---
+<Layout 
+  title="Eurocoustic"
+  description="Eurocoustic - Panouri din vata minerala"
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title={subcategory?.name || 'Eurocoustic'}
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Panouri din vata minerala', href: '/categorii/panouri-din-vata-minerala' },
+      { name: 'Eurocoustic' }
+    ]}
+    backgroundImage={category?.image}
+    categorySlug="panouri-din-vata-minerala"
+  />
+  
+  <!-- Main Content -->
+  <Section padding="lg" class="py-12">
+    <div class="w-full lg:w-[1320px] mx-auto px-5 lg:px-0">
+      <div class="flex flex-col lg:flex-row" style="gap: 24px;">
+        <!-- Sidebar -->
+        <SubcategorySidebar 
+          currentSubcategoryId="eurocoustic"
+          subcategories={allSubcategories.map(sub => ({
+            id: sub.id,
+            name: sub.name,
+            slug: sub.slug
+          }))}
+          categorySlug="panouri-din-vata-minerala"
+        />
+        
+        <!-- Main Content Grid -->
+        <div class="w-full lg:w-[896px] flex-shrink-0">
+          {subcategory?.products && subcategory.products.length > 0 ? (
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-10">
+              {subcategory.products.map(product => {
+                const productData = allProducts.find(p => p.id === product.id);
+                let productImage = category?.image || '/images/products/panouri-din-vata-minerala.jpg';
+                if (productData?.main_image) {
+                  // Extrage extensia din URL sau folosește .jpg ca default
+                  const urlMatch = productData.main_image.match(/\.(jpg|jpeg|png|webp)(\?|$)/i);
+                  const ext = urlMatch ? `.${urlMatch[1].toLowerCase()}` : '.jpg';
+                  productImage = `/images/products-detail/panouri-din-vata-minerala/${product.slug}-1${ext}`;
+                }
+                return (
+                <ProductCard
+                  name={product.name}
+                  description={`Detalii despre ${product.name}`}
+                  image={productImage}
+                  href={`/produse/panouri-din-vata-minerala/eurocoustic/${product.slug}`}
+                  categorySlug="panouri-din-vata-minerala"
+                />
+              )})}
+            </div>
+          ) : (
+            <div class="text-center py-12">
+              <p class="text-secondary-600">Nu există produse în această subcategorie.</p>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  </Section>
+</Layout>

@@ -98,3 +98,6 @@ Toate paginile ar trebui să fie accesibile:
 4. Rulează scriptul
 5. Actualizează array-ul `productImages` în pagină
 
+
+
+

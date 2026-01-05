@@ -1,37 +1,36 @@
 {
   "products": [
     {
-      "name": "Tavane Metalice",
-      "href": "/produse/tavane-metalice"
+      "name": "Sisteme de tavane metalice",
+      "href": "/categorii/sisteme-de-tavane-metalice"
     },
     {
-      "name": "Tavane din Lemn",
-      "href": "/produse/tavane-lemn"
+      "name": "Sisteme din lemn pentru tavan si perete",
+      "href": "/categorii/sisteme-din-lemn-pentru-tavan-si-perete"
     },
     {
-      "name": "Panouri Acustice Tapițate",
-      "href": "/produse/panouri-acustice-tapisate"
+      "name": "Panouri acustice placate cu material textil",
+      "href": "/categorii/panouri-acustice-placate-cu-material-textil"
     },
     {
-      "name": "Panouri Lână Minerală",
-      "href": "/produse/panouri-lana-minerala"
+      "name": "Panouri din vata minerala",
+      "href": "/categorii/panouri-din-vata-minerala"
     },
     {
-      "name": "Panouri Lână Lemn",
-      "href": "/produse/panouri-lana-lemn"
+      "name": "Panouri din fibra de lemn",
+      "href": "/categorii/panouri-din-fibra-de-lemn"
     },
     {
-      "name": "Sisteme Purtătoare",
-      "href": "/produse/sisteme-purtatoare"
+      "name": "Sisteme de sustinere",
+      "href": "/categorii/sisteme-de-sustinere"
     },
     {
-      "name": "Panouri Gips cu Vinil",
-      "href": "/produse/panouri-gips-vinil"
+      "name": "Panouri din gips-carton acoperite cu vinil",
+      "href": "/categorii/panouri-din-gips-carton-acoperite-cu-vinil"
     },
     {
-      "name": "Profile Gips-Carton",
-      "href": "/produse/profile-gips-carton"
+      "name": "Profile pentru panouri din gips-carton",
+      "href": "/categorii/profile-pentru-panouri-din-gips-carton"
     }
   ]
 }
-

@@ -30,3 +30,5 @@ Thumbs.db
 # Astro
 .astro/
 
+
+sync_config.jsonc

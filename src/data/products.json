@@ -1,308 +1,1666 @@
 {
   "categories": [
     {
-      "id": "tavane-metalice",
-      "name": "Tavane Metalice",
-      "slug": "tavane-metalice",
-      "description": "Sisteme moderne de tavane suspendate metalice pentru interioare comerciale și industriale",
-      "image": "/images/products/tavane-metalice.jpg",
+      "id": "metal-ceiling-systems",
+      "name": "Sisteme de tavane metalice",
+      "name_en": "Metal Ceiling Systems",
+      "slug": "sisteme-de-tavane-metalice",
+      "slug_en": "metal-ceiling-systems",
+      "description": "Sisteme de tavane metalice - Soluții profesionale.",
+      "image": "/images/products/sisteme-de-tavane-metalice.jpg",
+      "meta_title": "Sisteme de tavane metalice – PROSISTA",
+      "meta_description": "Sisteme de tavane metalice - PROSISTA",
       "subcategories": [
         {
-          "id": "baffle-linear",
-          "name": "Baffle/Linear",
-          "slug": "baffle-linear",
+          "id": "baffle-linear-ceiling",
+          "name": "Tavan tip baffle / liniar",
+          "name_en": "Baffle / Linear Ceiling",
+          "slug": "tavan-tip-baffle-liniar",
+          "slug_en": "baffle-linear-ceiling",
+          "parent_id": "Sisteme de tavane metalice",
           "products": [
             {
-              "id": "tavan-baffle",
-              "name": "Tavan Baffle",
-              "slug": "tavan-baffle"
+              "id": "srvvh5i7tsj",
+              "name": "Tavan tip baffle",
+              "slug": "tavan-tip-baffle",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan.jpg",
+                "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-2.jpg",
+                "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-3.jpg",
+                "https://www.prosista.com/u/i/urunler/tirnakli-bukum-baffle-tavan-4.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/tirnakli-bukum-baffle-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan tip baffle – PROSISTA",
+              "meta_description": "Tavan tip baffle - PROSISTA"
             },
             {
-              "id": "tavan-baffle-extrudat",
-              "name": "Tavan Baffle Extrudat",
-              "slug": "tavan-baffle-extrudat"
+              "id": "zow17k7hpo",
+              "name": "Tavan tip baffle extrudat",
+              "slug": "tavan-tip-baffle-extrudat",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/ekstruzyon-baffle.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/ekstruzyon-baffle.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/ekstruzyon-baffle-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan tip baffle extrudat – PROSISTA",
+              "meta_description": "Tavan tip baffle extrudat - PROSISTA"
             },
             {
-              "id": "tavan-baffle-vectoral",
-              "name": "Tavan Baffle Vectoral",
-              "slug": "tavan-baffle-vectoral"
+              "id": "f8rttvkzqe6",
+              "name": "Tavan tip baffle vectorial",
+              "slug": "tavan-tip-baffle-vectorial",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/vektorel-baffle-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/vektorel-baffle-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/vektorel-baffle-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan tip baffle vectorial – PROSISTA",
+              "meta_description": "Tavan tip baffle vectorial - PROSISTA"
             },
             {
-              "id": "baffle-perete",
-              "name": "Baffle Perete",
-              "slug": "baffle-perete"
+              "id": "fo9y7ugzudt",
+              "name": "Baffle decorativ de perete",
+              "slug": "baffle-decorativ-de-perete",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/duvar-baffle.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/duvar-baffle.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/duvar-baffle-teknik-foy.pdf"
+              ],
+              "meta_title": "Baffle decorativ de perete – PROSISTA",
+              "meta_description": "Baffle decorativ de perete - PROSISTA"
             },
             {
-              "id": "tavan-multipanel",
-              "name": "Tavan Multipanel",
-              "slug": "tavan-multipanel"
+              "id": "2m6m31rxq11",
+              "name": "Tavan multipanel",
+              "slug": "tavan-multipanel",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/multipanel-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/multipanel-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/multipanel-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan multipanel – PROSISTA",
+              "meta_description": "Tavan multipanel - PROSISTA"
             },
             {
-              "id": "tavan-linear-f",
-              "name": "Tavan Linear F",
-              "slug": "tavan-linear-f"
+              "id": "crbgfgacl4",
+              "name": "Tavan liniar tip F",
+              "slug": "tavan-liniar-tip-f",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/dogrusal-f-tavanlar.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/dogrusal-f-tavanlar.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/dogrusal-f-tavanlar-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan liniar tip F – PROSISTA",
+              "meta_description": "Tavan liniar tip F - PROSISTA"
             }
           ]
         },
         {
-          "id": "open-cell",
-          "name": "Open Cell",
-          "slug": "open-cell",
+          "id": "open-cell-ceiling",
+          "name": "Tavan tip grila deschisa",
+          "name_en": "Open Cell Ceiling",
+          "slug": "tavan-tip-grila-deschisa",
+          "slug_en": "open-cell-ceiling",
+          "parent_id": "Sisteme de tavane metalice",
           "products": [
             {
-              "id": "tavan-open-cell-autoportant",
-              "name": "Tavan Open Cell Autoportant",
-              "slug": "tavan-open-cell-autoportant"
+              "id": "ykusl701cg",
+              "name": "Tavan open cell autoportant",
+              "slug": "tavan-open-cell-autoportant",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/kendinden-tasiyicili-petek-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/kendinden-tasiyicili-petek-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/kendinden-tasiyicili-petek-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan open cell autoportant – PROSISTA",
+              "meta_description": "Tavan open cell autoportant - PROSISTA"
             },
             {
-              "id": "tavan-open-cell-t15",
-              "name": "Tavan Open Cell T15",
-              "slug": "tavan-open-cell-t15"
+              "id": "o2f59wrzzpg",
+              "name": "Tavan open cell T15",
+              "slug": "tavan-open-cell-t15",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/t-15-petek-tavan.jpeg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/t-15-petek-tavan.jpeg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/t15-petek-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan open cell T15 – PROSISTA",
+              "meta_description": "Tavan open cell T15 - PROSISTA"
             },
             {
-              "id": "tavan-open-cell-piramidal",
-              "name": "Tavan Open Cell Piramidal",
-              "slug": "tavan-open-cell-piramidal"
+              "id": "w00noop6q1",
+              "name": "Tavan open cell piramidal",
+              "slug": "tavan-open-cell-piramidal",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/piramit-petek-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/piramit-petek-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/piramit-petek-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan open cell piramidal – PROSISTA",
+              "meta_description": "Tavan open cell piramidal - PROSISTA"
             },
             {
-              "id": "tavan-open-cell-lamina",
-              "name": "Tavan Open Cell Lamina",
-              "slug": "tavan-open-cell-lamina"
+              "id": "l6p1fdo70f",
+              "name": "Tavan open cell lamelar",
+              "slug": "tavan-open-cell-lamelar",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/lamina-petek-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/lamina-petek-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/lamina-petek-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan open cell lamelar – PROSISTA",
+              "meta_description": "Tavan open cell lamelar - PROSISTA"
             }
           ]
         },
         {
-          "id": "mesh-expandat",
-          "name": "Mesh Expandat",
-          "slug": "mesh-expandat",
+          "id": "expanded-mesh-ceiling",
+          "name": "Tavan din plasa expandata",
+          "name_en": "Expanded Mesh Ceiling",
+          "slug": "tavan-din-plasa-expandata",
+          "slug_en": "expanded-mesh-ceiling",
+          "parent_id": "Sisteme de tavane metalice",
           "products": [
             {
-              "id": "tavan-mesh-lay-in",
-              "name": "Tavan Mesh Lay-In",
-              "slug": "tavan-mesh-lay-in"
+              "id": "t8rhstm9tb9",
+              "name": "Tavan din plasa expandata lay-in",
+              "slug": "tavan-din-plasa-expandata-lay-in",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/lay-in-mesh-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/lay-in-mesh-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan din plasa expandata lay-in – PROSISTA",
+              "meta_description": "Tavan din plasa expandata lay-in - PROSISTA"
             },
             {
-              "id": "tavan-mesh-lay-on",
-              "name": "Tavan Mesh Lay-On",
-              "slug": "tavan-mesh-lay-on"
+              "id": "007ddad469lng",
+              "name": "Tavan din plasa expandata lay-on",
+              "slug": "tavan-din-plasa-expandata-lay-on",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/lay-on-mesh-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/lay-on-mesh-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan din plasa expandata lay-on – PROSISTA",
+              "meta_description": "Tavan din plasa expandata lay-on - PROSISTA"
             },
             {
-              "id": "tavan-mesh-hook-on",
-              "name": "Tavan Mesh Hook-On",
-              "slug": "tavan-mesh-hook-on"
+              "id": "jkfpcjazrri",
+              "name": "Tavan din plasa expandata hook-on",
+              "slug": "tavan-din-plasa-expandata-hook-on",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/hook-on-mesh-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/hook-on-mesh-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/mesh-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan din plasa expandata hook-on – PROSISTA",
+              "meta_description": "Tavan din plasa expandata hook-on - PROSISTA"
             }
           ]
         },
         {
-          "id": "tip-caseta",
-          "name": "Tip Casetă",
-          "slug": "tip-caseta",
+          "id": "cassette-type-ceiling",
+          "name": "Tavan tip casetat",
+          "name_en": "Cassette Type Ceiling",
+          "slug": "tavan-tip-casetat",
+          "slug_en": "cassette-type-ceiling",
+          "parent_id": "Sisteme de tavane metalice",
           "products": [
             {
-              "id": "tavan-suspendat-clip-in",
-              "name": "Tavan Suspendat Clip-In",
-              "slug": "tavan-suspendat-clip-in"
+              "id": "eu15zjbsmw",
+              "name": "Tavan suspendat clip-in",
+              "slug": "tavan-suspendat-clip-in",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/clip-in-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/clip-in-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/clip-in-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan suspendat clip-in – PROSISTA",
+              "meta_description": "Tavan suspendat clip-in - PROSISTA"
             },
             {
-              "id": "tavan-suspendat-lay-on",
-              "name": "Tavan Suspendat Lay-On",
-              "slug": "tavan-suspendat-lay-on"
+              "id": "ifvb9ugwtu",
+              "name": "Tavan suspendat lay-on",
+              "slug": "tavan-suspendat-lay-on",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/lay-on-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/lay-on-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/lay-on-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan suspendat lay-on – PROSISTA",
+              "meta_description": "Tavan suspendat lay-on - PROSISTA"
             },
             {
-              "id": "tavan-suspendat-lay-in",
-              "name": "Tavan Suspendat Lay-In",
-              "slug": "tavan-suspendat-lay-in"
+              "id": "ntercpcezg8",
+              "name": "Tavan suspendat lay-in",
+              "slug": "tavan-suspendat-lay-in",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/lay-in-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/lay-in-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/lay-in-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan suspendat lay-in – PROSISTA",
+              "meta_description": "Tavan suspendat lay-in - PROSISTA"
             }
           ]
         },
         {
-          "id": "plank-linear",
-          "name": "Plank Linear",
-          "slug": "plank-linear",
+          "id": "linear-plank-ceiling",
+          "name": "Tavan tip lamele liniare",
+          "name_en": "Linear Plank Ceiling",
+          "slug": "tavan-tip-lamele-liniare",
+          "slug_en": "linear-plank-ceiling",
+          "parent_id": "Sisteme de tavane metalice",
           "products": [
             {
-              "id": "tavan-suspendat-hook-on",
-              "name": "Tavan Suspendat Hook-On",
-              "slug": "tavan-suspendat-hook-on"
+              "id": "h8vxmqbckvm",
+              "name": "Tavan suspendat hook-on",
+              "slug": "tavan-suspendat-hook-on",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hook-on-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan suspendat hook-on – PROSISTA",
+              "meta_description": "Tavan suspendat hook-on - PROSISTA"
             },
             {
-              "id": "tavan-coridor-hook-on",
-              "name": "Tavan Coridor Hook-On",
-              "slug": "tavan-coridor-hook-on"
+              "id": "gy6y9qm5knt",
+              "name": "Tavan tip coridor hook-on",
+              "slug": "tavan-tip-coridor-hook-on",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/urunler/hook-on-asma-tavan.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hook-on-asma-tavan-teknik-foy.pdf"
+              ],
+              "meta_title": "Tavan tip coridor hook-on – PROSISTA",
+              "meta_description": "Tavan tip coridor hook-on - PROSISTA"
             }
           ]
+        }
+      ],
+      "products": []
+    },
+    {
+      "id": "wooden-ceiling-and-wall-systems",
+      "name": "Sisteme din lemn pentru tavan si perete",
+      "name_en": "Wooden Ceiling and Wall",
+      "slug": "sisteme-din-lemn-pentru-tavan-si-perete",
+      "slug_en": "wooden-ceiling-and-wall",
+      "description": "Sisteme din lemn pentru tavan si perete - Soluții profesionale.",
+      "image": "/images/products/sisteme-din-lemn-pentru-tavan-si-perete.jpg",
+      "meta_title": "Sisteme din lemn pentru tavan si perete – PROSISTA",
+      "meta_description": "Sisteme din lemn pentru tavan si perete - PROSISTA",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "upky11ztry",
+          "name": "Baffle din lemn",
+          "slug": "baffle-din-lemn",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/ahsap-baffle.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/ahsap-baffle.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/ahsap-baffle-teknik-foy.pdf"
+          ],
+          "meta_title": "Baffle din lemn – PROSISTA",
+          "meta_description": "Baffle din lemn - PROSISTA"
+        },
+        {
+          "id": "2fcx19o32uu",
+          "name": "Tavan acustic din lemn",
+          "slug": "tavan-acustic-din-lemn",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/akustik-ahsap-tavan.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/akustik-ahsap-tavan.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/akustik-ahsap-tavan-teknik-foy.pdf"
+          ],
+          "meta_title": "Tavan acustic din lemn – PROSISTA",
+          "meta_description": "Tavan acustic din lemn - PROSISTA"
+        },
+        {
+          "id": "7vyfgge58b8",
+          "name": "Perete acustic din lemn",
+          "slug": "perete-acustic-din-lemn",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/akustik-ahsap-duvar-panelleri.jpeg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/akustik-ahsap-duvar-panelleri.jpeg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/akustik-ahsap-duvar-panelleri-teknik-foy.pdf"
+          ],
+          "meta_title": "Perete acustic din lemn – PROSISTA",
+          "meta_description": "Perete acustic din lemn - PROSISTA"
         }
       ]
     },
     {
-      "id": "tavane-lemn",
-      "name": "Tavane din Lemn",
-      "slug": "tavane-lemn",
-      "description": "Sisteme de tavane și pereți acustici din lemn natural",
-      "image": "/images/products/tavane-lemn.jpg",
+      "id": "fabric-covered-acoustic-panels",
+      "name": "Panouri acustice placate cu material textil",
+      "name_en": "Fabric Covered Acoustic Panels",
+      "slug": "panouri-acustice-placate-cu-material-textil",
+      "slug_en": "fabric-covered-acoustic-panels",
+      "description": "Panouri acustice placate cu material textil - Soluții profesionale.",
+      "image": "/images/products/panouri-acustice-placate-cu-material-textil.jpg",
+      "meta_title": "Panouri acustice placate cu material textil – PROSISTA",
+      "meta_description": "Panouri acustice placate cu material textil - PROSISTA",
       "subcategories": [],
       "products": [
         {
-          "id": "baffle-lemn",
-          "name": "Baffle Lemn",
-          "slug": "baffle-lemn"
+          "id": "q3hddqbffr",
+          "name": "Baffle acustic din vata minerala",
+          "slug": "baffle-acustic-din-vata-minerala",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-baffle.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-baffle.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-baffle-teknik-foy.pdf"
+          ],
+          "meta_title": "Baffle acustic din vata minerala – PROSISTA",
+          "meta_description": "Baffle acustic din vata minerala - PROSISTA"
         },
         {
-          "id": "tavan-acustic-lemn",
-          "name": "Tavan Acustic Lemn",
-          "slug": "tavan-acustic-lemn"
+          "id": "nvp62ta2e",
+          "name": "Panou acustic suspendat tip canopy",
+          "slug": "panou-acustic-suspendat-tip-canopy",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-kanopi.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-kanopi.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-kanopi-teknik-foy.pdf"
+          ],
+          "meta_title": "Panou acustic suspendat tip canopy – PROSISTA",
+          "meta_description": "Panou acustic suspendat tip canopy - PROSISTA"
         },
         {
-          "id": "perete-acustic-lemn",
-          "name": "Perete Acustic Lemn",
-          "slug": "perete-acustic-lemn"
+          "id": "phwe1rl0p0m",
+          "name": "Panouri acustice din vata minerala pentru perete",
+          "slug": "panouri-acustice-din-vata-minerala-pentru-perete",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/cam-yunu-duvar-panelleri.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/cam-yunu-duvar-panelleri.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/cam-yunu-duvar-panelleri-teknik-foy.pdf"
+          ],
+          "meta_title": "Panouri acustice din vata minerala pentru perete – PROSISTA",
+          "meta_description": "Panouri acustice din vata minerala pentru perete - PROSISTA"
+        },
+        {
+          "id": "cuea5kaiw9",
+          "name": "Panouri acustice din vata minerala pentru tavan",
+          "slug": "panouri-acustice-din-vata-minerala-pentru-tavan",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-tavan-panelleri.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/akustik-cam-yunu-tavan-panelleri.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/akustik-cam-yunu-tavan-panelleri-teknik-foy.pdf"
+          ],
+          "meta_title": "Panouri acustice din vata minerala pentru tavan – PROSISTA",
+          "meta_description": "Panouri acustice din vata minerala pentru tavan - PROSISTA"
         }
       ]
     },
     {
-      "id": "panouri-acustice-tapisate",
-      "name": "Panouri Acustice Tapițate",
-      "slug": "panouri-acustice-tapisate",
-      "description": "Panouri acustice tapițate cu țesătură pentru controlul sunetului",
-      "image": "/images/products/panouri-acustice-tapisate.jpg",
-      "subcategories": [],
-      "products": [
-        {
-          "id": "baffle-acustic-lana-sticla",
-          "name": "Baffle Acustic Lână Sticlă",
-          "slug": "baffle-acustic-lana-sticla"
-        },
-        {
-          "id": "canopy-acustic-lana-sticla",
-          "name": "Canopy Acustic Lână Sticlă",
-          "slug": "canopy-acustic-lana-sticla"
-        },
-        {
-          "id": "panouri-perete-lana-sticla",
-          "name": "Panouri Perete Lână Sticlă",
-          "slug": "panouri-perete-lana-sticla"
-        },
-        {
-          "id": "panouri-tavan-lana-sticla",
-          "name": "Panouri Tavan Lână Sticlă",
-          "slug": "panouri-tavan-lana-sticla"
-        }
-      ]
-    },
-    {
-      "id": "panouri-lana-minerala",
-      "name": "Panouri Lână Minerală",
-      "slug": "panouri-lana-minerala",
-      "description": "Panouri acustice din lână minerală pentru izolație termică și fonică",
-      "image": "/images/products/panouri-lana-minerala.jpg",
-      "subcategories": [],
-      "products": [
+      "id": "mineral-wool-panels",
+      "name": "Panouri din vata minerala",
+      "name_en": "Mineral Wool Panels",
+      "slug": "panouri-din-vata-minerala",
+      "slug_en": "mineral-wool-panels",
+      "description": "Panouri din vata minerala - Soluții profesionale.",
+      "image": "/images/products/panouri-din-vata-minerala.jpg",
+      "meta_title": "Panouri din vata minerala – PROSISTA",
+      "meta_description": "Panouri din vata minerala - PROSISTA",
+      "subcategories": [
         {
           "id": "knauf-amf",
           "name": "Knauf AMF",
-          "slug": "knauf-amf"
+          "name_en": "Knauf AMF",
+          "slug": "knauf-amf",
+          "slug_en": "knauf-amf",
+          "parent_id": "Panouri din vata minerala",
+          "products": [
+            {
+              "id": "ioelk2sd6ro",
+              "name": "AMF ECOMİN Trento",
+              "slug": "amf-ecomi-n-trento",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-trento.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-ecomin-trento.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-ecomin-trento-13mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-ecomin-trento-13mm-en.pdf"
+              ],
+              "meta_title": "AMF ECOMİN Trento – PROSISTA",
+              "meta_description": "AMF ECOMİN Trento - PROSISTA"
+            },
+            {
+              "id": "yevsy0jfymi",
+              "name": "AMF ECOMİN Orbit",
+              "slug": "amf-ecomi-n-orbit",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-orbit.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-ecomin-orbit.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-ecomin-orbit-13mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-ecomin-orbit-13mm-en.pdf"
+              ],
+              "meta_title": "AMF ECOMİN Orbit – PROSISTA",
+              "meta_description": "AMF ECOMİN Orbit - PROSISTA"
+            },
+            {
+              "id": "i2dhnpth39r",
+              "name": "AMF THERMATEX Mercure",
+              "slug": "amf-thermatex-mercure",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-mercure.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-mercure.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-mercure.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-mercure-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Mercure – PROSISTA",
+              "meta_description": "AMF THERMATEX Mercure - PROSISTA"
+            },
+            {
+              "id": "mwfp9omoko",
+              "name": "AMF ECOMİN Planet",
+              "slug": "amf-ecomi-n-planet",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-ecomin-planet.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-ecomin-planet.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-ecomin-planet-13mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-ecomin-planet-13mm-en.pdf"
+              ],
+              "meta_title": "AMF ECOMİN Planet – PROSISTA",
+              "meta_description": "AMF ECOMİN Planet - PROSISTA"
+            },
+            {
+              "id": "k3k5s6k55kn",
+              "name": "AMF THERMATEX Feinstratos",
+              "slug": "amf-thermatex-feinstratos",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinstratos-15mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-feinstratos-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Feinstratos – PROSISTA",
+              "meta_description": "AMF THERMATEX Feinstratos - PROSISTA"
+            },
+            {
+              "id": "acpe9ujopat",
+              "name": "AMF THERMATEX Feinstratos Micro",
+              "slug": "amf-thermatex-feinstratos-micro",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos-micro-15mm.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-feinstratos-micro-15mm.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinstratos-micro-15mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-feinstratos-micro-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Feinstratos Micro – PROSISTA",
+              "meta_description": "AMF THERMATEX Feinstratos Micro - PROSISTA"
+            },
+            {
+              "id": "2gunuf7g7b7",
+              "name": "AMF THERMATEX Feinfresko",
+              "slug": "amf-thermatex-feinfresko",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-feinfresko.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-feinfresko.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-feinfresko.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-feinfresko-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Feinfresko – PROSISTA",
+              "meta_description": "AMF THERMATEX Feinfresko - PROSISTA"
+            },
+            {
+              "id": "zchxdgonhy9",
+              "name": "Antaris C",
+              "slug": "antaris-c",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/antaris-c.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/antaris-c.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/ds_knauf-ceiling-solutions_antaris-c_trpdf.pdf",
+                "https://prosista.com/u/d/data-sheet/antaris-c.pdf"
+              ],
+              "meta_title": "Antaris C – PROSISTA",
+              "meta_description": "Antaris C - PROSISTA"
+            },
+            {
+              "id": "wafe5ybph2",
+              "name": "AMF THERMATEX Thermofon",
+              "slug": "amf-thermatex-thermofon",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-thermofon.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-thermofon.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/ds_amf_thermatex-thermofon.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-thermofon-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Thermofon – PROSISTA",
+              "meta_description": "AMF THERMATEX Thermofon - PROSISTA"
+            },
+            {
+              "id": "ydywk3l40tb",
+              "name": "AMF THERMATEX Alpha HD 19mm",
+              "slug": "amf-thermatex-alpha-hd-19mm",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-hd-19mm.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-hd-19mm.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-hd-19mm.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-hd-19mm.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Alpha HD 19mm – PROSISTA",
+              "meta_description": "AMF THERMATEX Alpha HD 19mm - PROSISTA"
+            },
+            {
+              "id": "f8ixw6tbjvk",
+              "name": "AMF THERMATEX Alpha One",
+              "slug": "amf-thermatex-alpha-one",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-one.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-one.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-one.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-one.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Alpha One – PROSISTA",
+              "meta_description": "AMF THERMATEX Alpha One - PROSISTA"
+            },
+            {
+              "id": "p4a6g5osvf",
+              "name": "AMF THERMATEX Alpha",
+              "slug": "amf-thermatex-alpha",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Alpha – PROSISTA",
+              "meta_description": "AMF THERMATEX Alpha - PROSISTA"
+            },
+            {
+              "id": "q1o93sqhhdm",
+              "name": "AMF THERMATEX Colour",
+              "slug": "amf-thermatex-colour",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-colour.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/amf-thermatex-alpha-colour.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/amf-thermatex-alpha-colour.pdf",
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-alpha-colour-en.pdf"
+              ],
+              "meta_title": "AMF THERMATEX Colour – PROSISTA",
+              "meta_description": "AMF THERMATEX Colour - PROSISTA"
+            },
+            {
+              "id": "hetlbxhs75p",
+              "name": "ADAGIO Acoustic",
+              "slug": "adagio-acoustic",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-acoustic.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-acoustic.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-acoustic.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-acoustic+en.pdf"
+              ],
+              "meta_title": "ADAGIO Acoustic – PROSISTA",
+              "meta_description": "ADAGIO Acoustic - PROSISTA"
+            },
+            {
+              "id": "p65e8deoaxj",
+              "name": "ADAGIO Alpha",
+              "slug": "adagio-alpha",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-alpha.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-alpha.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-alpha+-en.pdf"
+              ],
+              "meta_title": "ADAGIO Alpha – PROSISTA",
+              "meta_description": "ADAGIO Alpha - PROSISTA"
+            },
+            {
+              "id": "g1isbqz7ux5",
+              "name": "ADAGIO dB",
+              "slug": "adagio-db",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-db.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-db.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-db.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-db+-en.pdf"
+              ],
+              "meta_title": "ADAGIO dB – PROSISTA",
+              "meta_description": "ADAGIO dB - PROSISTA"
+            },
+            {
+              "id": "vns6vo3tjuq",
+              "name": "ADAGIO HD 19mm",
+              "slug": "adagio-hd-19mm",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-hd-19mm.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-hd+-19mm-en.pdf"
+              ],
+              "meta_title": "ADAGIO HD 19mm – PROSISTA",
+              "meta_description": "ADAGIO HD 19mm - PROSISTA"
+            },
+            {
+              "id": "bs3a21jc1tm",
+              "name": "ADAGIO HD 30mm",
+              "slug": "adagio-hd-30mm",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-hd-30mm.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-hd+-30mm-en.pdf"
+              ],
+              "meta_title": "ADAGIO HD 30mm – PROSISTA",
+              "meta_description": "ADAGIO HD 30mm - PROSISTA"
+            },
+            {
+              "id": "5vnp3w4sgec",
+              "name": "ADAGIO HD 35mm",
+              "slug": "adagio-hd-35mm",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/adagio-hd.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/adagio-hd.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/adagio-hd-35mm.pdf",
+                "https://prosista.com/u/d/data-sheet/adagio-hd+-35mm-en.pdf"
+              ],
+              "meta_title": "ADAGIO HD 35mm – PROSISTA",
+              "meta_description": "ADAGIO HD 35mm - PROSISTA"
+            },
+            {
+              "id": "66a5do6xmch",
+              "name": "HYGENA Alpha",
+              "slug": "hygena-alpha",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygena-alpha.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygena-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/hygena-alpha-en.pdf",
+                "https://prosista.com/u/d/data-sheet/hygena-alpha-en.pdf"
+              ],
+              "meta_title": "HYGENA Alpha – PROSISTA",
+              "meta_description": "HYGENA Alpha - PROSISTA"
+            },
+            {
+              "id": "tog3jjpq87g",
+              "name": "HYGENA Aquatec",
+              "slug": "hygena-aquatec",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygena-aquatec.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygena-aquatec.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/hygena-aquatec-en.pdf",
+                "https://prosista.com/u/d/data-sheet/hygena-aquatec-en.pdf"
+              ],
+              "meta_title": "HYGENA Aquatec – PROSISTA",
+              "meta_description": "HYGENA Aquatec - PROSISTA"
+            },
+            {
+              "id": "mndnj76475",
+              "name": "HYGENA Plain",
+              "slug": "hygena-plain",
+              "description": "",
+              "main_image": "",
+              "images": [],
+              "pdfs": [
+                "https://prosista.com/u/d/data-sheet/hygena-plain-en.pdf"
+              ],
+              "meta_title": "HYGENA Plain – PROSISTA",
+              "meta_description": "HYGENA Plain - PROSISTA"
+            },
+            {
+              "id": "moq77687h1d",
+              "name": "HYGENA Schlicht",
+              "slug": "hygena-schlicht",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygena-schlict.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygena-schlict.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/hygena-schlicht-en.pdf",
+                "https://prosista.com/u/d/data-sheet/hygena-schlicht-en.pdf"
+              ],
+              "meta_title": "HYGENA Schlicht – PROSISTA",
+              "meta_description": "HYGENA Schlicht - PROSISTA"
+            },
+            {
+              "id": "09k367k10apq",
+              "name": "AMF TOPIQ Efficient Pro",
+              "slug": "amf-topiq-efficient-pro",
+              "description": "",
+              "main_image": "",
+              "images": [],
+              "pdfs": [
+                "https://prosista.com/u/d/data-sheet/amf-thermatex-topiq-efficient-pro.pdf"
+              ],
+              "meta_title": "AMF TOPIQ Efficient Pro – PROSISTA",
+              "meta_description": "AMF TOPIQ Efficient Pro - PROSISTA"
+            },
+            {
+              "id": "mbruy4goxh",
+              "name": "AMF TOPIQ Prime",
+              "slug": "amf-topiq-prime",
+              "description": "",
+              "main_image": "",
+              "images": [],
+              "pdfs": [
+                "https://prosista.com/u/d/data-sheet/amf-topiq-prime.pdf"
+              ],
+              "meta_title": "AMF TOPIQ Prime – PROSISTA",
+              "meta_description": "AMF TOPIQ Prime - PROSISTA"
+            }
+          ]
         },
         {
           "id": "ecophon",
           "name": "Ecophon",
-          "slug": "ecophon"
+          "name_en": "Ecophon",
+          "slug": "ecophon",
+          "slug_en": "ecophon",
+          "parent_id": "Panouri din vata minerala",
+          "products": [
+            {
+              "id": "tldwkd6r19m",
+              "name": "Opta A",
+              "slug": "opta-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/advantage-a-1.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/advantage-a-1.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/opta-a-tech-m360.pdf"
+              ],
+              "meta_title": "Opta A – PROSISTA",
+              "meta_description": "Opta A - PROSISTA"
+            },
+            {
+              "id": "s1yjzv470j8",
+              "name": "Opta E",
+              "slug": "opta-e",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/advantage-e-1.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/advantage-e-1.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/opta-e-tech-m140.pdf"
+              ],
+              "meta_title": "Opta E – PROSISTA",
+              "meta_description": "Opta E - PROSISTA"
+            },
+            {
+              "id": "hzr5bo42u8g",
+              "name": "Focus A",
+              "slug": "focus-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/focus-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/focus-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/focus-a-systempage.pdf"
+              ],
+              "meta_title": "Focus A – PROSISTA",
+              "meta_description": "Focus A - PROSISTA"
+            },
+            {
+              "id": "7omm2dvof2q",
+              "name": "Focus DG",
+              "slug": "focus-dg",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/focus-dg.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/focus-dg.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/focus-dg-systempage.pdf"
+              ],
+              "meta_title": "Focus DG – PROSISTA",
+              "meta_description": "Focus DG - PROSISTA"
+            },
+            {
+              "id": "np62h6e9r4e",
+              "name": "Focus DS",
+              "slug": "focus-ds",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/focus-ds.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/focus-ds.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/focus-ds-systempage.pdf"
+              ],
+              "meta_title": "Focus DS – PROSISTA",
+              "meta_description": "Focus DS - PROSISTA"
+            },
+            {
+              "id": "zg85z1yq8xd",
+              "name": "Focus E",
+              "slug": "focus-e",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/focus-e.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/focus-e.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/focus-e-systempage.pdf"
+              ],
+              "meta_title": "Focus E – PROSISTA",
+              "meta_description": "Focus E - PROSISTA"
+            },
+            {
+              "id": "2ofn7tc6bsp",
+              "name": "Focus LP",
+              "slug": "focus-lp",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/focus-lp.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/focus-lp.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/focus-lp-systempage.pdf"
+              ],
+              "meta_title": "Focus LP – PROSISTA",
+              "meta_description": "Focus LP - PROSISTA"
+            },
+            {
+              "id": "86cmfdpchsk",
+              "name": "Hygiene Clinic A",
+              "slug": "hygiene-clinic-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-clinic-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-clinic-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-clinic-a-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Clinic A – PROSISTA",
+              "meta_description": "Hygiene Clinic A - PROSISTA"
+            },
+            {
+              "id": "tsybk8u420o",
+              "name": "Hygiene Clinic E",
+              "slug": "hygiene-clinic-e",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-clinic-e.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-clinic-e.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-clinic-e-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Clinic E – PROSISTA",
+              "meta_description": "Hygiene Clinic E - PROSISTA"
+            },
+            {
+              "id": "dwspc6mcxxv",
+              "name": "Hygiene Performance A",
+              "slug": "hygiene-performance-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-a-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance A – PROSISTA",
+              "meta_description": "Hygiene Performance A - PROSISTA"
+            },
+            {
+              "id": "kyexksqt4v",
+              "name": "Hygiene Performance B",
+              "slug": "hygiene-performance-b",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-b.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-b.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-b-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance B – PROSISTA",
+              "meta_description": "Hygiene Performance B - PROSISTA"
+            },
+            {
+              "id": "be1aahna6t",
+              "name": "Hygiene Performance Baffle",
+              "slug": "hygiene-performance-baffle",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-baffle.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-baffle.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-baffle-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance Baffle – PROSISTA",
+              "meta_description": "Hygiene Performance Baffle - PROSISTA"
+            },
+            {
+              "id": "du7lkvytjv7",
+              "name": "Hygiene Performance Care Wall",
+              "slug": "hygiene-performance-care-wall",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-wall.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-wall.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-care-wall-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance Care Wall – PROSISTA",
+              "meta_description": "Hygiene Performance Care Wall - PROSISTA"
+            },
+            {
+              "id": "p0i5e871v8",
+              "name": "Hygiene Performance Ds",
+              "slug": "hygiene-performance-ds",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-ds.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-ds.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-ds-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance Ds – PROSISTA",
+              "meta_description": "Hygiene Performance Ds - PROSISTA"
+            },
+            {
+              "id": "x65dvjm7v4n",
+              "name": "Hygiene Performance Plus A",
+              "slug": "hygiene-performance-plus-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-plus-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-plus-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-plus-a-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance Plus A – PROSISTA",
+              "meta_description": "Hygiene Performance Plus A - PROSISTA"
+            },
+            {
+              "id": "gbtrki64vn",
+              "name": "Hygiene Performance Wall",
+              "slug": "hygiene-performance-wall",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/hygiene-performance-care-wall.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/hygiene-performance-care-wall.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/hygiene-performance-wall-systempage.pdf"
+              ],
+              "meta_title": "Hygiene Performance Wall – PROSISTA",
+              "meta_description": "Hygiene Performance Wall - PROSISTA"
+            },
+            {
+              "id": "hgqrfhbumzn",
+              "name": "Advantage A",
+              "slug": "advantage-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/opta-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/opta-a.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/advantage-a-systempage.pdf"
+              ],
+              "meta_title": "Advantage A – PROSISTA",
+              "meta_description": "Advantage A - PROSISTA"
+            },
+            {
+              "id": "1usm1fmeq4f",
+              "name": "Advantage E",
+              "slug": "advantage-e",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/opta-e.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/opta-e.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/advantage-e-systempage.pdf"
+              ],
+              "meta_title": "Advantage E – PROSISTA",
+              "meta_description": "Advantage E - PROSISTA"
+            },
+            {
+              "id": "rqvj0xnhzvt",
+              "name": "Sombra A",
+              "slug": "sombra-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/sombra-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/sombra-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/sombra-a-systempage.pdf"
+              ],
+              "meta_title": "Sombra A – PROSISTA",
+              "meta_description": "Sombra A - PROSISTA"
+            }
+          ]
         },
         {
           "id": "eurocoustic",
           "name": "Eurocoustic",
-          "slug": "eurocoustic"
+          "name_en": "Eurocoustic",
+          "slug": "eurocoustic",
+          "slug_en": "eurocoustic",
+          "parent_id": "Panouri din vata minerala",
+          "products": [
+            {
+              "id": "ezo8kzly28p",
+              "name": "Minerval A12",
+              "slug": "minerval-a12",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/minerval-a12.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/minerval-a12.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochureminervala12cm.pdf"
+              ],
+              "meta_title": "Minerval A12 – PROSISTA",
+              "meta_description": "Minerval A12 - PROSISTA"
+            },
+            {
+              "id": "qcv3lic72q",
+              "name": "Minerval A15",
+              "slug": "minerval-a15",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/minerval-a15.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/minerval-a15.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochureminervala15cm.pdf"
+              ],
+              "meta_title": "Minerval A15 – PROSISTA",
+              "meta_description": "Minerval A15 - PROSISTA"
+            },
+            {
+              "id": "1bgl56n3j6l",
+              "name": "Tonga A22",
+              "slug": "tonga-a22",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/tonga-a22.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/tonga-a22.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochuretongaa22cm.pdf"
+              ],
+              "meta_title": "Tonga A22 – PROSISTA",
+              "meta_description": "Tonga A22 - PROSISTA"
+            },
+            {
+              "id": "ictayvecrhi",
+              "name": "Tonga Therm A",
+              "slug": "tonga-therm-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/tonga-therm-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/tonga-therm-a.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochuretongathermacm.pdf"
+              ],
+              "meta_title": "Tonga Therm A – PROSISTA",
+              "meta_description": "Tonga Therm A - PROSISTA"
+            },
+            {
+              "id": "r82p27gen6c",
+              "name": "Tonga DB 41 A",
+              "slug": "tonga-db-41-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/tonga-db-41a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/tonga-db-41a.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochuretongadb41acm.pdf"
+              ],
+              "meta_title": "Tonga DB 41 A – PROSISTA",
+              "meta_description": "Tonga DB 41 A - PROSISTA"
+            },
+            {
+              "id": "tp2nlw5mkq",
+              "name": "Tonga DB 43 A",
+              "slug": "tonga-db-43-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/tonga-db-43-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/tonga-db-43-a.jpg"
+              ],
+              "pdfs": [
+                "https://prosista.com/u/d/teknik-foyler/productbrochuretongadb43acm.pdf"
+              ],
+              "meta_title": "Tonga DB 43 A – PROSISTA",
+              "meta_description": "Tonga DB 43 A - PROSISTA"
+            }
+          ]
         }
-      ]
+      ],
+      "products": []
     },
     {
-      "id": "panouri-lana-lemn",
-      "name": "Panouri Lână Lemn",
-      "slug": "panouri-lana-lemn",
-      "description": "Panouri acustice din lână de lemn pentru design natural",
-      "image": "/images/products/panouri-lana-lemn.jpg",
-      "subcategories": [],
-      "products": [
+      "id": "wood-wool-panels",
+      "name": "Panouri din fibra de lemn",
+      "name_en": "Wood Wool Panels",
+      "slug": "panouri-din-fibra-de-lemn",
+      "slug_en": "wood-wool-panels",
+      "description": "Panouri din fibra de lemn - Soluții profesionale.",
+      "image": "/images/products/panouri-din-fibra-de-lemn.jpg",
+      "meta_title": "Panouri din fibra de lemn – PROSISTA",
+      "meta_description": "Panouri din fibra de lemn - PROSISTA",
+      "subcategories": [
         {
           "id": "knauf-heradesign",
           "name": "Knauf Heradesign",
-          "slug": "knauf-heradesign"
+          "name_en": "Knauf Heradesign",
+          "slug": "knauf-heradesign",
+          "slug_en": "knauf-heradesign",
+          "parent_id": "Panouri din fibra de lemn",
+          "products": [
+            {
+              "id": "bixo6b68c7e",
+              "name": "HERADESIGN® Fine",
+              "slug": "heradesign-fine",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Fine_EN.pdf"
+              ],
+              "meta_title": "HERADESIGN® Fine – PROSISTA",
+              "meta_description": "HERADESIGN® Fine - PROSISTA"
+            },
+            {
+              "id": "icd3o8jckz",
+              "name": "HERADESIGN® Fine Alpha+",
+              "slug": "heradesign-fine-alpha",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-alpha.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Superfine_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-fine-alpha.pdf"
+              ],
+              "meta_title": "HERADESIGN® Fine Alpha+ – PROSISTA",
+              "meta_description": "HERADESIGN® Fine Alpha+ - PROSISTA"
+            },
+            {
+              "id": "885q33kyx1w",
+              "name": "HERADESIGN® Fine A2 Alpha+",
+              "slug": "heradesign-fine-a2-alpha",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-a2-alpha.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-fine-a2-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN_Macro_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-fine-a2-alpha-plus.pdf"
+              ],
+              "meta_title": "HERADESIGN® Fine A2 Alpha+ – PROSISTA",
+              "meta_description": "HERADESIGN® Fine A2 Alpha+ - PROSISTA"
+            },
+            {
+              "id": "s4m1up5z3df",
+              "name": "HERADESIGN® Superfine Alpha",
+              "slug": "heradesign-superfine-alpha",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-alpha.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-superfine-alpha.pdf"
+              ],
+              "meta_title": "HERADESIGN® Superfine Alpha – PROSISTA",
+              "meta_description": "HERADESIGN® Superfine Alpha - PROSISTA"
+            },
+            {
+              "id": "9w42a4wkfft",
+              "name": "HERADESIGN® Superfine A2 Alpha",
+              "slug": "heradesign-superfine-a2-alpha",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-a2-alpha.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-superfine-a2-alpha.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element-Profile_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-superfine-a2-alpha-plus.pdf"
+              ],
+              "meta_title": "HERADESIGN® Superfine A2 Alpha – PROSISTA",
+              "meta_description": "HERADESIGN® Superfine A2 Alpha - PROSISTA"
+            },
+            {
+              "id": "xfsbvy1qyoc",
+              "name": "HERADESIGN® Macro",
+              "slug": "heradesign-macro",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-macro.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-macro.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Sky-Element_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-macro.pdf"
+              ],
+              "meta_title": "HERADESIGN® Macro – PROSISTA",
+              "meta_description": "HERADESIGN® Macro - PROSISTA"
+            },
+            {
+              "id": "strdsz96ewp",
+              "name": "HERADESIGN® Baffle Element Arc Superfine",
+              "slug": "heradesign-baffle-element-arc-superfine",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-arc-superfine.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-arc-superfine.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/dokumanlar/DS_Knauf-Ceiling-Solutions_HERADESIGN-Baffle-Element-Arc_EN.pdf",
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element-arc.pdf"
+              ],
+              "meta_title": "HERADESIGN® Baffle Element Arc Superfine – PROSISTA",
+              "meta_description": "HERADESIGN® Baffle Element Arc Superfine - PROSISTA"
+            },
+            {
+              "id": "1uezx14sc5h",
+              "name": "HERADESIGN® Baffle Element Fine",
+              "slug": "heradesign-baffle-element-fine",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-fine.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-fine.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element.pdf"
+              ],
+              "meta_title": "HERADESIGN® Baffle Element Fine – PROSISTA",
+              "meta_description": "HERADESIGN® Baffle Element Fine - PROSISTA"
+            },
+            {
+              "id": "icj4dbgg9ir",
+              "name": "HERADESIGN® Baffle Element Profile Fine",
+              "slug": "heradesign-baffle-element-profile-fine",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-profile-fine.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-element-profile-fine.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-element-profile.pdf"
+              ],
+              "meta_title": "HERADESIGN® Baffle Element Profile Fine – PROSISTA",
+              "meta_description": "HERADESIGN® Baffle Element Profile Fine - PROSISTA"
+            },
+            {
+              "id": "e9tlg8tqryb",
+              "name": "HERADESIGN® Baffle Element Line Fine",
+              "slug": "heradesign-baffle-element-line-fine",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-line-fine.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-baffle-line-fine.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-baffle-line.pdf"
+              ],
+              "meta_title": "HERADESIGN® Baffle Element Line Fine – PROSISTA",
+              "meta_description": "HERADESIGN® Baffle Element Line Fine - PROSISTA"
+            },
+            {
+              "id": "zdpafgkwjsd",
+              "name": "HERADESIGN® Sky Element",
+              "slug": "heradesign-sky-element",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sky-element.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sky-element.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-sky-element.pdf"
+              ],
+              "meta_title": "HERADESIGN® Sky Element – PROSISTA",
+              "meta_description": "HERADESIGN® Sky Element - PROSISTA"
+            },
+            {
+              "id": "je9u3qiy3ph",
+              "name": "HERADESIGN® Sonic Element",
+              "slug": "heradesign-sonic-element",
+              "description": "",
+              "main_image": "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sonic-element.jpg",
+              "images": [
+                "https://www.prosista.com/u/i/kategoriler/heradesign%C2%AE-sonic-element.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/heradesign-sonic-element.pdf"
+              ],
+              "meta_title": "HERADESIGN® Sonic Element – PROSISTA",
+              "meta_description": "HERADESIGN® Sonic Element - PROSISTA"
+            }
+          ]
         },
         {
           "id": "ecophon-saga",
           "name": "Ecophon Saga",
-          "slug": "ecophon-saga"
+          "name_en": "Ecophon Saga",
+          "slug": "ecophon-saga",
+          "slug_en": "ecophon-saga",
+          "parent_id": "Panouri din fibra de lemn",
+          "products": [
+            {
+              "id": "eaedqbea1y6",
+              "name": "Saga A",
+              "slug": "saga-a",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/saga-a.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/saga-a.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/saga-a-systempage.pdf"
+              ],
+              "meta_title": "Saga A – PROSISTA",
+              "meta_description": "Saga A - PROSISTA"
+            },
+            {
+              "id": "pwoyt6didv",
+              "name": "Saga B",
+              "slug": "saga-b",
+              "description": "",
+              "main_image": "https://prosista.com/u/i/kategoriler/saga-b.jpg",
+              "images": [
+                "https://prosista.com/u/i/kategoriler/saga-b.jpg"
+              ],
+              "pdfs": [
+                "https://www.prosista.com/u/d/teknik-foyler/saga-b-systempage.pdf"
+              ],
+              "meta_title": "Saga B – PROSISTA",
+              "meta_description": "Saga B - PROSISTA"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "id": "sisteme-purtatoare",
-      "name": "Sisteme Purtătoare",
-      "slug": "sisteme-purtatoare",
-      "description": "Sisteme de susținere pentru tavane suspendate",
-      "image": "/images/products/sisteme-purtatoare.jpg",
-      "subcategories": [],
-      "products": [
-        {
-          "id": "sistem-purtator-t24",
-          "name": "Sistem Purtător T24",
-          "slug": "sistem-purtator-t24"
-        },
-        {
-          "id": "sistem-purtator-t15",
-          "name": "Sistem Purtător T15",
-          "slug": "sistem-purtator-t15"
-        },
-        {
-          "id": "sistem-purtator-canal-t15",
-          "name": "Sistem Purtător Canal T15",
-          "slug": "sistem-purtator-canal-t15"
-        }
-      ]
-    },
-    {
-      "id": "panouri-gips-vinil",
-      "name": "Panouri Gips cu Vinil",
-      "slug": "panouri-gips-vinil",
-      "description": "Panouri din gips cu finisare vinil pentru durabilitate",
-      "image": "/images/products/gips-vinil.jpg",
-      "subcategories": [],
-      "products": [
-        {
-          "id": "panou-gips-vinil",
-          "name": "Panou Gips Vinil",
-          "slug": "panou-gips-vinil"
-        },
-        {
-          "id": "panou-acustic-vinil",
-          "name": "Panou Acustic Vinil",
-          "slug": "panou-acustic-vinil"
-        }
-      ]
-    },
-    {
-      "id": "profile-gips-carton",
-      "name": "Profile Gips-Carton",
-      "slug": "profile-gips-carton",
-      "description": "Profile metalice pentru montaj gips-carton",
-      "image": "/images/products/profile-gips.jpg",
-      "subcategories": [],
-      "products": [
-        {
-          "id": "profile-gips-carton",
-          "name": "Profile Gips-Carton",
-          "slug": "profile-gips-carton"
-        }
-      ]
-    },
-    {
-      "id": "vezi-referinte",
-      "name": "Vezi referinte",
-      "slug": "vezi-referinte",
-      "description": "Vezi toate referințele noastre",
-      "image": "/images/products/vezi-referinte.jpg",
-      "subcategories": [],
+      ],
       "products": []
+    },
+    {
+      "id": "carrier-systems",
+      "name": "Sisteme de sustinere",
+      "name_en": "Carrier Systems",
+      "slug": "sisteme-de-sustinere",
+      "slug_en": "carrier-systems",
+      "description": "Sisteme de sustinere - Soluții profesionale.",
+      "image": "/images/products/sisteme-de-sustinere.jpg",
+      "meta_title": "Sisteme de sustinere – PROSISTA",
+      "meta_description": "Sisteme de sustinere - PROSISTA",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "pkcddgqqrci",
+          "name": "Sistem de sustinere T24",
+          "slug": "sistem-de-sustinere-t24",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/t24-tasiyici-sistem.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/t24-tasiyici-sistem.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+          ],
+          "meta_title": "Sistem de sustinere T24 – PROSISTA",
+          "meta_description": "Sistem de sustinere T24 - PROSISTA"
+        },
+        {
+          "id": "3grds6jeo7x",
+          "name": "Sistem de sustinere T15",
+          "slug": "sistem-de-sustinere-t15",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/t15-tasiyici-sistem.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/t15-tasiyici-sistem.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+          ],
+          "meta_title": "Sistem de sustinere T15 – PROSISTA",
+          "meta_description": "Sistem de sustinere T15 - PROSISTA"
+        },
+        {
+          "id": "r5k0em26wff",
+          "name": "Sistem de sustinere T15 cu canal",
+          "slug": "sistem-de-sustinere-t15-cu-canal",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/t15-kanalli-tasiyici-sistem.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/t15-kanalli-tasiyici-sistem.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/t-tasiyici-teknik-foy.pdf"
+          ],
+          "meta_title": "Sistem de sustinere T15 cu canal – PROSISTA",
+          "meta_description": "Sistem de sustinere T15 cu canal - PROSISTA"
+        }
+      ]
+    },
+    {
+      "id": "vinyl-coated-gypsum-panel",
+      "name": "Panouri din gips-carton placate cu vinil",
+      "name_en": "Vinyl Coated Gypsum Panel",
+      "slug": "panouri-din-gips-carton-placate-cu-vinil",
+      "slug_en": "vinyl-coated-gypsum-panel",
+      "description": "Panouri din gips-carton placate cu vinil - Soluții profesionale.",
+      "image": "/images/products/panouri-din-gips-carton-placate-cu-vinil.jpg",
+      "meta_title": "Panouri din gips-carton placate cu vinil – PROSISTA",
+      "meta_description": "Panouri din gips-carton placate cu vinil - PROSISTA",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "gu5ukwscmx4",
+          "name": "Panou din gips-carton placat cu vinil",
+          "slug": "panou-din-gips-carton-placat-cu-vinil",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/vinil-kapli-alci-panel.jpeg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/vinil-kapli-alci-panel.jpeg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/vinil-kapli-alci-panel-teknik-foy.pdf"
+          ],
+          "meta_title": "Panou din gips-carton placat cu vinil – PROSISTA",
+          "meta_description": "Panou din gips-carton placat cu vinil - PROSISTA"
+        },
+        {
+          "id": "i0051qpf2be",
+          "name": "Panou acustic din gips-carton placat cu vinil",
+          "slug": "panou-acustic-din-gips-carton-placat-cu-vinil",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/vinil-kapli-akustik-alci-panel.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/vinil-kapli-akustik-alci-panel.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/vinil-kapli-akustik-alci-tavan-panelleri-teknik-foy.pdf"
+          ],
+          "meta_title": "Panou acustic din gips-carton placat cu vinil – PROSISTA",
+          "meta_description": "Panou acustic din gips-carton placat cu vinil - PROSISTA"
+        }
+      ]
+    },
+    {
+      "id": "gypsum-panel-profiles",
+      "name": "Profile pentru panouri din gips-carton",
+      "name_en": "Gypsum Panel Profiles",
+      "slug": "profile-pentru-panouri-din-gips-carton",
+      "slug_en": "gypsum-panel-profiles",
+      "description": "Profile pentru panouri din gips-carton - Soluții profesionale.",
+      "image": "/images/products/profile-pentru-panouri-din-gips-carton.jpg",
+      "meta_title": "Profile pentru panouri din gips-carton – PROSISTA",
+      "meta_description": "Profile pentru panouri din gips-carton - PROSISTA",
+      "subcategories": [],
+      "products": [
+        {
+          "id": "ofjn4kr7uca",
+          "name": "Profile pentru panouri din gips-carton",
+          "slug": "profile-pentru-panouri-din-gips-carton",
+          "description": "",
+          "main_image": "https://www.prosista.com/u/i/urunler/alci-levha-profilleri.jpg",
+          "images": [
+            "https://www.prosista.com/u/i/urunler/alci-levha-profilleri.jpg"
+          ],
+          "pdfs": [
+            "https://www.prosista.com/u/d/teknik-foyler/gypsum-panel-profiles-teknik-foy.pdf"
+          ],
+          "meta_title": "Profile pentru panouri din gips-carton – PROSISTA",
+          "meta_description": "Profile pentru panouri din gips-carton - PROSISTA"
+        }
+      ]
     }
   ]
 }
-
