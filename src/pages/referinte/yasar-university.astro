@@ -1,0 +1,55 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import ProductGallery from '@/components/product/ProductGallery.astro';
+
+const pageTitle = "Universitatea Yaşar";
+const pageDescription = "Sisteme acustice pentru săli de curs - Universitatea Yaşar, Izmir, Turcia.";
+
+// Images for this reference
+const referenceImages = [
+  "/images/references/yasar-university.jpg",
+  "/images/references/yasar-university-2.jpg",
+  "/images/references/yasar-university-3.jpg"
+].filter(Boolean);
+---
+
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/references/yasar-university.jpg"
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title="Universitatea Yaşar"
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Referințe', href: '/referinte' },
+      { name: 'Universitatea Yaşar' }
+    ]}
+    backgroundImage="/images/references/yasar-university.jpg"
+  />
+
+  <!-- Main Content -->
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="max-w-4xl mx-auto">
+        <!-- Gallery -->
+        <div class="mb-8">
+          <ProductGallery images={referenceImages} />
+        </div>
+
+        <!-- Description -->
+        <div class="prose prose-lg max-w-none">
+          <div class="text-secondary-700 mb-6" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 28px;">
+            <p>
+              Reunim calitatea, estetica și durabilitatea în proiectele noastre. Referințele noastre sunt un indiciu al fiabilității noastre în sector și al importanței pe care o acordăm satisfacției clienților. Am realizat aplicații de succes în multe locuri diferite cu soluțiile noastre de tavane suspendate.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>

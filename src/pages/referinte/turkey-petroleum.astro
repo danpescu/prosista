@@ -1,0 +1,58 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import ProductGallery from '@/components/product/ProductGallery.astro';
+
+const pageTitle = "General Directorate of Turkish Petroleum";
+const pageDescription = "Soluții moderne pentru spații de birouri - General Directorate of Turkish Petroleum, Ankara, Turcia.";
+
+// Images for this reference
+const referenceImages = [
+  "/images/references/turkey-petroleum.jpg",
+  "/images/references/turkey-petroleum-2.jpg",
+  "/images/references/turkey-petroleum-3.jpg"
+].filter(Boolean);
+---
+
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+  image="/images/references/turkey-petroleum.jpg"
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title="General Directorate of Turkish Petroleum"
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Referințe', href: '/referinte' },
+      { name: 'General Directorate of Turkish Petroleum' }
+    ]}
+    backgroundImage="/images/references/turkey-petroleum.jpg"
+  />
+
+  <!-- Main Content -->
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="max-w-4xl mx-auto">
+        <!-- Gallery 
+        <div class="mb-8">
+          <ProductGallery images={referenceImages} />
+        </div> -->
+
+        <!-- Description -->
+        <div class="prose prose-lg max-w-none">
+          <div class="text-secondary-700 mb-6" style="font-family: Arial, sans-serif; font-size: 16px; line-height: 28px;">
+            <p class="mb-4">
+              Ca una dintre cele mai importante instituții din sectorul energetic al Turciei, designul arhitectural al sediului Turkish Petroleum Corporation (TPAO) poartă cu mândrie semnătura Prosista. Prin integrarea soluțiilor estetice și funcționale necesare spațiilor de lucru moderne, Prosista a contribuit la integritatea arhitecturală a proiectului prin sistemele sale inovatoare de plafoane, oferind totodată un confort acustic și de iluminat superior. De la producție până la montaj, echipa noastră a realizat fiecare etapă a procesului cu o atenție deosebită la detalii, iar noi suntem mândri că adăugăm valoare uneia dintre cele mai importante investiții publice din Turcia.
+            </p>
+            <p>
+              La Prosista, considerăm Proiectul Sediului Turkish Petroleum Corporation drept unul dintre reperele prin care ne-am demonstrat încă o dată designul inovator, calitatea superioară a producției și abordarea orientată spre soluții.
+            </p>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>

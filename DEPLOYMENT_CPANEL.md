@@ -65,6 +65,7 @@ public_html/
 ├── images/
 ├── politica-confidentialitate/
 ├── produse/
+├── referinte/                    # Pagini referințe (1 listare + 6 detalii)
 ├── termeni-conditii/
 └── toate-produsele/
 ```
@@ -110,7 +111,9 @@ După upload, testează:
 - [ ] **Homepage**: `https://domeniul-tau.ro/`
 - [ ] **Pagini categorii**: `https://domeniul-tau.ro/categorii/sisteme-de-tavane-metalice`
 - [ ] **Pagini produse**: `https://domeniul-tau.ro/produse/...`
-- [ ] **Imagini**: Verifică că toate imaginile se încarcă
+- [ ] **Pagina referințe**: `https://domeniul-tau.ro/referinte`
+- [ ] **Pagini detalii referințe**: `https://domeniul-tau.ro/referinte/velux-residence`
+- [ ] **Imagini**: Verifică că toate imaginile se încarcă (inclusiv imagini referințe)
 - [ ] **Formular contact**: Testează trimiterea unui mesaj
 - [ ] **404 Page**: `https://domeniul-tau.ro/pagina-inexistenta`
 
@@ -128,10 +131,12 @@ Fișierul `.htaccess` ar trebui să fie deja inclus în `dist/`. Dacă nu funcț
 
 - [ ] Site-ul se încarcă corect
 - [ ] Toate paginile funcționează (fără 404)
-- [ ] Imagini se afișează corect
+- [ ] Pagina de referințe se încarcă: `/referinte`
+- [ ] Paginile de detalii referințe funcționează: `/referinte/velux-residence`, etc.
+- [ ] Imagini se afișează corect (inclusiv galeriile de referințe)
 - [ ] Formularul de contact funcționează
 - [ ] Mobile menu funcționează
-- [ ] Links-urile interne funcționează
+- [ ] Links-urile interne funcționează (inclusiv link-urile către referințe)
 - [ ] SEO meta tags sunt corecte
 - [ ] Robots.txt este accesibil
 
@@ -150,6 +155,7 @@ Fișierul `.htaccess` ar trebui să fie deja inclus în `dist/`. Dacă nu funcț
 
 **Soluție:**
 - Verifică că folderul `images/` este uploadat complet
+- Verifică că folderul `images/references/` conține toate imaginile (16 imagini)
 - Verifică path-urile în browser console (F12)
 - Asigură-te că permisiunile sunt corecte (755 pentru directoare)
 
@@ -188,14 +194,38 @@ public_html/
 ├── catalog/                      # Catalog page
 ├── categorii/                    # Category pages (14 pagini)
 ├── contact/                      # Contact page
-├── images/                       # Toate imaginile (292 fișiere)
+├── images/                       # Toate imaginile
 │   ├── hero/
 │   ├── logo.png
 │   ├── products/
 │   ├── products-detail/
-│   └── references/
+│   └── references/              # Imagini referințe (16 imagini)
+│       ├── velux-residence.jpg
+│       ├── velux-residence-2.jpg
+│       ├── velux-residence-4.jpg
+│       ├── antalya-airport.jpg
+│       ├── antalya-airport-2.jpg
+│       ├── antalya-airport-3.jpg
+│       ├── izmir-hospital.jpg
+│       ├── izmir-hospital-2.jpg
+│       ├── izmir-hospital-3.jpg
+│       ├── yumurtalik-power.jpg
+│       ├── yumurtalik-power-2.jpg
+│       ├── yumurtalik-power-3.jpg
+│       ├── yasar-university.jpg
+│       ├── yasar-university-2.jpg
+│       ├── yasar-university-3.jpg
+│       └── turkey-petroleum.jpg
 ├── politica-confidentialitate/   # Privacy policy
 ├── produse/                      # Product pages (105 pagini)
+├── referinte/                    # Referințe (7 pagini)
+│   ├── index.html                # Listare referințe
+│   ├── velux-residence/         # Detalii Velux Residence
+│   ├── antalya-airport/         # Detalii Aeroportul Antalya
+│   ├── izmir-hospital/          # Detalii Spitalul Izmir
+│   ├── yumurtalik-power/        # Detalii Centrala Yumurtalik
+│   ├── yasar-university/        # Detalii Universitatea Yaşar
+│   └── turkey-petroleum/        # Detalii Petrolul Turciei
 ├── termeni-conditii/             # Terms & conditions
 └── toate-produsele/              # All products page
 ```
@@ -215,7 +245,27 @@ Dacă întâmpini probleme:
 
 - **Build**: ✅ Completat
 - **Dimensiune**: ~38 MB
-- **Fișiere**: 427
+- **Fișiere**: 427+
+- **Pagini referințe**: 7 pagini (1 listare + 6 detalii)
+- **Imagini referințe**: 16 imagini
 - **Status**: Gata pentru upload
 
 **Următorul pas**: Upload toate fișierele din `dist/` în `public_html` pe cPanel.
+
+## 📄 Pagini Referințe
+
+Site-ul include următoarele pagini de referințe:
+
+1. **Listare referințe**: `/referinte` - Pagină cu toate cele 6 referințe
+2. **Velux Residence**: `/referinte/velux-residence` - Proiect rezidențial, București
+3. **Aeroportul Antalya**: `/referinte/antalya-airport` - Aeroport comercial, Turcia
+4. **Spitalul Izmir**: `/referinte/izmir-hospital` - Facilitate medicală, Turcia
+5. **Centrala Yumurtalik**: `/referinte/yumurtalik-power` - Centrală industrială, Turcia
+6. **Universitatea Yaşar**: `/referinte/yasar-university` - Instituție educațională, Turcia
+7. **Petrolul Turciei**: `/referinte/turkey-petroleum` - Instituție guvernamentală, Turcia
+
+Fiecare pagină de detalii include:
+- Hero section cu background image
+- Galerie de imagini (2-4 imagini per referință)
+- Text descriptiv tradus în română
+- Breadcrumbs pentru navigare

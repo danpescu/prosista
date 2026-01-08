@@ -1,0 +1,83 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Container from '@/components/ui/Container.astro';
+import Section from '@/components/ui/Section.astro';
+import CategoryHero from '@/components/product/CategoryHero.astro';
+import referencesData from '@/data/references.json';
+
+const references = referencesData.references;
+const pageTitle = "Referințe";
+const pageDescription = "Descoperiți proiectele noastre realizate cu succes în România și internațional. Referințe de calitate pentru sisteme de tavane suspendate.";
+---
+
+<Layout 
+  title={pageTitle}
+  description={pageDescription}
+>
+  <!-- Hero Section -->
+  <CategoryHero 
+    title="REFERINȚELE NOASTRE"
+    breadcrumbs={[
+      { name: 'Acasă', href: '/' },
+      { name: 'Referințe' }
+    ]}
+    backgroundImage="/images/references/velux-residence.jpg"
+  />
+
+  <!-- Main Content -->
+  <Section padding="lg" class="py-12">
+    <Container>
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-4xl font-bold mb-4" style="font-family: 'Mulish', sans-serif; font-weight: 700; color: rgb(6, 59, 139);">
+          Exemple ale Soluțiilor Noastre Inovatoare
+        </h2>
+        <p class="text-lg text-secondary-600 max-w-3xl mx-auto" style="font-family: Arial, sans-serif;">
+          Puteți vedea mai jos câteva dintre proiectele noastre finalizate în țară și internațional.
+        </p>
+      </div>
+
+      <!-- References Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {references.map((ref) => (
+          <a 
+            href={`/referinte/${ref.id}`}
+            class="bg-white border border-gray-200 overflow-hidden group cursor-pointer hover:shadow-lg transition-all duration-300"
+          >
+            <div class="relative overflow-hidden">
+              <img 
+                src={ref.image} 
+                alt={ref.name}
+                class="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+              <!-- Blue overlay on hover -->
+              <div class="absolute inset-0 bg-primary-600 opacity-0 group-hover:opacity-70 transition-opacity duration-300 flex flex-col items-center justify-center text-white px-6">
+                <div class="text-center">
+                  <h4 class="text-xl font-bold mb-3 text-white">
+                    {ref.name}
+                  </h4>
+                  <span class="inline-flex items-center text-white hover:opacity-80">
+                    Vezi mai mult
+                    <svg class="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2" style="font-family: Arial, sans-serif; font-weight: 700; color: rgb(6, 59, 139);">
+                {ref.name}
+              </h3>
+              <p class="text-sm text-secondary-600 mb-2" style="font-family: Arial, sans-serif;">
+                {ref.location}
+              </p>
+              <p class="text-sm text-secondary-500" style="font-family: Arial, sans-serif;">
+                {ref.type}
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </Container>
+  </Section>
+</Layout>
