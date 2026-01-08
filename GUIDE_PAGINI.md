@@ -2,14 +2,16 @@
 
 Acest ghid explică cum să creezi pagini noi în proiectul Astro Prosista.
 
+**Site live:** [https://prosista.ro](https://prosista.ro)
+
 ## Structura de Bază
 
 Toate paginile se află în folderul `src/pages/` și urmează structura de directoare pentru a genera URL-urile.
 
 ### Exemplu:
-- `src/pages/despre.astro` → `https://site.ro/despre`
-- `src/pages/produse/nume-produs.astro` → `https://site.ro/produse/nume-produs`
-- `src/pages/categorii/nume-categorie.astro` → `https://site.ro/categorii/nume-categorie`
+- `src/pages/despre.astro` → `https://prosista.ro/despre`
+- `src/pages/produse/nume-produs.astro` → `https://prosista.ro/produse/nume-produs`
+- `src/pages/categorii/nume-categorie.astro` → `https://prosista.ro/categorii/nume-categorie`
 
 ---
 
@@ -405,7 +407,8 @@ npm run dev
 ```
 
 2. Verifică URL-ul în browser:
-- `http://localhost:4321/nume-pagina`
+- Local: `http://localhost:4321/nume-pagina`
+- Live: `https://prosista.ro/nume-pagina` (după deploy)
 
 3. Verifică că:
 - Pagina se încarcă corect
@@ -415,9 +418,30 @@ npm run dev
 
 ---
 
+## Deploy
+
+După ce ai creat și testat pagina local:
+
+1. Build pentru production:
+```bash
+npm run build
+```
+
+2. Deploy pe server:
+```bash
+npm run deploy
+```
+
+Sau urmează ghidul din `DEPLOYMENT_CPANEL.md` pentru deploy manual pe cPanel.
+
+**Site live:** [https://prosista.ro](https://prosista.ro)
+
+---
+
 ## Ajutor
 
 Pentru întrebări sau probleme, verifică:
 - `src/data/products.json` - structura datelor
 - Paginile existente pentru exemple
 - Componentele din `src/components/`
+- Site-ul live: [https://prosista.ro](https://prosista.ro) pentru referință
